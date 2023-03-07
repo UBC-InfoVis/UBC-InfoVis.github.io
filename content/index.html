@@ -1,0 +1,36 @@
+---
+layout: layout
+title: UBC InfoVis
+---
+
+<p>
+    This is the homepage of the UBC information visualization research group.
+</p>
+
+<h2>
+    recent news
+</h2>
+
+{% for item in site.data.news %}
+    {% if forloop.index < 10 %}
+    <div class="pub">
+        <div class="text">
+            <p class="date">
+                {{ item.date }} [ {{ item.type }} ]:
+            </p>
+            <p class="title">
+                {{ item.title }}
+            </p>
+            <p> 
+                {{ item.content }}
+            </p>
+        </div>
+        <div class="thumb"><a href="{{ item.link }}"><img src="{{ item.image }}" width="151"></a>
+        </div>
+    </div>
+    {% endif %}
+{% endfor %}
+
+<span id="button">
+    <a href="news.html">All News</a>
+</span>

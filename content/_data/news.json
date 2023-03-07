@@ -1,0 +1,10 @@
+[
+    {
+        "date": "2/2022",
+        "type": "paper",
+        "title": "<a href=\"http://www.cs.ubc.ca/group/infovis/pubs/2021/corgie/\">Visualizing Graph Neural Networks with CorGIE: Corresponding a Graph to Its Embedding</a>",
+        "content": "by <a href=\"/~zipeng\" target=\"_blank\">Zipeng Liu</a>, <a href=\"https://www.linkedin.com/in/gnavvy\" target=\"_blank\">Yang Wang</a>, <a href=\"https://juergen-bernard.de\" target=\"_blank\">J&uuml;rgen Bernard</a>, and <a href=\"/~tmm\" target=\"_blank\">Tamara Munzner</a> has been accepted by IEEE Transactions on Visualization and Computer Graphics (TVCG) and will be also presented at IEEE VIS 2022. <p>[<a href=\"http://www.cs.ubc.ca/group/infovis/pubs/2021/corgie/corgie-preprint.pdf\">pre-print PDF</a>]</p>",
+        "link": "pubs/2021/corgie/",
+        "image": "assets/images/pub-thumbs/2021-corgie.png"
+    }
+]

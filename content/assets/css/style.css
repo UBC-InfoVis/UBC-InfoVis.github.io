@@ -1,0 +1,384 @@
+@charset "UTF-8";
+/* CSS InfoVis Group on cs.ubc.ca */
+
+
+/* Typeface, Text Size, Colour */
+body {
+font-family: Frutiger,geneva,verdana,trebuchet,arial,sans-serif;
+font-size: 11px;
+line-height: normal;
+}
+
+h1 {
+font-variant: small-caps;
+font-family:Frutiger,geneva,verdana,trebuchet,arial,sans-serif;
+font-size: 24px;
+font-weight: bold;
+margin: 15px 0 15px 0;
+color: #333333;
+}
+
+h2 {
+font-variant: small-caps;
+font-family:Frutiger,geneva,verdana,trebuchet,arial,sans-serif;
+font-size: 18px;
+font-weight: bold;
+color: #333333;
+margin: 0px 0 10px 0;
+}
+
+h3 {
+font-variant: small-caps;
+font-family:Frutiger,geneva,verdana,trebuchet,arial,sans-serif;
+font-size: 14px;
+font-weight: bold;
+color: #333333;
+margin: 10px 10px 10px 0px;
+}
+
+#nav a {
+font-variant: small-caps;
+font-family:Frutiger,geneva,verdana,trebuchet,arial,sans-serif;
+
+font-size: 16px;
+color: #900;
+text-align: right;
+padding: 0 0 0 25px;
+}
+
+#nav a:active{
+color: #999;
+}
+
+#nav a:hover{
+color: #009;
+}
+
+a { 
+color: #900; 
+text-decoration: none;
+}
+
+a:hover{
+color: #009;
+}
+
+a:active{
+color: #999;
+}
+
+h2 a { 
+color: #000; 
+text-decoration: none;
+}
+
+h2 a:hover{
+color: #000;
+}
+
+h2 a:active{
+color: #000;
+}
+
+body {
+color: #333333;
+background: #fff;
+text-align: left;
+
+}
+
+#group-title{
+font-family: Verdana, Helvetica, Arial, sans-serif;
+font-size: 36px;
+width: 300px;
+height: 37px;
+clear:both;
+color:#333;
+}
+
+#group-title a{
+color:#300;
+}
+#group-title a:hover{
+color:#600;
+}
+
+#tagline{
+font-family: Verdana, Helvetica, Arial, sans-serif;
+font-size: 18px;
+width: 300px;
+height: 20px;
+}
+
+
+/* Layout - Sizes and Positioning */
+
+p { 
+margin: 0px 0px 6px 0px; 
+}
+
+.left {
+float: left;
+}
+
+.right {
+text-align: right;
+float: right;
+}
+
+.block{
+margin: 25px 0px; 
+margin-bottom: 30px; 
+}
+
+#content-wrapper{
+width: 800px;
+margin: 0 auto 20px;
+}
+
+
+#content{
+max-width: 800px;
+min-width: 800px;
+width: 800px;
+margin: 10px 0 0 0;
+padding:0;
+}
+
+#news{
+	margin:0 auto;
+}
+
+/* Header file */
+
+#header{
+max-width: 795px;
+min-width: 795px;
+width: 795px;
+min-height: 75px;
+margin:0;
+padding:0;
+}
+
+#logo{
+width: 200px;
+height: 50px;
+float: left;
+}
+
+#nav{
+width: 580px;
+height: 20px;
+float: right;
+text-align: right;
+padding: 30px 0px 0px 0px;
+}
+
+#title { 
+float:left;
+width: 430px;
+font-size: 32px;
+margin: 15px 0px 15px 0px;
+letter-spacing: 0.5px;
+padding: 0 0 0 0px;
+}
+
+
+
+
+/* Main page (index) */
+
+#left-column {
+width: 120px;
+float: left;
+background: #ffffff;
+padding: 0px 30px 0px 0px;
+}
+
+#people-images {
+float: right;
+text-align:right;
+}
+
+#left-column .people-thumb {
+float:right;
+margin: 0px 0px 10px 0px; 
+width: 120px;
+}
+
+#right-column { 
+float: left;
+width: 550px;
+margin-bottom: 50px;
+border-left: 1px solid #999999;
+padding: 0px 0px 0px 15px; 
+
+}
+
+#button{
+margin: auto;
+padding: 8px;
+background-color: #efefef;
+border: 1px solid #ccc;
+}
+
+.pub{
+width: 629px;
+border-bottom: 1px solid #999999;
+margin: 10px 0px 10px 0px;
+padding: 10px 0px 10px 0px;
+float: left;
+}
+
+.year{
+    margin: 0;
+    padding: 25px 0 10px;
+    color:#999;
+}
+
+.pub-one-column{
+width: 720px;
+float: left;
+margin-top: 10px;
+margin-bottom: 10px;
+border-bottom: 1px solid #999999;
+}
+
+.res-one-column{
+width: 720px;
+float: right;
+}
+
+.pub .text{
+float: left;
+width: 480px;
+}
+
+.pub .thumb{
+float: right;
+width: 140px;
+}
+
+
+/* Used for Publications page */
+.pub-one-column .text{
+float: left;
+width: 470px;
+margin: 15px;
+}
+
+.pub-one-column .thumb{
+float: left;
+width: 200px;
+margin: 10px;
+}
+
+.pub-one-column .venue .name{
+font-style: italic;
+}
+
+.emph{
+font-weight: bold;
+}
+
+.title{
+font-weight: bold;
+}
+
+.date{
+font-weight: bold;
+font-variant: small-caps;
+}
+
+#publications .award{
+font-style: italic;
+color: #669933;
+}
+
+#projects {
+float:left;
+width: 470px;
+margin-left:0px;
+}
+
+.footer {
+margin-bottom: 50px;
+}
+
+#projects .summary{
+padding: 0;
+margin: 5px 25px 15px 25px;
+}
+
+/* For individual project pages */
+#project-one-column{
+	background: #fff;
+	max-width: 700px;
+	min-width: 600px;
+	height: 100%;
+	margin: 0 auto 0 20px;
+	padding: 5px 20px 15px 20px;
+    
+	font-size: 12px;
+	line-height: 16px;
+	text-align: justify;
+}
+
+#project-one-column .authors { 
+font-size: 17px; 
+}
+
+#project-one-column .figure { 
+margin: 25px 0px; 
+margin-bottom: 30px; 
+}
+#project-one-column .figure .image { 
+margin-bottom: 6px; 
+}
+#project-one-column .project-one-column .figure img { 
+max-width: 625px; max-height: 400px; 
+}
+#project-one-column .figure .imglink img { 
+margin-bottom: 6px; border: 1px solid white; 
+}
+#project-one-column .figure .imglink img:hover { 
+border: 1px solid #0000FF; 
+}
+#project-one-column .figure .caption { 
+font-size: 11px; 
+}
+
+.citation { 
+margin-bottom: 20px; float: left; 
+}
+.citation .thumb { 
+float: left; 
+padding-right: 12px; 
+margin-top: 3px; 
+}
+.citation .thumb img { 
+border: 1px solid #fff; 
+}
+.citation .pub { 
+border-bottom: none;
+}
+.citation .pub .title { 
+font-weight: bold; 
+}/* display: inline; }*/
+.citation .pub .authors { 
+font-size: 12px !important; 
+}/* display: inline; }*/
+.citation .pub .venue { 
+display: inline; 
+}
+.citation .pub .venue .name { 
+font-style: italic; 
+}
+.citation .pub .note { 
+font-weight: bold; 
+}
+
+.block{
+margin: 25px 0px; 
+margin-bottom: 30px; 
+}

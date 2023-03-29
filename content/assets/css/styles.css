@@ -1,0 +1,72 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#content-wrapper {
+    width: 70%;
+    margin-left: 15%;
+}
+
+#header {
+    margin-top: 40px;
+    height: 100px;
+    display: flex;
+}
+
+#logo-wrapper {
+    width: 30%;
+    margin-right: 60px;
+    position: relative;
+}
+
+#logo {
+    height: 100%;
+}
+
+#navigation {
+    flex-grow: 3;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.navigation-item {
+    margin: auto;
+    position: relative;
+    font-size: 32px;
+    text-decoration: none;
+    color: #300;
+}
+
+.navigation-item:hover {
+    color:#600;
+}
+
+#home-cards {
+    height: 250px;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.home-card {
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    padding: 20px;
+}
+
+.banner {
+    width: 100%;
+}

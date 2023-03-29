@@ -2,3 +2,21 @@
 layout: layout
 title: News
 ---
+
+{% for item in site.data.news %}
+    <div class="pub">
+        <div class="text">
+            <p class="date">
+                {{ item.date }} [ {{ item.type }} ]:
+            </p>
+            <p class="title">
+                {{ item.title }}
+            </p>
+            <p> 
+                {{ item.content }}
+            </p>
+        </div>
+        <div class="thumb"><a href="{{ item.link }}"><img src="{{ item.image }}" width="151"></a>
+        </div>
+    </div>
+{% endfor %}

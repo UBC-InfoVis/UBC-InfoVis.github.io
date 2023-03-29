@@ -1,22 +1,14 @@
-    <div id="header">
-        <div id="logo">
-            <div id="group-title">
-            <a href="/">InfoVis Group</a>
-            </div>
-            
-            <div id="tagline">
-            <a href="http://www.ubc.ca">UBC</a> <a href="http://www.cs.ubc.ca">Computer Science</a>
-            </div>
-        </div>     
-        
-        <div id="nav" class="right">
-            
-            <a href="publications.html">publications</a>
-            <a href="https://www.youtube.com/channel/UCnuYznpiC6fO0XyLKGAGFng/">videos</a>
-            <a href="software.html">software</a>
-            <a href="resources.html">resources</a>
-            <a href="news.html">news</a>
-
-        </div>
+<div id="header">
+    <div id="logo-wrapper">
+        <a href="/">
+            <img id="logo" src="assets/images/logo.png">
+        </a>
     </div>
+    
+    <div id="navigation">
+        {% for item in site.data.navigation %}
+            <a class="navigation-item" href="{{ item.link | relative_url }}">{{ item.name }}</a>
+        {% endfor %}
+    </div>
+</div>
 

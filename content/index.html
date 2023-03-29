@@ -1,22 +1,42 @@
 ---
 layout: layout
-title: UBC InfoVis
+title: Home
 ---
 
 <p>
-    This is the homepage of the UBC information visualization research group.
+    The information visualization group is part of <a href="http://www.ubc.ca">UBC</a>'s <a href="http://www.cs.ubc.ca">Computer Science Department</a>.
 </p>
 
-<h2>
-    recent news
-</h2>
+<img class="banner" src="assets/images/ubc-fountain.jpeg">
+
+<div id="home-cards">
+    <div class="home-card">
+        <h2>Who are we?</h2>
+        <p>We are group of faculty members, post-docs, graduate students, and undergraduate students with an interest in information visualization, broadly construed.</p>
+        <a href="people.html">Read more</a>
+    </div>
+    
+    <div class="home-card">
+        <h2>What do we do?</h2>
+        <p>We conduct research and publish it in conferences and journals.</p>
+        <a href="publications.html">Read more</a>
+    </div>
+    
+    <div class="home-card">
+        <h2>What have we created?</h2>
+        <p>We have created many videos and pieces of software that are available to the public.</p>
+        <a href="resources.html">Read more</a>
+    </div>
+</div>
+
+<h2>What have we been up to recently?</h2>
 
 {% for item in site.data.news %}
     {% if forloop.index < 10 %}
     <div class="pub">
         <div class="text">
             <p class="date">
-                {{ item.date }} [ {{ item.type }} ]:
+                {{ item.date }}  {{ item.type }}:
             </p>
             <p class="title">
                 {{ item.title }}
@@ -31,6 +51,4 @@ title: UBC InfoVis
     {% endif %}
 {% endfor %}
 
-<span id="button">
-    <a href="news.html">All News</a>
-</span>
+<a href="{{ news.html | relative_url }}"><h3>See all news</h3></a>

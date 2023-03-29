@@ -6,17 +6,16 @@ title: News
 {% for item in site.data.news %}
     <div class="pub">
         <div class="text">
-            <p class="date">
-                {{ item.date }} [ {{ item.type }} ]:
-            </p>
             <p class="title">
-                {{ item.title }}
+                {{ item.title }} [{{ item.date }}]
             </p>
             <p> 
                 {{ item.content }}
             </p>
         </div>
-        <div class="thumb"><a href="{{ item.link }}"><img src="{{ item.image }}" width="151"></a>
+        <div class="thumb">
+            <a href="{{ item.link }}"><img src="{{ item.image }}"></a>
         </div>
     </div>
+    <hr style="clear: both">
 {% endfor %}

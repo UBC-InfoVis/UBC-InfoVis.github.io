@@ -70,3 +70,26 @@ a {
 .banner {
     width: 100%;
 }
+
+#recent-news {
+    margin-bottom: 100px;
+}
+
+.pub {
+    width: 100%;
+    background-color: #eeeeee;
+}
+
+.pub .text {
+    float: left;
+    width: 60%;
+}
+
+.pub .thumb {
+    float: left;
+    width: 35%;
+}
+
+.pub .thumb img {
+    width: 100%;
+}

@@ -31,24 +31,25 @@ title: Home
 
 <h2>What have we been up to recently?</h2>
 
-{% for item in site.data.news %}
-    {% if forloop.index < 10 %}
-    <div class="pub">
-        <div class="text">
-            <p class="date">
-                {{ item.date }}  {{ item.type }}:
-            </p>
-            <p class="title">
-                {{ item.title }}
-            </p>
-            <p> 
-                {{ item.content }}
-            </p>
-        </div>
-        <div class="thumb"><a href="{{ item.link }}"><img src="{{ item.image }}" width="151"></a>
-        </div>
-    </div>
-    {% endif %}
-{% endfor %}
+<div id="recent-news">
+    {% for item in site.data.news %}
+        {% if forloop.index < 10 %}
+            <div class="pub">
+                <div class="text">
+                    <p class="title">
+                        {{ item.title }} [{{ item.date }}]
+                    </p>
+                    <p> 
+                        {{ item.content }}
+                    </p>
+                </div>
+                <div class="thumb">
+                    <a href="{{ item.link }}"><img src="{{ item.image }}"></a>
+                </div>
+            </div>
+            <hr style="clear: both">
+        {% endif %}
+    {% endfor %}
+</div>
 
-<a href="{{ news.html | relative_url }}"><h3>See all news</h3></a>
+<a href="news.html"><h3>See all news</h3></a>

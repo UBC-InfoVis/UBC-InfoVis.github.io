@@ -2,12 +2,15 @@
 layout: layout
 title: Home
 ---
-
-<p>
-    The information visualization group is part of <a href="http://www.ubc.ca">UBC</a>'s <a href="http://www.cs.ubc.ca">Computer Science Department</a>.
-</p>
-
-<img class="banner" src="assets/images/ubc-fountain.jpeg">
+<div id="home-header">
+    <h1>
+        Home
+    </h1>
+    
+    <p>
+        The information visualization group is part of <a href="http://www.ubc.ca">UBC</a>'s <a href="http://www.cs.ubc.ca">Computer Science Department</a>.
+    </p>
+</div>
 
 <div id="home-cards">
     <div class="home-card">
@@ -29,27 +32,26 @@ title: Home
     </div>
 </div>
 
-<h2>What have we been up to recently?</h2>
+<h2>Recent News (<a href="news.html">see all news</a>)</h2>
+<hr>
+<br>
 
 <div id="recent-news">
     {% for item in site.data.news %}
-        {% if forloop.index < 10 %}
-            <div class="pub">
-                <div class="text">
-                    <p class="title">
-                        {{ item.title }} [{{ item.date }}]
-                    </p>
-                    <p> 
-                        {{ item.content }}
-                    </p>
-                </div>
-                <div class="thumb">
-                    <a href="{{ item.link }}"><img src="{{ item.image }}"></a>
-                </div>
+        {% if forloop.index < 6 %}
+            <div class="recent-news-item">
+                {% if item.link == "" %}
+                <img src="{{ item.image }}">
+                {% elsif item.link != "" %}
+                    <a href="{{ item.link }}">
+                        <img src="{{ item.image }}">
+                    </a>
+                {% endif %}
+                <p class="title">{{ item.title }}</p>
             </div>
-            <hr style="clear: both">
         {% endif %}
     {% endfor %}
 </div>
 
-<a href="news.html"><h3>See all news</h3></a>
+<br style="clear: both">
+

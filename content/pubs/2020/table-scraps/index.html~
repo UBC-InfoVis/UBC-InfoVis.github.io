@@ -1,0 +1,138 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+    <title>Bridging From Goals to Tasks with Design Study Analysis Reports</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+	  <style type="text/css"></style><script>window["_GOOG_TRANS_EXT_VER"] = "1";</script>
+  </head>
+
+  <body>
+  	<div class="page">
+  		<h1 class="title">Bridging From Goals to Tasks with Design Study Analysis Reports</h1>
+  		<div class="authors block">
+  			<a href="http://heidilam.com" target="_blank">Heidi Lam</a>,
+  			<a href="https://research.tableau.com/user/melanie-tory" target="_blank">Melanie Tory</a>,
+  			and <a href="/~tmm" target="_blank">Tamara Munzner</a>
+  		</div>
+  		<br>
+  		<hr>
+			<a href="#abstract">Abstract</a> |
+  			<a href="#pdf">Paper</a> |
+			<a href="#talk">Talk</a> |
+			<a href="#video">Videos</a> |
+			<a href="#figures">Figures</a> |
+			<a href="#supplemental">Supplemental Material</a>
+			<hr>
+
+			<a name="abstract"></a>
+			<h2>Abstract</h2>
+
+			Visualization researchers and practitioners engaged in generating or evaluating designs are faced with the difficult problem
+of transforming the questions asked and actions taken by target users from domain-specific language and context into more abstract
+forms. Existing abstract task classifications aim to provide support for this endeavour by providing a carefully delineated suite of actions.
+Our experience is that this bottom-up approach is part of the challenge: low-level actions are difficult to interpret without a higher-level
+context of analysis goals and the analysis process. To bridge this gap, we propose a framework based on analysis reports derived from
+open-coding 20 design study papers published at IEEE InfoVis 2009-2015, to build on the previous work of abstractions that collectively
+encompass a broad variety of domains. The framework is organized in two axes illustrated by nine analysis goals. It helps situate the
+analysis goals by placing each goal under axes of specificity (Explore, Describe, Explain, Confirm) and number of data populations
+(Single, Multiple). The single-population types are Discover Observation, Describe Observation, Identify Main Cause, and Collect
+Evidence. The multiple-population types are Compare Entities, Explain Differences, and Evaluate Hypothesis. Each analysis goal is
+scoped by an input and an output and is characterized by analysis steps reported in the design study papers. We provide examples
+of how we and others have used the framework in a top-down approach to abstracting domain problems: visualization designers or
+researchers first identify the analysis goals of each unit of analysis in an analysis stream, and then encode the individual steps using
+existing task classifications with the context of the goal, the level of specificity, and the number of populations involved in the analysis.
+
+			<a name="pdf"></a>
+			<h2>Paper</h2>
+
+			<div class="citation block">
+				<div class="entry">
+
+					<div class="thumbnail">
+						<img src="figures/thumb.png" width="140">
+					</div>
+
+					<div class="pub">
+
+						<div class="title">
+							Bridging From Goals to Tasks with Design Study Analysis Reports
+						</div>
+
+						<div class="authors">
+							by <a href="http://heidilam.com" target="_blank">Heidi Lam</a>,
+				  			<a href="https://research.tableau.com/user/melanie-tory" target="_blank">Melanie Tory</a>,
+				  			<a href="/~tmm" target="_blank">Tamara Munzner</a>
+						</div>
+
+						<div class="venue">
+							<span
+							class="name">IEEE
+							Transactions
+							on
+							Visualization
+							and Computer
+							Graphics (Proc. InfoVis 2017), in press</span>.<br/><br/>
+							<a href="GoalsToTasks.pdf">Pre-Print PDF</a><br>
+<a href="https://research.tableau.com/paper/bridging-goals-tasks-design-study-analysis-reports">Tableau Research paper page</a><br>
+<a href="http://dx.doi.org/10.1109/TVCG.2015.2466971" target="_blank">IEEE Digital Library DOI link</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a name="talk"></a>
+				<h2>Talk</h2>
+
+					<a
+					href="http://www.heidilam.com"
+					target="_blank">Heidi Lam</a>
+					presented this paper in the
+					<em>Design</em> session at
+					11:30 am on Wed Oct 4 2017 at <a href="http://ieeevis.org/">IEEE InfoVis 2017</a>. <br><br>
+
+					<ul>
+						<li><a href="infovis17-goals2tasks-talk.pdf">Slides (1 MB PDF</a>)</li>
+						<li><a href="talks/infovis17-goals2tasks-talk.pptx">Slides (1.5 MB PPTX)</a></li>
+					</ul>
+
+			<br/>
+	
+			<a name="video"></a>
+				<h2>Video</h2>
+
+				<ul>
+					<li><a href="https://vimeo.com/230841235">Video Preview</a> (30s)</li>
+				</ul>
+
+			<br/>
+			
+			<a name="figures"></a>
+			<h2>High-Resolution Figure</h2>
+
+			<div class="figure">
+			<strong>Fig. 1</strong>. Overview of framework creation process. <br><br>
+				<div class="imglink">
+					<a href="figures/figure1.png" target="_blank">
+						<img src="figures/figure1-sm.png" width="600">
+					</a>
+					<br><br>
+				</div>
+			</div>
+
+
+			<a name="supplemental"></a>
+			<h2>Supplementary Materials</h2>
+
+			<ul>
+				<li><a href="https://docs.google.com/document/d/1H9O_Nd3wlio3iCsXzSSPZzEXRqFTQa1-agAebs2tvd0/edit#heading=h.h77delxkeba6">Supplementary Materials googledoc</a></li>
+				<li><a href="GoalsToTasks-Supplemental-Materials.pdf">Supplementary Materials PDF</a></li>
+			</ul>
+
+
+			<br/><br/>
+			
+			<hr>
+
+  	  Last modified: Sep 28, 2017.
+		</div>
+  </body>
+</html>

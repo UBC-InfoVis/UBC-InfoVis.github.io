@@ -1,0 +1,154 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+    <title>VizCommender: Computing Text-Based Similarity in Visualization Repositories for Content-Based Recommendations</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+	  <style type="text/css"></style><script>window["_GOOG_TRANS_EXT_VER"] = "1";</script>
+  </head>
+
+  <body>
+  	<div class="page">
+  		<h1 class="title">VizCommender: Computing Text-Based Similarity in<br/>Visualization Repositories for Content-Based Recommendations</h1>
+  		<div class="authors block">
+  			<a href="http://michaeloppermann.com" target="_blank">Michael Oppermann</a>, 
+  			<a href="http://rkincaid.net/" target="_blank">Robert Kincaid</a>,
+  			and <a href="/~tmm" target="_blank">Tamara Munzner</a>
+  		</div>
+  		<br>
+  		<hr>
+			<a href="#abstract">Abstract</a> |
+  			<a href="#pdf">Paper</a> |
+			<a href="#talk">Talk</a> |
+			<a href="#video">Video</a> |
+			<a href="#figures">Figures</a> |
+			<a href="#supplemental">Supplemental Material</a>
+			<hr>
+
+			<a name="abstract"></a>
+			<h2>Abstract</h2>
+
+    	Cloud-based visualization services have made visual analytics accessible to a much wider audience than ever before. Systems such as Tableau have started to amass increasingly large repositories of analytical knowledge in the form of interactive visualization workbooks. When shared, these collections can form a visual analytic knowledge base. However, as the size of a collection increases, so does the difficulty in finding relevant information. Content-based recommendation (CBR) systems could help analysts in finding and managing workbooks relevant to their interests. Toward this goal, we focus on text-based content that is representative of the subject matter of visualizations rather than the visual encodings and style. We discuss the challenges associated with creating a CBR based on visualization specifications and explore more concretely how to implement the relevance measures required using Tableau workbook specifications as the source of content data. We also demonstrate what information can be extracted from these visualization specifications and how various natural language processing techniques can be used to compute similarity between workbooks as one way to measure relevance. We report on a crowd-sourced user study to determine if our similarity measure mimics human judgement. Finally, we choose latent Dirichlet allocation (LDA) as a specific model and instantiate it in a proof-of-concept recommender tool to demonstrate the basic function of our similarity measure.
+
+			<a name="pdf"></a>
+			<h2>Paper</h2>
+
+			<div class="citation block">
+				<div class="entry">
+
+					<div class="thumbnail">
+						<img src="figures/vizcommender_thumb.png" width="180">
+						<br/><br/><br/>
+					</div>
+
+					<div class="pub">
+
+						<div class="title">
+							VizCommender: Computing Text-Based Similarity in Visualization Repositories for Content-Based Recommendations
+						</div>
+
+						<div class="authors">
+							by <a href="http://michaeloppermann.com" target="_blank">Michael Oppermann</a>,
+							<a href="http://rkincaid.net/" target="_blank">Robert Kincaid</a>,
+				  			and <a href="/~tmm" target="_blank">Tamara Munzner</a>
+						</div>
+
+						<div class="venue">
+							<span
+							class="name">Presented at the virtual IEEE VIS Conf. (VAST) in Oct 2020.<br><i>IEEE Trans. on Visualization and Computer Graphics (TVCG), 27(2): 495-505, 2021</i></span>.<br/><br/>
+							&raquo; <a href="VizCommender_2020.pdf">UBC Pre-Print PDF</a><br/>
+							&raquo; <a href="https://arxiv.org/abs/2008.07702">ArXiv Open Access</a>
+						</div>
+						
+						<br/><br/>
+					</div>
+				</div>
+			</div>
+			
+			<a name="talk"></a>
+			<h2>Talk</h2>
+			
+			&raquo; <a href="https://youtu.be/SRAWFr4tBjA">YouTube video</a><br/>
+			&raquo; Slides [<a href="VizCommender_Slides_2020.pdf">PDF</a>, <a href="VizCommender_Slides_2020.key">Keynote</a>]
+			<br/><br/>
+			
+			<iframe class="paper-video" width="560" height="315" src="https://www.youtube.com/embed/SRAWFr4tBjA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
+      
+      <br/>
+      
+			<a name="video"></a>
+			<h2>Video Preview</h2>
+
+			&raquo; <a href="https://youtu.be/1qncZKLVK6g">Video Preview</a>
+			<br/>
+			
+			<iframe class="paper-video" width="560" height="315" src="https://www.youtube.com/embed/1qncZKLVK6g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
+			<br/><br/>
+			
+			
+			<a name="figures"></a>
+			<h2>High-Resolution Figures</h2>
+
+			<div class="figure">
+			<strong>Fig. 1</strong>. Outline of our process: (1) Extract and analyze textual content from viz specifications belonging to two VizRepos. Investigate appropriate content-based recommendation models with varying input features and implement initial prototypes to facilitate discussions with collaborators; (2) Crowdsourced study: Sample viz triplets in a semi-automated process, collect human judgements about the semantic text similarity, and run the same experiment with different NLP models; (3) Compare agreement between human judgements and model predictions to assess model appropriateness. Implement LDA-based similarity measure in proof-of-concept pipeline.<br><br>
+				<div class="imglink">
+					<a href="figures/vizcommender_process.png" target="_blank">
+						<img class="interface-preview" src="figures/vizcommender_process_sm.png" width="700">
+					</a>
+					<br><br>
+				</div>
+			</div>
+			
+			<div class="figure">
+			<strong>Fig. 2</strong>. Simplified example feature extraction from a Tableau workbook. To illustrate typical features, a highly abbreviated example of the workbook XML is shown in the middle. Highlighted text color indicates the corresponding features that are converted into a numeric vector representation and used to compute text-based similarity. Similar types of text gets extracted from the remaining views and dashboards of the workbook.<br><br>
+				<div class="imglink">
+					<a href="figures/vizcommender_extraction.png" target="_blank">
+						<img class="interface-preview" src="figures/vizcommender_extraction_sm.png" width="700">
+					</a>
+					<br><br>
+				</div>
+			</div>
+			
+			<div class="figure">
+			<strong>Fig. 3</strong>. VizCommender interface that allows users to browse through a VizRepo. Workbook thumbnails are arranged in a grid view. Users can search for content or further drill down by selecting one of the tags at the top. The quick view sidebar on the right provides further details including recommendations when a workbook is selected.<br><br>
+				<div class="imglink">
+					<a href="figures/vizcommender_interface_overview.png" target="_blank">
+						<img class="interface-preview" src="figures/vizcommender_interface_overview_sm.png" width="700">
+					</a>
+					<br><br>
+				</div>
+			</div>
+			
+			<div class="figure">
+			<strong>Fig. 4</strong>. Interface detail view with recommendations. (a) Interactive Tableau workbook; (b) Expanded recommendation panel at the bottom of the screen showing related workbooks; (c) Tab navigation to switch between different recommendation types; (d) Alternative recommendation panel showing workbooks that use <i>similar data</i><br><br>
+				<div class="imglink">
+					<a href="figures/vizcommender_interface_detail_view.png" target="_blank">
+						<img class="interface-preview" src="figures/vizcommender_interface_detail_view_sm.png" width="700">
+					</a>
+					<br><br>
+				</div>
+			</div>
+			
+			<a name="supplemental"></a>
+			<h2>Supplementary Materials</h2>
+
+			&raquo; <a href="https://youtu.be/k52LnrIDCkg">Supplementary Video (4 min)</a><br/> 
+			&raquo; <a href="vizcommender_supp_material.pdf">Supplementary Materials PDF</a><br/>
+			&raquo; <a href="vizcommender_additional_data.zip">Additional data (stop words, study triplet data)</a>
+
+			<br/><br/>
+			
+			<a name="supplemental"></a>
+			<h2>Industry Collaborator</h2>
+
+			&raquo; <a href="https://research.tableau.com/paper/vizcommender-computing-text-based-similarity-visualization-repositories-content-based">Tableau Research</a></li>
+			
+      <br/><br/>
+			
+			<hr>
+
+  	  Last modified: Jan 29, 2021.
+		</div>
+  </body>
+</html>

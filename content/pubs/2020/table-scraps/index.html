@@ -1,0 +1,125 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+    <title>Table Scraps: An Actionable Framework for Multi-Table DataWrangling From An Artifact Study of Computational Journalism</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+	  <style type="text/css"></style><script>window["_GOOG_TRANS_EXT_VER"] = "1";</script>
+  </head>
+
+  <body>
+  	<div class="page">
+  		<h1 class="title">Table Scraps: An Actionable Framework for Multi-Table DataWrangling From An Artifact Study of Computational Journalism</h1>
+  		<div class="authors block">
+			<a href="/~kasica" target="_blank">Stephen Kasica</a>, <a href="https://charlesberret.net/" target="_blank">Charles Berret</a>, and <a href="/~tmm" target="_blank">Tamara Munzner</a>
+  		</div>
+  		<br>
+  		<hr>
+			<a href="#abstract">Abstract</a> |
+  			<a href="#pdf">Paper</a> |
+  			<a href="#videos">Videos</a> |
+			<a href="#figures">Figures</a> |
+			<a href="#supplemental">Supplemental Material</a>
+			<hr>
+
+			<a name="abstract"></a>
+			<h2>Abstract</h2>
+			For the many journalists who use data and computation to report the news, data wrangling is an integral part of their work. Despite an abundance of literature on data wrangling in the context of enterprise data analysis, little is known about the specific operations, processes, and pain points journalists encounter while performing this tedious, time-consuming task. To better understand the needs of this user group, we conduct a technical observation study of 50 public repositories of data and analysis code authored by 33 professional journalists at 26 news organizations. We develop two detailed and cross-cutting taxonomies of data wrangling in computational journalism, for actions and for processes. We observe the extensive use of multiple tables, a notable gap in previous wrangling analyses. We develop a concise, actionable framework for general multi-table data wrangling that includes wrangling operations documented in our taxonomy that are without clear parallels in other work. This framework, the first to incorporate tables as first-class objects, will support future interactive wrangling tools for both computational journalism and general-purpose use. We assess the generative and descriptive power of our framework through discussion of its relationship to our set of taxonomies.
+
+			<a name="pdf"></a>
+			<h2>Paper</h2>
+
+			<div class="citation block">
+				<div class="entry">
+
+					<div class="pub" style="margin:0">
+
+						<div class="title">
+							Table Scraps: An Actionable Framework for Multi-Table DataWrangling From An Artifact Study of Computational Journalism
+						</div>
+
+						<div class="authors">
+							by <a href="/~kasica" target="_blank">Stephen Kasica</a>, <a href="https://charlesberret.net/" target="_blank">Charles Berret</a>, and <a href="/~tmm" target="_blank">Tamara Munzner</a>
+						</div>
+
+						<div class="venue">
+							<span
+							class="name">To appear <i>IEEE TVCG (Proc. InfoVis 2020)</i></span>.<br/><br/>
+							&raquo; <a href="table-scraps-preprint.pdf"><strong>UBC Pre-Print PDF</strong></a><br/>
+							&raquo; <a href="https://arxiv.org/abs/2009.02373"><strong>ArXiv Open Access</strong></a>
+						</div>
+						
+						<br/><br/>
+					</div>
+				</div>
+			</div>
+			
+			<br/>
+			
+			<a name="Videos"></a>
+			<h2>Videos</h2>
+			<h3><a href="https://www.youtube.com/watch?v=eZX39zWFmRU">Video preview</a></h3>
+			<div>
+			<iframe class="paper-video" width="560" height="315" src="https://www.youtube.com/embed/eZX39zWFmRU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>	
+			</div>
+			<h3><a href="https://www.youtube.com/watch?v=woyuvqUu52I">Video talk</a></h3>
+			<div>
+			<iframe class="paper-video" width="560" height="315" src="https://www.youtube.com/embed/woyuvqUu52I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>	
+			</div>	
+			<a name="figures"></a>
+			<h2>High-Resolution Figures</h2>
+
+			<div class="figure">
+			<strong>Fig. 1</strong>. Three-phase process: observation study of technical artifacts conducted through qualitative coding of journalist repos, resulting in two initial bottom-up taxonomies of 165 open and axial codes; literature search to align naming and assess novelty; reflective synthesis to create a concise top-down multi-table wrangling framework with 21 operations<br><br>
+				<div class="imglink">
+					<a href="figures/fig1-process.png" target="_blank">
+						<img class="interface-preview" src="figures/fig1-process.png">
+					</a>
+					<br><br>
+				</div>
+			</div>
+			
+			<div class="figure">
+			<strong>Fig. 2</strong>. A sketch of data flow through a notebook authored by journalists atthe Los Angeles Times shows a wrangling process using more than two dozen tables before exporting two datasets for analysis and visualization.<br><br>
+				<div class="imglink">
+					<a href="figures/fig2-la-times-flow-diagram.png" target="_blank">
+						<img class="interface-preview" src="figures/fig2-la-times-flow-diagram.png">
+					</a>
+					<br><br>
+				</div>
+			</div>
+
+			<div class="figure">
+				<strong>Fig. 3</strong>. We cross check the descriptive power of our multi-table frameworkfor data wrangling by comparing against the high-level axial codes inour descriptive action taxonomy.  We only include Actions codes that correspond with table operations, excluding codes in the Profile branch.<br><br>
+					<div class="imglink">
+						<a href="figures/fig3-cross-check.png" target="_blank">
+							<img class="interface-preview" src="figures/fig3-cross-check.png">
+						</a>
+						<br><br>
+					</div>
+				</div>
+
+				<div class="figure">
+					<strong>Fig. 4</strong>. Journalists at the <i>Los Angeles Times</i> employ multiple tables towrangle water usage data into tidy format. With water usage amounts ina separate column, common reshape operations that operate within the context of one table fail on this table.<br><br>
+						<div class="imglink">
+							<a href="figures/fig4-la-times-wrangling.png" target="_blank">
+								<img class="interface-preview" src="figures/fig4-la-times-wrangling.png">
+							</a>
+							<br><br>
+						</div>
+					</div>
+			
+			<a name="supplemental"></a>
+			<h2>Supplementary Materials</h2>
+			<ul>
+				<li><a href="suppl_material_1_unabridged_taxonomies.pdf">Unabridged taxonomies</a></li>
+				<li><a href="suppl_material_2_main_supplemental.pdf">Main supplemental</a></li>
+				<li><a href="suppl_material_3.zip">Annotated PDFs, spreadsheets (ZIP)</a></li>
+			</ul>
+			<br/><br/>
+			
+			<hr>
+
+  	  Last modified: Oct. 19, 2020.
+		</div>
+  </body>
+</html>

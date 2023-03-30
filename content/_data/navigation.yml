@@ -1,3 +1,5 @@
+- name: Home
+  link: /
 - name: People
   link: people.html
 - name: Publications

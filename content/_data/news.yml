@@ -1,6 +1,6 @@
 - date: 2/2022
   type: paper
-  title: "<a href=\"http://www.cs.ubc.ca/group/infovis/pubs/2021/corgie/\">Visualizing Graph Neural Networks with CorGIE: Corresponding a Graph to Its Embedding</a>"
+  title: "<a href=\"pubs/2021/corgie/\">Visualizing Graph Neural Networks with CorGIE: Corresponding a Graph to Its Embedding</a>"
   content: by <a href=\"/~zipeng\" target=\"_blank\">Zipeng Liu</a>, <a href=\"https://www.linkedin.com/in/gnavvy\" target=\"_blank\">Yang Wang</a>, <a href=\"https://juergen-bernard.de\" target=\"_blank\">J&uuml;rgen Bernard</a>, and <a href=\"/~tmm\" target=\"_blank\">Tamara Munzner</a> has been accepted by IEEE Transactions on Visualization and Computer Graphics (TVCG) and will be also presented at IEEE VIS 2022. <p>[<a href=\"http://www.cs.ubc.ca/group/infovis/pubs/2021/corgie/corgie-preprint.pdf\">pre-print PDF</a>]</p>
   link: pubs/2021/corgie/
   image: assets/images/pub-thumbs/2021-corgie.png
@@ -11,3 +11,24 @@
   content: "At IEEE VIS 2021, <a href=\"http://michaeloppermann.com\">Michael Oppermann</a> will present the full paper <a href=\"http://www.cs.ubc.ca/group/infovis/pubs/20201/vizsnippets\">VizSnippets: Compressing Visualization Bundles Into Representative Previews for Browsing Visualization Collections</a>, awarded best paper honorable mention <a href=\"https://virtual.ieeevis.org/year/2021/session_v-full-full19.html\">[Wed S1]</a>. He will also present the short paper <a href=\"http://www.cs.ubc.ca/group/infovis/pubs/2021/timeelide\">TimeElide: Visual Analysis of Non-Contiguous Time Series Slices</a> <a href=\"https://virtual.ieeevis.org/year/2021/session_v-short-short2.html\">[Thu S2]</a>. Recent PhD graduate <a href=\"https://viscoglab.psych.ubc.ca/person/madison-elliott/\">Madison Elliott</a> is co-organizer of the <a href=\"https://visxvision.com/vis-2021/\">Workshop: On Novel Directions in Vision Science and Visualization Research</a> <a href=\"https://virtual.ieeevis.org/year/2021/session_w-visxvision.html\">[Mon S1-S2]</a>. <a href=\"http://www.cs.ubc.ca/~tmm\">Tamara Munzner</a> will be on the panel <a href=\"https://virtual.ieeevis.org/year/2021/event_v-panels-panel6.html\">Reflecting on Visualization History to Drive Future Innovation [Thu S1]</a>. Tamara will also offer her tutorial on <a href=\"http://ieeevis.org/year/2021/info/tutorials#VAD\">Visualization Analysis and Design</a> <a href=\"https://virtual.ieeevis.org/year/2021/session_t-analysisdesign.html\">[Sun fullday]</a>; available on youtube is the <a href=\"https://www.youtube.com/watch?v=1GhZisgc6DI&amp;list=PLT4XLHmqHJBdB24LAQPk_PV7wrwpJFh5a\">full playlist of 6 hrs of video lectures</a>. Also, stay tuned for West Coast Party Thu on gather.town (after sessions, 4-6pm PDT = 6-8pm CDT)!"
   link: http://ieeevis.org/year/2021/welcome
   image: assets/images/vis2021.png
+
+- date: 8/2021
+  type: farewell
+  title: Farewell to Michael and Zipeng!
+  content: "Congratulations to graduated PhD students <a href=\"https://michaeloppermann.com/\">Michael Oppermann</a> and <a href=\"https://zipengliu.github.io/\">Zipeng Liu</a>! Michael joins Virtual Identity in Austria as a senior data science consultant, and Zipeng joins Beihang University as an assistant professor."
+  link: ""
+  image: assets/images/michael-zipeng.png
+
+- date: 8/2021
+  type: paper
+  title: "<a href=\"pubs/2021/vizsnippets/\">VizSnippets: Compressing Visualization Bundles Into Representative Previews for Browsing Visualization Collections</a>"
+  content: "<p>by <a href=\"http://michaeloppermann.com\" target=\"_blank\">Michael Oppermann</a> and <a href=\"https://www.cs.ubc.ca/~tmm\" target=\"_blank\">Tamara Munzner</a> will be published in the special issue of IEEE Transactions on Visualization and Computer Graphics (TVCG) and will be presented virtually at IEEE VIS 2021.</p><p>[<a href=\"pubs/2021/vizsnippets/VizSnippets_2021.pdf\">pre-print PDF</a>]</p>"
+  link: pubs/2021/vizsnippets
+  image: pubs/2021/vizsnippets/figures/vizsnippets_thumb.png
+
+- date: 8/2021
+  type: paper
+  title: "<a href=\"pubs/2021/timeelide/\">TimeElide: Visual Analysis of Non-Contiguous Time Series Slices</a>"
+  content: "<p>by <a href=\"http://michaeloppermann.com\" target=\"_blank\">Michael Oppermann</a>, <a href=\"http://luceliu.com/\" target=\"_blank\">Luce Liu</a>, and <a href=\"https://www.cs.ubc.ca/~tmm\" target=\"_blank\">Tamara Munzner</a> will be published as a short paper in the Proc. of IEEE VIS 2021.</p><p>[<a href=\"pubs/2021/timeelide/TimeElide_2021.pdf\">pre-print PDF</a>]</p>"
+  link: pubs/2021/timeelide/
+  image: pubs/2021/timeelide/figures/timeelide_thumb.png

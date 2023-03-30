@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+	<title>Visualizing Graph Neural Networks with CorGIE: Corresponding a Graph to Its Embedding</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen">
+	<style type="text/css"></style>
+	<script>
+		window["_GOOG_TRANS_EXT_VER"] = "1";
+	</script>
+</head>
+
+<body>
+	<div class="container-lg">
+		<nav class="navbar navbar-expand-md navbar-light bg-light">
+			<a class="navbar-brand" href="http://www.cs.ubc.ca/group/infovis/index.shtml">UBC InfoVis Group</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNaNavv" aria-controls="navbarNavNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavNav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a class="nav-link active" href="http://www.cs.ubc.ca/group/infovis/publications.shtml">Publications<span class="sr-only">(current)</span></a></li>
+					<li class="nav-item"><a class="nav-link" href="http://www.cs.ubc.ca/group/infovis/videos.shtml">Videos</a></li>
+					<li class="nav-item"><a class="nav-link" href="http://www.cs.ubc.ca/group/infovis/software.shtml">Software</a></li>
+					<li class="nav-item"><a class="nav-link" href="http://www.cs.ubc.ca/group/infovis/resources.shtml">Resources</a></li>
+					<li class="nav-item"><a class="nav-link" href="http://www.cs.ubc.ca/group/infovis/news.shtml">News</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="row justify-content-center">
+			<div class="col-sm-11 col-md-11 col-lg-8">
+				<div class="title">Visualizing Graph Neural Networks with CorGIE: Corresponding a Graph to Its Embedding</div>
+				<div class="authors">
+					<a href="/~zipeng" target="_blank">Zipeng Liu</a>,
+					<a href="https://www.linkedin.com/in/gnavvy" target="_blank">Yang Wang</a>,
+					<a href="https://juergen-bernard.de" target="_blank">J&uuml;rgen Bernard</a>,
+					and
+					<a href="/~tmm" target="_blank">Tamara Munzner</a>
+				</div>
+				<div class="venue">
+					Arxiv: <a href="https://arxiv.org/abs/2106.12839">https://arxiv.org/abs/2106.12839</a>
+				</div>
+
+				<div class="figure">
+					<a href="teaser.png" target="_blank">
+						<img src="teaser.png" alt="teaser">
+					</a>
+					<div class="img-caption">
+						Fig. 3. Full screenshot of CorGIE interface on the Movie dataset, with two focal groups of user nodes. 
+					</div>
+				</div>
+
+				<div class="sect-title">Abstract</div>
+				<div class="abstract">
+					Graph neural networks (GNNs) are a class of powerful machine learning tools that model node relations for making predictions of nodes or links. GNN developers rely on quantitative metrics of the predictions to evaluate a GNN, but similar to many other neural networks, it is difficult for them to understand if the GNN truly learns characteristics of a graph as expected. We propose an approach to corresponding an input graph to its node embedding (aka latent space), a common component of GNNs that is later used for prediction. We abstract the data and tasks, and develop an interactive multi-view interface called CorGIE to instantiate the abstraction. As the key function in CorGIE, we propose the K-hop graph layout to show topological neighbors in hops and their clustering structure. To evaluate the functionality and usability of CorGIE, we present how to use CorGIE in two usage scenarios, and conduct a case study with two GNN experts.
+				</div>
+
+				<div class="sect-title">Materials</div>
+				<ul class="links">
+					<li>Paper:
+						<a href="corgie-preprint.pdf">pdf</a>|
+						<a href="corgie.bib">bib</a>
+					</li>
+					<li>Demo: 
+						<a href="https://www.youtube.com/watch?v=sQMF50aNtKI">youtube</a>|
+						<a href="https://www.cs.ubc.ca/~zipeng/corgie/">live</a>
+					</li>
+					<li>Supplemental:
+						<a href="https://osf.io/tr3sb/">osf</a>
+					</li>
+					<li>Talk slides:
+						<a href="corgie-chinavis21-talk.pdf">ChinaVis 2021</a>
+					</li>
+					</li>
+					<!-- <li>Code:
+						<a href="https://github.com/zipengliu/adview" target="blank">frontend</a>|
+						<a href="https://github.com/zipengliu/adview_server" target="blank">backend</a>
+					</li> -->
+					<!-- <li>Talk (at InfoVis 2019, Vancouver):
+						<a href="2019-10-24-infovis-talk.pptx" target="_blank">slides (pptx)</a>|
+						<a href="https://vimeo.com/374978467" target="_blank">video on Vimeo</a>
+					</li> -->
+					<!-- <li>Figures:
+						<a href="adview-high-res-figures.zip">high-res</a>
+					</li> -->
+				</ul>
+
+				<div class="youtube-embed">
+					<iframe width="500" height="226" src="https://www.youtube.com/embed/sQMF50aNtKI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

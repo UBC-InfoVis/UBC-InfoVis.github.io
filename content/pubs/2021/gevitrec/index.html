@@ -1,0 +1,206 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>GEViTRec: Data Reconnaissance Through Recommendation Using a Domain-Specific Visualization Prevalence Design Space</title>
+<link rel="stylesheet" href="style.css" type="text/css" media="screen">
+<style type="text/css"></style><script>window["_GOOG_TRANS_EXT_VER"] = "1";</script>
+</head>
+
+<body>
+<div class="page">
+<h1 class="title">GEViTRec: Data Reconnaissance Through Recommendation Using a Domain-Specific Visualization Prevalence Design Space</h1>
+
+<div class="authors block">
+<a href="https://amcrisan.github.io" target="_blank">Anamaria Crisan</a>, 
+<a href="https://www.linkedin.com/in/shannah-fisher/" target="_blank">Shannah Elizabeth Fisher</a>, 
+<a href="https://www.gatesfoundation.org/about/leadership/jennifer-gardy">Jennifer L. Gardy</a>, 
+and <a href="/~tmm" target="_blank">Tamara Munzner</a>
+</div>
+
+<br>
+<hr>
+<a href="#abstract">Abstract</a> |
+<a href="#pdf">Paper</a> |
+<a href="#source">Open Source</a> |
+<!-- 			<a href="#talk">Talk</a> | -->
+<a href="#figures">Figures</a> |
+<a href="#supplemental">Supplemental Material</a>
+<hr>
+
+<a name="abstract"></a>
+<h2>Abstract</h2>
+
+Genomic Epidemiology (genEpi) is a branch of public health that uses many different data types including tabular, network, genomic, and geographic, to identify and contain outbreaks of deadly diseases. Due to the volume and variety of data, it is challenging for genEpi domain experts to conduct data reconnaissance; that is, have an overview of the data they have and make assessments toward its quality, completeness, and suitability. We present an algorithm for data reconnaissance through automatic visualization recommendation, GEViTRec. Our approach handles a broad variety of dataset types and automatically generates visually coherent combinations of charts, in contrast to existing systems that primarily focus on singleton visual encodings of tabular datasets. We automatically detect linkages across multiple input datasets by analyzing non-numeric attribute fields, creating a data source graph within which we analyze and rank paths. For each high-ranking path, we specify chart combinations with positional and color alignments between shared fields, using a gradual binding approach to transform initial partial specifications of singleton charts to complete specifications that are aligned and oriented consistently. A novel aspect of our approach is its combination of domain-agnostic elements with domain-specific information that is captured through a domain-specific visualization prevalence design space. Our implementation is applied to both synthetic data and real Ebola outbreak data. We compare GEViTRec's output to what previous visualization recommendation systems would generate, and to manually crafted visualizations used by practitioners. We conducted formative evaluations with ten genEpi experts to assess the relevance and interpretability of our results.
+
+<a name="pdf"></a>
+<h2>Paper</h2>
+
+<div class="citation block">
+<div class="entry">
+
+<div class="thumbnail">
+<img src="figures/overall.thumb.png" width="200">
+<br/><br/><br/>
+</div>
+
+<div class="pub">
+
+<div class="title">
+GEViTRec: Data Reconnaissance Through Recommendation Using a Domain-Specific Visualization Prevalence Design Space
+</div>
+
+<div class="authors">
+<a href="https://amcrisan.github.io" target="_blank">Anamaria Crisan</a>,
+<a href="https://www.linkedin.com/in/shannah-fisher/" target="_blank">Shannah Elizabeth Fisher</a>, 
+<a href="https://www.gatesfoundation.org/about/leadership/jennifer-gardy">Jennifer L. Gardy</a>, 
+and <a href="/~tmm" target="_blank">Tamara Munzner</a>
+</div>
+
+<div class="venue">
+<span
+class="name">IEEE Trans. Visualization and Computer Graphics. (Early Access)<br></span><br/>
+&raquo; <a href="gevitrec-preprint.pdf">UBC Pre-Print PDF</a><br/>
+&raquo; <a href="https://doi.org/10.1109/TVCG.2021.3107749">IEEE TVCG DOI</a> 
+</div>
+
+<br/><br/>
+</div>
+</div>
+</div>
+
+<a name="source"></a>
+<h2>Open Source</h2>
+
+&raquo; <a href="https://github.com/amcrisan/GEVitRec">Open source code on Github</a><br/>
+
+<!--<a name="talk"></a>
+<h2>Talk</h2>
+
+&raquo; <a href="https://youtu.be/SRAWFr4tBjA">YouTube video</a><br/>
+&raquo; Slides [<a href="VizCommender_Slides_2020.pdf">PDF</a>, <a href="VizCommender_Slides_2020.key">Keynote</a>]
+<br/><br/>
+
+<iframe class="paper-video" width="560" height="315" src="https://www.youtube.com/embed/SRAWFr4tBjA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<br/>-->
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p>
+<a name="figures"></a>
+<h2>High-Resolution Figures</h2>
+
+<div class="figure">
+<strong>Fig. 1. GEViTRec Overview.</strong> The algorithm is illustrated with sources
+of three data types: #1 tree with associated tabular data, #2 tabular,
+and #3 spatial. The exploded attribute fields within these data sources
+are classified into numeric and non-numeric field types. The similarity
+of categories between pairs of non-numeric attribute fields is computed
+with the Jaccard index to establish exact and inexact linkages between
+data sources. The data sources, their attribute fields, and the linkages
+between their fields are used to generate a data source graph. The paths
+of the data source graph that link pairs of data sources are enumerated
+and ranked according to their link strength, diversity, and total relevance.
+For each path, in order of rank, partial specifications are generated for
+individual charts. They are modified to express linkages through aligned
+positional axes or color palettes, then arranged into a grid layout and the
+specifications are rendered into displayable pixels.
+<br><br>
+
+<div class="imglink">
+<a href="figures/overall.png" target="_blank">
+<img class="interface-preview" src="figures/overall.small.png" width="293">
+</a>
+<br><br>
+</div>
+</div>
+
+<div class="figure">
+<strong>Fig. 2. Chart Templates.</strong>
+These initial partial specifications for chart templates are pre-defined and internal to GEViTRec, not exposed to the user. Examples: (a) Scatter chart. (b) Phylogenetic tree.
+Visual encoding design space for non-contiguous time series slices. Green: Supported, Yellow: Partially supported, Red: Not supported<br><br>
+<div class="imglink">
+<a href="figures/spec_examples.png" target="_blank">
+<img class="interface-preview" src="figures/spec_examples.small.png" width="366">
+</a>
+<br><br>
+</div>
+</div>
+
+<div class="figure">
+<strong>Fig. 3. Compatible chart types for positional alignments.</strong><br><br>
+<div class="imglink">
+<a href="figures/spatial_alignment_matrix.png" target="_blank">
+<img class="interface-preview" src="figures/spatial_alignment_matrix.small.png" width="500">
+</a>
+<br><br>
+</div>
+</div>
+
+<div class="figure">
+<strong>Fig. 4. GEViTRec results: real Ebola outbreak data.</strong>
+A) The GEViTRec code required to generate this view. B) The data source graph generated by GEViTRec. C) The highest ranked view generated by GEViTRec contains five charts of different types, featuring a positionally aligned combination across the three top-row charts and color alignment between the tree on the top row and the map on the bottom.
+<br><br>
+<div class="imglink">
+<a href="figures/results_example.png" target="_blank">
+<img class="interface-preview" src="figures/results_example.small.png" width="500">
+</a>
+<br><br>
+</div>
+</div>
+
+
+<div class="figure">
+<strong>Fig. 5. GEViTRec results: synthetic genEpi data.</strong>
+A) The fourth ranked view generated by GEViTRec for simple dataset with 13 samples. B) Diagram depicting the types of alignments between the five charts.
+<br><br>
+<div class="imglink">
+<a href="figures/synth-data.png" target="_blank">
+<img class="interface-preview" src="figures/synth-data.small.png" width="500">
+</a>
+<br><br>
+</div>
+</div>
+
+
+<div class="figure">
+<strong> Fig. 6. We summarize the visualization recommendations of ShowMe, Voyager, and Draco alongside the human curated dashboards of Nextstrain and Microreact.</strong>
+Where applicable, we show a screen shot of the whole system (solid border outline) and a subset of alternative views (dashed border outline) that are generated by the system. For ShowMe and Voyager, the UI also contains the specification in the form of data columns dragged to encoding positions. The specifications for Draco are in the Supplemental Materials. Adjacent to the name of each system we also summarize the types of data sources that each system supports as well as the way that visual coherence and, if applicable, interaction is used to link information between charts. Both Nextstrain and Microreact have rudimentary linked highlighting, applicable to only a single point at a time through a click operation. Finally, Nextstrain and Microreact have pre-defined specifications of the visualizations that are created by the tool designers and exist as a fixed set of visualization templates in the interface that are populated by fields of the input data; they do not have alternative views. The directly comparable GEViTRec results are shown in Figure 4.
+<br><br>
+<div class="imglink">
+<a href="figures/Visual_Comparison.png" target="_blank">
+<img class="interface-preview" src="figures/Visual_Comparison.small.png" width="500">
+</a>
+<br><br>
+</div>
+</div>
+
+
+
+<a name="supplemental"></a>
+<h2>Supplementary Materials</h2>
+
+&raquo; <a href="gevitrec-supplemental.pdf">Supplemental Material</a><br/> (PDF)
+<ul>
+  <li>S1 Implementation Details</li>
+  <li>S2 Survey Procedures</li>
+  <li>S3 Survey Demos: Synthetic Data and Ebola Outbreak data</li>
+  <li>S4 Survey Results</li>
+  <li>S5 Survey Administrator Notes</li>
+  <li>S6 Survey Session Partial Transcripts</li>
+  <li>S7 Comparison to Previous Work</li>
+</ul>
+
+<hr>
+
+<!-- hhmts start --> Last modified: Mon Oct 25 14:12:44 PDT 2021 <!-- hhmts end -->
+</div>
+</body>
+</html>

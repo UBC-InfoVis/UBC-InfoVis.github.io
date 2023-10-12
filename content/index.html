@@ -2,13 +2,9 @@
 layout: layout
 title: Home
 ---
-<div id="home-header">
-    <h1>
-        Home
-    </h1>
-    
+<div id="home-header">    
     <p>
-        The information visualization group is part of <a href="http://www.ubc.ca">UBC</a>'s <a href="http://www.cs.ubc.ca">Computer Science Department</a>.
+        The information visualization group is part of the <a href="https://www.ubc.ca">University of British Columbia's</a> <a href="https://www.cs.ubc.ca">Computer Science Department</a> in Vancouver, BC, Canada. The group is led by <a href="https://www.cs.ubc.ca/~tmm/">Tamara Munzner</a>.
     </p>
 </div>
 
@@ -21,15 +17,37 @@ title: Home
     
     <div class="home-card">
         <h2>What do we do?</h2>
-        <p>We conduct research and publish it in conferences and journals.</p>
+        <p>We conduct research for publication in conferences and journals and we teach undergraduate and graduate courses.</p>
         <a href="publications.html">Read more</a>
     </div>
     
     <div class="home-card">
         <h2>What have we created?</h2>
-        <p>We have created many videos and pieces of software that are available to the public.</p>
+        <p>In addition to our contributions to research literature, we have created many videos and pieces of software that are available to the public.</p>
         <a href="resources.html">Read more</a>
     </div>
+</div>
+
+<h2>Current Members (<a href="people.html">see all members, including alumni</a>)</h2>
+<hr>
+<br>
+
+<div id="current-members">
+    {% for item in site.data.people %}
+        {% if item.status == "current" %}
+            <div class="current-member">
+                {% if item.link == "" %}
+                <img src="{{ item.image }}">
+                {% elsif item.link != "" %}
+                <a href="{{ item.link }}">
+                    <img src="{{ item.image }}">
+                </a>
+                {% endif %}
+                <p class="member-name">{{ item.name }}</p>
+                <p class="member-position">{{ item.position }}</p>
+            </div>
+        {% endif %}
+    {% endfor %}
 </div>
 
 <h2>Recent News (<a href="news.html">see all news</a>)</h2>
@@ -38,16 +56,30 @@ title: Home
 
 <div id="recent-news">
     {% for item in site.data.news %}
-        {% if forloop.index < 6 %}
+        {% if forloop.index < 5 %}
             <div class="recent-news-item">
                 {% if item.link == "" %}
                 <img src="{{ item.image }}">
                 {% elsif item.link != "" %}
-                    <a href="{{ item.link }}">
-                        <img src="{{ item.image }}">
-                    </a>
+                <a href="{{ item.link }}">
+                    <img src="{{ item.image }}">
+                </a>
                 {% endif %}
-                <p class="title">{{ item.title }}</p>
+                <p class="news-title">{{ item.title }}</p>
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
+
+<h2>Recent Publications (<a href="publications.html">see all publications</a>)</h2>
+<hr>
+<br>
+
+<div id="recent-publications">
+    {% for item in site.data.publications %}
+        {% if forloop.index < 5 %}
+            <div class="recent-publication">
+
             </div>
         {% endif %}
     {% endfor %}

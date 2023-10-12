@@ -7,10 +7,7 @@ body {
     outline: 0;
     
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: larger;
-
-    width: 70%;
-    margin-left: 15%;
+    font-size: large;
 }
 
 a {
@@ -18,24 +15,26 @@ a {
 }
 
 #header {
-    margin-top: 40px;
-    height: 100px;
+    width: 30%;
+    margin-left: 35%;
+
+    margin-top: 20px;
+    height: 30px;
     display: flex;
     flex-wrap: nowrap;
 }
 
 .logo-wrapper {
-    height: 100px;
+    height: 30px;
     position: relative;
     margin: auto;
-    margin-right: 20%;
-    display: flex;
+    margin-right: 0%;
+    flex: 1;
 }
 
 .logo-link {
     height: 100%;
     margin: auto;
-    margin-right: 20px;
     position: relative;
 }
 
@@ -43,46 +42,75 @@ a {
     height: 100%;
 }
 
+#title {
+    flex: 2;
+    font-size: 12px;
+}
+
+#title h1 {
+    margin: 0;
+}
+
 #navigation {
     width: 100%;
+    height: 100%;
+    flex: 5;
     display: flex;
     justify-content: space-evenly;
-    text-align: center;
 }
 
 .navigation-item {
     margin: auto;
     position: relative;
-    font-size: 26px;
+    font-size: 20px;
     text-decoration: none;
-    color: #300;
-    margin: 0 10px 0 10px;
+    color: #111111;
+    margin: 4px 10px 0 10px;
+    border-bottom: 1px solid transparent;
+    transition: color 0.15s ease-in-out, border 0.15s ease-in-out;
+}
+
+.navigation-item.underlined {
+    color:#600;
+    border-bottom: 1px solid #600;
 }
 
 .navigation-item:hover {
     color:#600;
+    border-bottom: 1px solid #600;
+    transition: color 0.15s ease-in-out, border 0.15s ease-in-out;
+}
+
+#content-wrapper {
+    width: 30%;
+    margin-left: 35%;
 }
 
 #home-header {
-    background-color: #eeeeee;
-    margin: 20px 0 20px 0;
-    padding: 20px 20% 20px 20%;
+    margin: 20px 0 5px 0;
+    padding: 5px 0 5px 0;
 }
 
 #home-cards {
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
+    gap: 10px;
 }
 
 .home-card {
+    flex: 1;
     width: 100%;
     height: 100%;
 }
 
+h2 {
+    font-size: 20px;
+}
+
 #recent-news {  
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 5%;
 }
 
@@ -102,32 +130,54 @@ a {
     position: relative;
     background-color: #eeeeee;
     width: 100%;
+}
+
+#real-footer {
+    width: 30%;
+    margin-left: 35%;
     display: flex;
     justify-content: center;
 }
 
 .footer-column {
+    width: 100%;
+    flex: 1;
     margin: auto;
     position: relative;
 }
 
+@media screen and (max-width: 2000px) {
+    #header {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    #content-wrapper {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    #real-footer {
+        width: 50%;
+        margin-left: 25%;
+    }
+}
+
 @media screen and (max-width: 1400px) {
-    body {
+    #header {
         width: 80%;
         margin-left: 10%;
-    }
-
-    #navigation {
         flex-wrap: wrap;
-    }
-
-    #header {
-        flex-wrap: wrap;
-        height: 200px;
+        height: 40px;
     }
 
     .logo-wrapper {
         margin: auto;
+    }
+
+    #content-wrapper {
+        width: 80%;
+        margin-left: 10%;
     }
 
     #home-header {
@@ -139,24 +189,32 @@ a {
     }
 
     #recent-news {  
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 5%;
     }
 
     #footer {
-        flex-wrap: wrap;
         margin-top: 100px;
+    }
+
+    #real-footer {
+        flex-wrap: wrap;
+        width: 80%;
+        margin-left: 10%;
     }
 }
 
 @media screen and (max-width: 800px) {
-    body {
+
+    #header {
+        height: 40px;
         width: 90%;
         margin-left: 5%;
     }
 
-    #header {
-        height: 250px;
+    #content-wrapper {
+        width: 90%;
+        margin-left: 5%;
     }
 
     #home-header {
@@ -170,6 +228,11 @@ a {
 
     #footer {
         margin-top: 380px;
+    }
+
+    #real-footer {
+        width: 90%;
+        margin-left: 5%;
     }
 }
   

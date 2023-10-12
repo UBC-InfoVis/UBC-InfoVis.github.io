@@ -3,80 +3,117 @@ layout: layout
 title: People
 ---
 
-        <div class="people-thumb">
-          <a href="/~tmm/"><img src="assets/images/tamara.png" alt="tamara munzner" /></a>
-          <p><a href="/~tmm/">Tamara Munzner</a></p>
-        </div>
-        <div class="people-thumb">
-          <a href="/~kasica/"><img src="assets/images/steve.png" alt="steve kasica" /></a>
-          <p><a href="/~kasica">Steve Kasica</a></p>
-        </div>
-        <div class="people-thumb">
-          <a href="https://fmnguyen.com"><img src="assets/images/francis.jpg" alt="francis nguyen" width="125px"/></a>
-          <p><a href="https://fmnguyen.com">Francis Nguyen</a></p>
-        </div>
-        <div class="people-thumb">
-          <a href="https://marasolen.github.io/me/"><img src="assets/images/MaraSolen.png" alt="mara solen" width="125px"/></a>
-          <p><a href="https://marasolen.github.io/me/">Mara Solen</a></p>
-        </div>
-        <div class="people-thumb">
-          <a href="https://dirediredock.github.io/"><img src="assets/images/matiasoddo.png" alt="matias oddo" width="125px"/></a>
-          <p><a href="https://dirediredock.github.io/">Matias Oddo</a></p>
-        </div>
-        <div class="people-thumb">
-          <a href="http://ryansmithresearch.com/"><img src="assets/images/ryansmith.png" alt="ryan smith" width="125px"/></a>
-          <p><a href="http://ryansmithresearch.com/">Ryan Smith</a></p>
-        </div>
-        <div class="people-thumb">
-          <a href="https://www.linkedin.com/in/s-fraser/"><img src="assets/images/samfraser.jpg" alt="sam fraser" width="125px"/></a>
-          <p><a href="https://www.linkedin.com/in/s-fraser/">Sam Fraser</a></p>
-        </div>
-        <h2>alumni</h2>
-        <h3>post-doc</h3>
-        <a href="https://charlesberret.net/">Charles Berret</a><br>
-        <a href="http://juergen-bernard.de/">J&#252;rgen Bernard</a><br>
-        <a href="http://www.ccs.neu.edu/people/faculty/member/borkin/">Michelle Borkin</a><br>
-        <a href="http://sfingram.net/">Stephen Ingram</a><br>
-        <a href="http://homepage.univie.ac.at/michael.sedlmair/">Michael Sedlmair</a><br>
-        <a href="http://www.cs.utah.edu/~miriah/">Miriah Meyer</a><br>
-        <a href="http://webhome.cs.uvic.ca/~mtory/">Melanie Tory</a><br>
-        <h3>phd</h3>
-	<a href="https://zipengliu.github.io/">Zipeng Liu</a><br>
-	<a href="https://michaeloppermann.com/">Michael Oppermann</a><br>
-        <a href="https://amcrisan.github.io/">Anamaria Crisan</a><br>
-        <a href="http://ghattab.github.io/">Georges Hattab</a><br>
-        <a href="http://mattbrehmer.github.io">Matthew Brehmer</a><br>
-        <a href="http://sfingram.net/">Stephen Ingram</a><br>
-        <a href="http://cs.swansea.ac.uk/~csdarchambault/">Dan Archambault</a><br>
-        <a href="http://www.heidilam.com/">Heidi Lam</a><br>
-        <h3>msc</h3>
-        <a href="/~kdextras">Kimberly Dextras-Romagnino</a><br>
-        <a href="/~wdong">Dylan (Wenqiang) Dong</a><br>
-        <a href="http://www.johannafulda.de/">Johanna Fulda</a><br>
-        <a href="/~jqdawson/">Jessica Dawson</a><br>
-        <a href="http://www.joelferstay.com/">Joel Ferstay</a><br>
-        <a href="/~barskya/">Aaron Barsky</a><br>
-        <a href="/~sfingram/">Stephen Ingram</a><br>
-        <a href="http://www.cs.ubc.ca/~spark343/">Penny McLachlan</a><br>
-        <a href="/~qkong/">Qiang Kong</a><br>
-        <a href="/~dmitry/">Dmitry Nekrasovski</a><br>
-        <a href="/~bodnar/">Adam Bodnar</a><br>
-        <a href="/~jslack/">James Slack</a> <br>
-        <a href="http://www.uni-weimar.de/~hildebr2/">Kristian Hildebrand</a><br>
-        <a href="/~mwill/">Matt Williams</a><br>
-        <a href="http://www.cs.virginia.edu/~drb3t/">Dale Beermann</a><br>
-        <h3>undergrad</h3>
-	<a href="https://www.luceliu.com/">Luce Liu</a><br>
-	<a href="https://linkedin.com/in/khankshabab">Shabab Khan</a><br>
-	<a href="https://www.linkedin.com/in/shannah-fisher">Shannah Fisher</a><br>
-	  <a href="https://yanndubs.github.io/">Yann Dubois</a><br>
-          <a href="https://www.linkedin.com/in/jessica-dawson-47262316/">Jessica Dawson</a><br>
-	Anton Zoubarev<br>
-	Alex Vostrov<br>
-	<a href="https://www.linkedin.com/in/davidwestrom/">David Westrom</a><br>
-	<a href="https://www.linkedin.com/in/clleavitt/">Ciarán Llachlan Leavitt</a><br>
-	<a href="https://www.linkedin.com/in/janek-klawe-588047138/">Janek Klawe</a><br>
-	    Keith Lau<br>
-	      Jordan Lee<br>
-		<a href="https://www.linkedin.com/in/draganaradulovic/">Dragana Radulovic</a><br>
-	      Jeffrey Zhihui Zhang<br>
+
+<h2>Current Members</h2>
+<hr>
+<br>
+
+<div class="members">
+    {% for item in site.data.people %}
+        {% if item.status == "current" %}
+            <div class="member">
+                {% if item.link == "" %}
+                <img src="{{ item.image }}">
+                {% elsif item.link != "" %}
+                <a href="{{ item.link }}">
+                    <img src="{{ item.image }}">
+                </a>
+                {% endif %}
+                <p class="member-name">{{ item.name }}</p>
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
+
+
+<h2>Alumni</h2>
+<hr>
+<br>
+
+
+<h3>Postdocs</h2>
+<hr>
+<br>
+
+<div class="members">
+    {% for item in site.data.people %}
+        {% if item.status == "past" and item.position == "postdoc" %}
+            <div class="member">
+                {% if item.link == "" %}
+                <img src="{{ item.image }}">
+                {% elsif item.link != "" %}
+                <a href="{{ item.link }}">
+                    <img src="{{ item.image }}">
+                </a>
+                {% endif %}
+                <p class="member-name">{{ item.name }}</p>
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
+
+
+<h3>PhD Students</h2>
+<hr>
+<br>
+
+<div class="members">
+    {% for item in site.data.people %}
+        {% if item.status == "past" and item.position == "phd" %}
+            <div class="member">
+                {% if item.link == "" %}
+                <img src="{{ item.image }}">
+                {% elsif item.link != "" %}
+                <a href="{{ item.link }}">
+                    <img src="{{ item.image }}">
+                </a>
+                {% endif %}
+                <p class="member-name">{{ item.name }}</p>
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
+
+
+<h3>MSc Students</h2>
+<hr>
+<br>
+
+<div class="members">
+    {% for item in site.data.people %}
+        {% if item.status == "past" and item.position == "msc" %}
+            <div class="member">
+                {% if item.link == "" %}
+                <img src="{{ item.image }}">
+                {% elsif item.link != "" %}
+                <a href="{{ item.link }}">
+                    <img src="{{ item.image }}">
+                </a>
+                {% endif %}
+                <p class="member-name">{{ item.name }}</p>
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
+
+
+<h3>Undergraduate Students</h2>
+<hr>
+<br>
+
+<div class="members">
+    {% for item in site.data.people %}
+        {% if item.status == "past" and item.position == "ug" %}
+            <div class="member">
+                {% if item.link == "" %}
+                <img src="{{ item.image }}">
+                {% elsif item.link != "" %}
+                <a href="{{ item.link }}">
+                    <img src="{{ item.image }}">
+                </a>
+                {% endif %}
+                <p class="member-name">{{ item.name }}</p>
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>

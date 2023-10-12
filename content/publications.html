@@ -2,3 +2,38 @@
 layout: layout
 title: Publications
 ---
+<br><br><br>
+<div id="publications">
+    {% for item in site.data.publications %}
+    <div class="publication">
+        <a class="thumb" href="{{ item.link }}"><img src="{{ item.image }}"></img></a>
+        <div class="info">
+            <a class="title" href="{{ item.link }}">{{ item.title}}</a><br>
+            <p class="authors">
+                {% for author in item.authors %}
+                {% if author.link %}
+                <a href="{{ author.link }}">{{ author.name }}</a>
+                {% else %}
+                {{ author.name }}
+                {% endif %}
+                {% if forloop.last == false %} - {% endif %}
+                {% endfor %}
+            </p>
+            <p class="venue">
+                {{ item.venue }}
+            </p>
+            <p class="abstract">
+                {{ item.abstract }}
+            </p>
+            {% if item.links.size > 0 %}
+            <p>
+                {% for link in item.links %}
+                [<a href="{{ link.link }}">{{ link.name }}</a>]
+                {% endfor %}
+            </p>
+            {% endif %}
+        </div>
+    </div>
+    <hr>
+    {% endfor %}
+</div>

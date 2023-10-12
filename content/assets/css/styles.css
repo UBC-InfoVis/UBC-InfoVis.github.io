@@ -8,6 +8,8 @@ body {
     
     font-family: 'Source Sans Pro', sans-serif;
     font-size: large;
+
+    height: 100%;
 }
 
 a {
@@ -108,7 +110,30 @@ h2 {
     font-size: 20px;
 }
 
-#recent-news {  
+h3 {
+    font-size: 18px;
+}
+
+.members { 
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5%;
+    margin-bottom: 80px;
+}
+
+.member {
+    width: 100%;
+}
+
+.member a img {
+    width: 100%;
+}
+
+.member img {
+    width: 100%;
+}
+
+#recent-news {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 5%;
@@ -127,9 +152,11 @@ h2 {
 }
 
 #footer {
+    margin-top: 100px;
     position: relative;
     background-color: #eeeeee;
     width: 100%;
+    clear: both;
 }
 
 #real-footer {
@@ -144,6 +171,23 @@ h2 {
     flex: 1;
     margin: auto;
     position: relative;
+}
+
+.publication {
+    display: flex;
+    gap: 10px;
+}
+
+.thumb {
+    flex: 1;
+}
+
+.thumb img {
+    width: 100%;
+}
+
+.info {
+    flex: 3;
 }
 
 @media screen and (max-width: 2000px) {

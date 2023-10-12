@@ -1,0 +1,312 @@
+# Current members
+
+- name: Tamara Munzner
+  image: assets/images/tamara.png
+  link: https://cs.ubc.ca/~tmm/
+  status: current
+  position: fac
+
+- name: Steve Kasica
+  image: assets/images/steve.png
+  link: https://www.cs.ubc.ca/~kasica/
+  status: current
+  position: phd
+
+- name: Francis Nguyen
+  image: assets/images/francis.jpg
+  link: https://fmnguyen.com/
+  status: current
+  position: phd
+
+- name: Mara Solen
+  image: assets/images/MaraSolen.png
+  link: https://marasolen.github.io/me/
+  status: current
+  position: phd
+
+- name: Matias Oddo
+  image: assets/images/matiasoddo.png
+  link: https://dirediredock.github.io/
+  status: current
+  position: phd
+
+- name: Ryan Smith
+  image: assets/images/ryansmith.png
+  link: http://ryansmithresearch.com/
+  status: current
+  position: phd
+
+# Alumni
+# Post-doc
+
+- name: Charles Berret
+  image: assets/images/berret.jpg
+  link: https://charlesberret.net/
+  status: past
+  position: postdoc
+
+- name: J&#252;rgen Bernard
+  image: assets/images/JuergenBernard.png
+  link: http://juergen-bernard.de/
+  status: past
+  position: postdoc
+
+- name: Michelle Borkin
+  image: assets/images/michelle.png
+  link: http://www.ccs.neu.edu/people/faculty/member/borkin/
+  status: past
+  position: postdoc
+
+- name: Stephen Ingram
+  image: assets/images/stephen.png
+  link: http://sfingram.net/
+  status: past
+  position: postdoc
+
+- name: Michael Sedlmair
+  image: assets/images/michael.png
+  link: http://homepage.univie.ac.at/michael.sedlmair/
+  status: past
+  position: postdoc
+
+- name: Miriah Meyer
+  image: assets/images/placeholder.png
+  link: http://www.cs.utah.edu/~miriah/
+  status: past
+  position: postdoc
+
+- name: Melanie Tory
+  image: assets/images/placeholder.png
+  link: http://webhome.cs.uvic.ca/~mtory/
+  status: past
+  position: postdoc
+
+# PhD
+
+- name: Zipeng Liu
+  image: assets/images/zipeng.png
+  link: https://zipengliu.github.io/
+  status: past
+  position: phd
+
+- name: Michael Oppermann
+  image: assets/images/michael_o.png
+  link: https://michaeloppermann.com/
+  status: past
+  position: phd
+
+- name: Anamaria Crisan
+  image: assets/images/ana.png
+  link: https://amcrisan.github.io/
+  status: past
+  position: phd
+
+- name: Georges Hattab
+  image: assets/images/georges.png
+  link: http://ghattab.github.io/
+  status: past
+  position: phd
+
+- name: Matthew Brehmer
+  image: assets/images/matt.png
+  link: http://mattbrehmer.github.io
+  status: past
+  position: phd
+
+- name: Stephen Ingram
+  image: assets/images/stephen.png
+  link: http://sfingram.net/
+  status: past
+  position: phd
+
+- name: Dan Archambault
+  image: assets/images/placeholder.png
+  link: http://cs.swansea.ac.uk/~csdarchambault/
+  status: past
+  position: phd
+
+- name: Heidi Lam
+  image: assets/images/placeholder.png
+  link: http://www.heidilam.com/
+  status: past
+  position: phd
+
+# MSc
+
+- name: Kimberly Dextras-Romagnino
+  image: assets/images/kim.png
+  link: https://cs.ubc.ca/~kdextras/
+  status: past
+  position: msc
+
+- name: Dylan (Wenqiang) Dong
+  image: assets/images/dylan.png
+  link: https://cs.ubc.ca/~wdong/
+  status: past
+  position: msc
+
+- name: Johanna Fulda
+  image: assets/images/johanna.png
+  link: http://www.johannafulda.de/
+  status: past
+  position: msc
+
+- name: Jessica Dawson
+  image: assets/images/jessica.png
+  link: https://cs.ubc.ca/~jqdawson/
+  status: past
+  position: msc
+
+- name: Joel Ferstay
+  image: assets/images/joel.png
+  link: http://www.joelferstay.com/
+  status: past
+  position: msc
+
+- name: Aaron Barsky
+  image: assets/images/placeholder.png
+  link: https://cs.ubc.ca/~barskya/
+  status: past
+  position: msc
+
+- name: Stephen Ingram
+  image: assets/images/placeholder.png
+  image: assets/images/stephen.png
+  link: http://sfingram.net/
+  status: past
+  position: msc
+
+- name: Penny McLachlan
+  image: assets/images/placeholder.png
+  link: http://www.cs.ubc.ca/~spark343/
+  status: past
+  position: msc
+
+- name: Qiang Kong
+  image: assets/images/placeholder.png
+  link: https://cs.ubc.ca/~qkong/
+  status: past
+  position: msc
+
+- name: Dmitry Nekrasovski
+  image: assets/images/placeholder.png
+  link: https://cs.ubc.ca/~dmitry/
+  status: past
+  position: msc
+
+- name: Adam Bodnar
+  image: assets/images/placeholder.png
+  link: https://cs.ubc.ca/~bodnar/
+  status: past
+  position: msc
+
+- name: James Slack
+  image: assets/images/placeholder.png
+  link: https://cs.ubc.ca/~jslack/
+  status: past
+  position: msc
+
+- name: Kristian Hildebrand
+  image: assets/images/placeholder.png
+  link: http://www.uni-weimar.de/~hildebr2/
+  status: past
+  position: msc
+
+- name: Matt Williams
+  image: assets/images/placeholder.png
+  link: https://cs.ubc.ca/~mwill/
+  status: past
+  position: msc
+
+- name: Dale Beermann
+  image: assets/images/placeholder.png
+  link: http://www.cs.virginia.edu/~drb3t/
+  status: past
+  position: msc
+
+# Undergrad
+
+- name: Sam Fraser
+  image: assets/images/samfraser.jpg
+  link: https://www.linkedin.com/in/s-fraser/
+  status: past
+  position: ug
+
+- name: Luce Liu
+  image: assets/images/placeholder.png
+  link: https://www.luceliu.com/
+  status: past
+  position: ug
+
+- name: Shabab Khan
+  image: assets/images/placeholder.png
+  link: https://linkedin.com/in/khankshabab
+  status: past
+  position: ug
+
+- name: Shannah Fisher
+  image: assets/images/placeholder.png
+  link: https://www.linkedin.com/in/shannah-fisher
+  status: past
+  position: ug
+
+- name: Yann Dubois
+  image: assets/images/placeholder.png
+  link: https://yanndubs.github.io/
+  status: past
+  position: ug
+
+- name: Jessica Dawson
+  image: assets/images/placeholder.png
+  link: https://www.linkedin.com/in/jessica-dawson-47262316/
+  status: past
+  position: ug
+
+- name: Anton Zoubarev
+  image: assets/images/placeholder.png
+  status: past
+  position: ug
+
+- name: Alex Vostrov
+  image: assets/images/placeholder.png
+  status: past
+  position: ug
+
+- name: David Westrom
+  image: assets/images/placeholder.png
+  link: https://www.linkedin.com/in/davidwestrom/
+  status: past
+  position: ug
+
+- name: Ciarán Llachlan Leavitt
+  image: assets/images/placeholder.png
+  link: https://www.linkedin.com/in/clleavitt/
+  status: past
+  position: ug
+
+- name: Janek Klawe
+  image: assets/images/placeholder.png
+  link: https://www.linkedin.com/in/janek-klawe-588047138/
+  status: past
+  position: ug
+
+- name: Keith Lau
+  image: assets/images/placeholder.png
+  status: past
+  position: ug
+
+- name: Jordan Lee
+  image: assets/images/placeholder.png
+  status: past
+  position: ug
+
+- name: Dragana Radulovic
+  image: assets/images/placeholder.png
+  link: https://www.linkedin.com/in/draganaradulovic/
+  status: past
+  position: 
+
+- name: Jeffrey Zhihui Zhang
+  image: assets/images/placeholder.png
+  status: past
+  position: ug

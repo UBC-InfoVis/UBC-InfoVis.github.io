@@ -32,10 +32,10 @@ title: Home
 <hr>
 <br>
 
-<div id="current-members">
+<div class="members">
     {% for item in site.data.people %}
         {% if item.status == "current" %}
-            <div class="current-member">
+            <div class="member">
                 {% if item.link == "" %}
                 <img src="{{ item.image }}">
                 {% elsif item.link != "" %}
@@ -44,7 +44,6 @@ title: Home
                 </a>
                 {% endif %}
                 <p class="member-name">{{ item.name }}</p>
-                <p class="member-position">{{ item.position }}</p>
             </div>
         {% endif %}
     {% endfor %}
@@ -75,12 +74,34 @@ title: Home
 <hr>
 <br>
 
-<div id="recent-publications">
+<div id="publications">
     {% for item in site.data.publications %}
         {% if forloop.index < 5 %}
-            <div class="recent-publication">
-
+        <div class="publication">
+            <a class="thumb" href="{{ item.link }}"><img src="{{ item.image }}"></img></a>
+            <div class="info">
+                <p>
+                <a class="title" href="{{ item.link }}">{{ item.title}}</a><br>
+                    {% for author in item.authors %}
+                    {% if author.link %}
+                    <a href="{{ author.link }}">{{ author.name }}</a>
+                    {% else %}
+                    {{ author.name }}
+                    {% endif %}
+                    {% if forloop.last == false %}, {% endif %}
+                    {% endfor %}.
+                    {{ item.venue }}.
+                </p>
+                {% if item.links.size > 0 %}
+                <p>
+                    {% for link in item.links %}
+                    [<a href="{{ link.link }}">{{ link.name }}</a>]
+                    {% endfor %}
+                </p>
+                {% endif %}
             </div>
+        </div>
+        <hr>
         {% endif %}
     {% endfor %}
 </div>

@@ -208,6 +208,10 @@ h3 {
     flex: 3;
 }
 
+.news .text br {
+    margin-bottom: 16px;
+}
+
 @media screen and (max-width: 2000px) {
     #header {
         width: 50%;

@@ -178,15 +178,33 @@ h3 {
     gap: 10px;
 }
 
-.thumb {
+.publication .thumb {
     flex: 1;
 }
 
-.thumb img {
+.publication .thumb img {
     width: 100%;
 }
 
-.info {
+.publication .info {
+    flex: 3;
+}
+
+.news {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.news .thumb {
+    flex: 1;
+}
+
+.news .thumb img {
+    width: 100%;
+}
+
+.news .text {
     flex: 3;
 }
 

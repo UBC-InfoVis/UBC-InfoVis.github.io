@@ -2,6 +2,7 @@
 layout: layout
 title: Home
 ---
+
 <div id="home-header">    
     <p>
         The information visualization group is part of the <a href="https://www.ubc.ca">University of British Columbia's</a> <a href="https://www.cs.ubc.ca">Computer Science Department</a> in Vancouver, BC, Canada. The group is led by <a href="https://www.cs.ubc.ca/~tmm/">Tamara Munzner</a>.
@@ -55,7 +56,7 @@ title: Home
 
 <div id="recent-news">
     {% for item in site.data.news %}
-        {% if forloop.index < 5 %}
+        {% if forloop.index < 9 %}
             <div class="recent-news-item">
                 {% if item.link == "" %}
                 <img src="{{ item.image }}">

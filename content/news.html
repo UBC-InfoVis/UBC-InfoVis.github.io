@@ -2,9 +2,12 @@
 layout: layout
 title: News
 ---
-
+<br><br><br>
 {% for item in site.data.news %}
-    <div class="pub">
+    <div class="news">
+        <div class="thumb">
+            <a href="{{ item.link }}"><img src="{{ item.image }}"></a>
+        </div>
         <div class="text">
             <p class="title">
                 {{ item.title }} [{{ item.date }}]
@@ -13,9 +16,8 @@ title: News
                 {{ item.content }}
             </p>
         </div>
-        <div class="thumb">
-            <a href="{{ item.link }}"><img src="{{ item.image }}"></a>
-        </div>
     </div>
     <hr style="clear: both">
 {% endfor %}
+
+<p>To see older news articles that we haven't ported over yet, visit <a href="https://www.cs.ubc.ca/group/infovis/news.shtml">our old site</a>.</p>

@@ -8,14 +8,9 @@ title: News
         <div class="thumb">
             <a href="{{ item.link }}"><img src="{{ item.image }}"></a>
         </div>
-        <div class="text">
-            <p class="title">
-                {{ item.title }} [{{ item.date }}]
-            </p>
-            <p> 
-                {{ item.content }}
-            </p>
-        </div>
+        <b>{{ item.title }} [{{ item.date }}]</b>
+        <br> 
+        {{ item.content }}
     </div>
     <hr style="clear: both">
 {% endfor %}

@@ -5,29 +5,41 @@ title: Home
 
 <div id="home-header">    
     <p>
-        The information visualization group is part of the <a href="https://www.ubc.ca">University of British Columbia's</a> <a href="https://www.cs.ubc.ca">Computer Science Department</a> in Vancouver, BC, Canada. The group is led by <a href="https://www.cs.ubc.ca/~tmm/">Tamara Munzner</a>.
+        The information visualization group is part of the <a href="https://www.ubc.ca">University of British Columbia's</a> <a href="https://www.cs.ubc.ca">Computer Science Department</a> in Vancouver, BC, Canada.
     </p>
 </div>
 
-<div id="home-cards">
-    <div class="home-card">
-        <h2>Who are we?</h2>
-        <p>We are group of faculty members, post-docs, graduate students, and undergraduate students with an interest in information visualization, broadly construed.</p>
-        <a href="people.html">Read more</a>
+<h2>Recent News (<a href="news.html">see all news</a>)</h2>
+<hr>
+<br>
+
+<div class="news">
+    <div class="thumb">
+        <a href="{{ site.data.news[0].link }}"><img src="{{ site.data.news[0].image }}"></a>
     </div>
-    
-    <div class="home-card">
-        <h2>What do we do?</h2>
-        <p>We conduct research for publication in conferences and journals and we teach undergraduate and graduate courses.</p>
-        <a href="publications.html">Read more</a>
-    </div>
-    
-    <div class="home-card">
-        <h2>What have we created?</h2>
-        <p>In addition to our contributions to research literature, we have created many videos and pieces of software that are available to the public.</p>
-        <a href="resources.html">Read more</a>
-    </div>
+    <b>{{ site.data.news[0].title }} [{{ site.data.news[0].date }}]</b>
+    <br> 
+    {{ site.data.news[0].content }}
 </div>
+<br><br>
+
+<div id="recent-news">
+    {% for item in site.data.news %}
+        {% if forloop.index < 6 and forloop.index > 1 %}
+            <div class="recent-news-item">
+                {% if item.link == "" %}
+                <img src="{{ item.image }}">
+                {% elsif item.link != "" %}
+                <a href="{{ item.link }}">
+                    <img src="{{ item.image }}">
+                </a>
+                {% endif %}
+                <p class="news-title">{{ item.title }}</p>
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
+<br><br>
 
 <h2>Current Members (<a href="people.html">see all members, including alumni</a>)</h2>
 <hr>
@@ -45,27 +57,6 @@ title: Home
                 </a>
                 {% endif %}
                 <p class="member-name">{{ item.name }}</p>
-            </div>
-        {% endif %}
-    {% endfor %}
-</div>
-
-<h2>Recent News (<a href="news.html">see all news</a>)</h2>
-<hr>
-<br>
-
-<div id="recent-news">
-    {% for item in site.data.news %}
-        {% if forloop.index < 9 %}
-            <div class="recent-news-item">
-                {% if item.link == "" %}
-                <img src="{{ item.image }}">
-                {% elsif item.link != "" %}
-                <a href="{{ item.link }}">
-                    <img src="{{ item.image }}">
-                </a>
-                {% endif %}
-                <p class="news-title">{{ item.title }}</p>
             </div>
         {% endif %}
     {% endfor %}
@@ -102,7 +93,7 @@ title: Home
                 {% endif %}
             </div>
         </div>
-        <hr>
+        <hr width="95%" style="border-style: dashed">
         {% endif %}
     {% endfor %}
 </div>

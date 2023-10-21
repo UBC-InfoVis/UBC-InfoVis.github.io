@@ -12,9 +12,9 @@
     <div id="navigation">
         {% for item in site.data.navigation %}
             {% if item.name == page.title %}
-            <a class="navigation-item underlined" href="{{ item.link | relative_url }}">
+            <a class="navigation-item underlined" href="{{ item.link }}">
             {% else %}
-            <a class="navigation-item" href="{{ item.link | relative_url }}">
+            <a class="navigation-item" href="{{ item.link }}">
             {% endif %}
                 {{ item.name }}
             </a>

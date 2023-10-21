@@ -1,7 +1,7 @@
 - date: 10/2023
   type: conf
   title: "<a href='http://ieeevis.org/year/2023/welcome'>UBC InfoVis @ IEEE VIS 2023</a>"
-  content: "<a href='https://cs.ubc.ca/~tmm'>Tamara Munzner</a> (alongside group alumni <a href='http://mattbrehmer.github.io'>Matthew Brehmer</a>) is celebrating another Test of Time award for <a href='https://ieeexplore.ieee.org/abstract/document/6634168'>the 2013 paper on abstract visualization tasks</a>. Tamara has been serving as an Overall Papers Chair for VIS23, will present a tutorial on <a href='https://www.cs.ubc.ca/~tmm/vadbook/'>Visualization Analysis and Design</a>, and give a keynote talk at <a href='https://www.visualdatascience.org/2023/program/'>VDS</a>. She was recently named an IEEE Fellow. <br>PhD student <a href='https://fmnguyen.com/'>Francis Nguyen</a> is co-author of honorable mention VIS23 paper <a href='https://arxiv.org/abs/2308.03903'>Average Estimates in Line Graphs are Biased Towards Areas of Higher Variability</a> and will also attend in person, say hello to him! <br>Since our last in-person party in 2019, <a href='http://juergen-bernard.de/'>Jürgen Bernard</a> has become an assistant professor at Zurich, and <a href='https://charlesberret.net/'>Charles Berret</a> has joined Miriah Meyer for a postdoc at Linköping. Two PhD students finished: <a href='https://zipengliu.github.io/'>Zipeng Liu</a> is now a Beihang prof, and <a href='https://michaeloppermann.com/'>Michael Oppermann</a> has joined Vienna’s Virtual Identity."
+  content: "<a href='https://cs.ubc.ca/~tmm'>Tamara Munzner</a> (alongside group alumni <a href='http://mattbrehmer.github.io'>Matthew Brehmer</a>) is celebrating another Test of Time award for <a href='https://ieeexplore.ieee.org/abstract/document/6634168'>the 2013 paper on abstract visualization tasks</a>. Tamara has been serving as an Overall Papers Chair for VIS23, will present a tutorial on <a href='https://www.cs.ubc.ca/~tmm/vadbook/'>Visualization Analysis and Design</a>, and give a keynote talk at <a href='https://www.visualdatascience.org/2023/program/'>VDS</a>. She was recently named an IEEE Fellow. She is co-editor of the AK Peters Visualization book series with CRC/Routledge, which will have both a physical table at the conference and a <a href='https://bit.ly/IEEEVIS23'>virtual bookstore</a>.<br>PhD student <a href='https://fmnguyen.com/'>Francis Nguyen</a> is co-author of honorable mention VIS23 paper <a href='https://arxiv.org/abs/2308.03903'>Average Estimates in Line Graphs are Biased Towards Areas of Higher Variability</a> and will also attend in person, say hello to him! <br>The West Coast Party returns Tue night and we're co-hosting: <a href='https://web.uvic.ca/~cperin/west-coast-party-23/'>https://web.uvic.ca/~cperin/west-coast-party-23/</a>. <br>Since our last in-person party in 2019, <a href='http://juergen-bernard.de/'>Jürgen Bernard</a> has become an assistant professor at Zurich, and <a href='https://charlesberret.net/'>Charles Berret</a> has joined Miriah Meyer for a postdoc at Linköping. Two PhD students finished: <a href='https://zipengliu.github.io/'>Zipeng Liu</a> is now a Beihang prof, and <a href='https://michaeloppermann.com/'>Michael Oppermann</a> has joined Vienna’s Virtual Identity."
   link: http://ieeevis.org/year/2023/welcome
   image: assets/images/news-thumbs/vis2023_logo1.svg 
 
@@ -43,7 +43,7 @@
 - date: 2/2022
   type: paper
   title: "<a href='pubs/2021/corgie/'>Visualizing Graph Neural Networks with CorGIE: Corresponding a Graph to Its Embedding</a>"
-  content: by <a href='/~zipeng' target='_blank'>Zipeng Liu</a>, <a href='https://www.linkedin.com/in/gnavvy' target='_blank'>Yang Wang</a>, <a href='https://juergen-bernard.de' target='_blank'>J&uuml;rgen Bernard</a>, and <a href='/~tmm' target='_blank'>Tamara Munzner</a> has been accepted by IEEE Transactions on Visualization and Computer Graphics (TVCG) and will be also presented at IEEE VIS 2022. <p>[<a href='/pubs/2021/corgie/corgie-preprint.pdf'>pre-print PDF</a>]</p>
+  content: by <a href='/~zipeng' target='_blank'>Zipeng Liu</a>, <a href='https://www.linkedin.com/in/gnavvy' target='_blank'>Yang Wang</a>, <a href='https://juergen-bernard.de' target='_blank'>J&uuml;rgen Bernard</a>, and <a href='/~tmm' target='_blank'>Tamara Munzner</a> has been accepted by IEEE Transactions on Visualization and Computer Graphics (TVCG) and will be also presented at IEEE VIS 2022. <br>[<a href='/pubs/2021/corgie/corgie-preprint.pdf'>pre-print PDF</a>]
   link: pubs/2021/corgie/
   image: assets/images/pub-thumbs/2021-corgie.png
 
@@ -64,13 +64,13 @@
 - date: 8/2021
   type: paper
   title: "<a href='pubs/2021/vizsnippets/'>VizSnippets: Compressing Visualization Bundles Into Representative Previews for Browsing Visualization Collections</a>"
-  content: "<p>by <a href='http://michaeloppermann.com' target='_blank'>Michael Oppermann</a> and <a href='https://www.cs.ubc.ca/~tmm' target='_blank'>Tamara Munzner</a> will be published in the special issue of IEEE Transactions on Visualization and Computer Graphics (TVCG) and will be presented virtually at IEEE VIS 2021.</p><p>[<a href='pubs/2021/vizsnippets/VizSnippets_2021.pdf'>pre-print PDF</a>]</p>"
+  content: "by <a href='http://michaeloppermann.com' target='_blank'>Michael Oppermann</a> and <a href='https://www.cs.ubc.ca/~tmm' target='_blank'>Tamara Munzner</a> will be published in the special issue of IEEE Transactions on Visualization and Computer Graphics (TVCG) and will be presented virtually at IEEE VIS 2021.<br>[<a href='pubs/2021/vizsnippets/VizSnippets_2021.pdf'>pre-print PDF</a>]"
   link: pubs/2021/vizsnippets
   image: pubs/2021/vizsnippets/figures/vizsnippets_thumb.png
 
 - date: 8/2021
   type: paper
   title: "<a href='pubs/2021/timeelide/'>TimeElide: Visual Analysis of Non-Contiguous Time Series Slices</a>"
-  content: "<p>by <a href='http://michaeloppermann.com' target='_blank'>Michael Oppermann</a>, <a href='http://luceliu.com/' target='_blank'>Luce Liu</a>, and <a href='https://www.cs.ubc.ca/~tmm' target='_blank'>Tamara Munzner</a> will be published as a short paper in the Proc. of IEEE VIS 2021.</p><p>[<a href='pubs/2021/timeelide/TimeElide_2021.pdf'>pre-print PDF</a>]</p>"
+  content: "by <a href='http://michaeloppermann.com' target='_blank'>Michael Oppermann</a>, <a href='http://luceliu.com/' target='_blank'>Luce Liu</a>, and <a href='https://www.cs.ubc.ca/~tmm' target='_blank'>Tamara Munzner</a> will be published as a short paper in the Proc. of IEEE VIS 2021.<br>[<a href='pubs/2021/timeelide/TimeElide_2021.pdf'>pre-print PDF</a>]"
   link: pubs/2021/timeelide/
   image: pubs/2021/timeelide/figures/timeelide_thumb.png

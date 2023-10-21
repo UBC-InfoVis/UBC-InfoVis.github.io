@@ -8,11 +8,13 @@ title: News
         <div class="thumb">
             <a href="{{ item.link }}"><img src="{{ item.image }}"></a>
         </div>
-        <b>{{ item.title }} [{{ item.date }}]</b>
-        <br> 
-        {{ item.content }}
+        <p class="info">
+            <b>{{ item.title }} [{{ item.date }}]</b>
+            <br> 
+            {{ item.content }}
+        </p>
     </div>
-    <hr style="clear: both">
+    <hr style="clear: both; border-style: dashed;" width="95%">
 {% endfor %}
 
 <p>To see older news articles that we haven't ported over yet, visit <a href="https://www.cs.ubc.ca/group/infovis/news.shtml">our old site</a>.</p>

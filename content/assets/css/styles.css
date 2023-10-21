@@ -192,17 +192,23 @@ h3 {
     gap: 10px;
     align-items: center;
     margin-bottom: 16px;
+    display: flex;
 }
 
 .news .thumb {
-    float: left;
-    width: 25%;
-    margin-right: 16px;
-    margin-bottom: 16px;
+    flex: 1;
 }
 
 .news .thumb img {
     width: 100%;
+}
+
+.news .info {
+    flex: 3;
+}
+
+.news .info br {
+    margin-bottom: 16px;
 }
 
 @media screen and (max-width: 2000px) {

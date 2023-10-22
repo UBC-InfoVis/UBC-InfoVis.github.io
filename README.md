@@ -29,4 +29,32 @@ To make changes to this repo, you will need to use git and GitHub. These steps a
 7. Commit your changes: `git commit -m "<commit message>"`
     - Your commit message should be a concise statement about what changes are included in the commit. A commit message for the sample change mentioned above could be `added styling for people page, cropped images to be same aspect ratio, changed order of member appearance`.
 8. Push your changes: `git push`
-    - The first time you push to your branch, the branch will not already exist on the server and you will need to make it. When you attempt to push, git will tell you that your branch does not exist on the server and will suggest a command that will push your changes to your 
+    - The first time you push to your branch, the branch will not already exist on the server, and you will need to make it. When you attempt to push, git will tell you that your branch does not exist on the server and will suggest a command that will push your changes, including your branch, to the server. That suggested command will look something like `git push --set-upstream origin <branch name>`
+9. Once you have completed and pushed all the changes you want to include, navigate to [the repo on GitHub](https://github.com/UBC-InfoVis/UBC-InfoVis.github.io). There should be a suggestion to make a pull request for your newly pushed branch in a yellow box near the top of the page. Follow the suggestion by clicking the button to open a new pull request. 
+    - Give the pull request a good title and description that describe the changes you're making. 
+    - Add the current web czar as a reviewer and message them (and optionally others in the group) to let them know your change is ready. If your change is very small, such as fixing a grammatical error or typo in the site content, you can skip the review step and merge immediately without review.
+    - Finish creating the pull request.
+10. The web czar will review your changes and request more changes if necessary. To make more changes: edit the files in your IDE again, add and commit them to the branch, and push them to the repo. They should automatically appear in the pull request. Once you push, message the reviewer to let them know you've addressed their concerns.
+11. Once the changes are reviewed and ready to merge into the main branch, you or the web czar may do so. If you do it, let the web czar know they should update the files on the real site.
+
+## Full Example
+
+Setting up for the first time:
+```
+git clone https://github.com/UBC-InfoVis/UBC-InfoVis.github.io.git
+```
+
+Updating your repo:
+```
+git checkout main
+git pull
+```
+
+Adding, committing, and pushing your changes (make sure to update your repo first):
+```
+git checkout -b mara/prettify-people-page
+git status
+git add .
+git commit -m "added styling for people page, cropped images to be same aspect ratio, changed order of member appearance"
+git push --set-upstream origin mara/prettify-people-page
+```

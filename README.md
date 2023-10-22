@@ -21,6 +21,7 @@ To make changes to this repo, you will need to use git and GitHub. These steps a
 1. First, clone the repo: `git clone https://github.com/UBC-InfoVis/UBC-InfoVis.github.io.git`
 2. If you already have a copy of the repo, go to the main branch and then pull any new changes: `git checkout main`, `git pull`
 3. Check out a new branch to make your changes on: `git checkout -b <branch name>`
+    - By including `-b`, this command creates a new branch with the name you specified. If you already have a branch that you want to work on, check that out with `git checkout <branch name>`. You may want to pull changes from the main branch if you haven't updated the branch in a while. To do this, fetch any new changes `git fetch origin`, check out your branch `git checkout <branch name>`, and merge in changes from main `git merge origin/main`.
     - For this repo, use the following branch naming style: `<name>/<change>` where `<name>` is your name (just first name is fine) and `<change>` is a 2-4 word, dash-connected description of the change you are making. A change from Mara to update the styling of the People page might be made on a branch called `mara/prettify-people-page`.
 4. Make your changes. You will likely want an IDE for this, and ideally you should test that nothing is broken and that your changes look as you expect by following the Local Testing steps above.
 5. Check that your changes are saved: `git status` to see that the files are marked as modified, if necessary use `git diff <optional file name>` to see specifically what has been modified.
@@ -36,6 +37,8 @@ To make changes to this repo, you will need to use git and GitHub. These steps a
     - Finish creating the pull request.
 10. The web czar will review your changes and request more changes if necessary. To make more changes: edit the files in your IDE again, add and commit them to the branch, and push them to the repo. They should automatically appear in the pull request. Once you push, message the reviewer to let them know you've addressed their concerns.
 11. Once the changes are reviewed and ready to merge into the main branch, you or the web czar may do so. If you do it, let the web czar know they should update the files on the real site.
+
+For more details on git, see [this site](https://docs.github.com/en/get-started/getting-started-with-git).
 
 ## Full Example
 

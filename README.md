@@ -37,6 +37,7 @@ To make changes to this repo, you will need to use git and GitHub. These steps a
     - Finish creating the pull request.
 10. The web czar will review your changes and request more changes if necessary. To make more changes: edit the files in your IDE again, add and commit them to the branch, and push them to the repo. They should automatically appear in the pull request. Once you push, message the reviewer to let them know you've addressed their concerns.
 11. Once the changes are reviewed and ready to merge into the main branch, you or the web czar may do so. If you do it, let the web czar know they should update the files on the real site.
+12. If you are done with your branch and don't plan to use it again, you can delete it. To delete it from your local repo, use the command `git branch -d <branch name>`. You can then delete the branch on the remote repo from [this page](https://github.com/UBC-InfoVis/UBC-InfoVis.github.io/branches).
 
 For more details on git, see [this site](https://docs.github.com/en/get-started/getting-started-with-git).
 

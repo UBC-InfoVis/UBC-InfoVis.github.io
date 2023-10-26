@@ -1,1738 +1,2746 @@
-- abstract: 'The work involved in gathering, wrangling, cleaning, and otherwise preparing
-    data for analysis is often the most time consuming and tedious aspect of data
-    work. Although many studies describe data preparation within the context of data
-    science workflows, there has been little research on data preparation in data
-    journalism. We address this gap with a hybrid form of thematic analysis that combines
-    deductive codes derived from existing accounts of data science workflows and inductive
-    codes arising from an interview study with 36 professional data journalists. We
-    extend a previous model of data science work to incorporate detailed activities
-    of data preparation. We synthesize 60 dirty data issues from 16 taxonomies on
-    dirty data and our interview data, and we provide a novel taxonomy to characterize
-    these dirty data issues as discrepancies between mental models. We also identify
-    four challenges faced by journalists: diachronic, regional, fragmented, and disparate
-    data sources.'
+###############################################################################
+
+- abstract:
+    "The work involved in gathering, wrangling, cleaning, and otherwise
+    preparing data for analysis is often the most time consuming and tedious
+    aspect of data work. Although many studies describe data preparation within
+    the context of data science workflows, there has been little research on
+    data preparation in data journalism. We address this gap with a hybrid form
+    of thematic analysis that combines deductive codes derived from existing
+    accounts of data science workflows and inductive codes arising from an
+    interview study with 36 professional data journalists. We extend a previous
+    model of data science work to incorporate detailed activities of data
+    preparation. We synthesize 60 dirty data issues from 16 taxonomies on dirty
+    data and our interview data, and we provide a novel taxonomy to characterize
+    these dirty data issues as discrepancies between mental models. We also
+    identify four challenges faced by journalists: diachronic, regional,
+    fragmented, and disparate data sources."
   authors:
-  - link: http://www.cs.ubc.ca/~kasica
-    name: Stephen Kasica
-  - link: https://charlesberret.net
-    name: Charles Berret
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
+    - link: http://www.cs.ubc.ca/~kasica
+      name: Stephen Kasica
+    - link: https://charlesberret.net
+      name: Charles Berret
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
   image: pubs/2023/dirty-data-in-the-newsroom/teaser.png
   link: pubs/2023/dirty-data-in-the-newsroom
   links:
-  - link: http://www.cs.ubc.ca/group/infovis/pubs/2023/dirty-data-in-the-newsroom/dirty-data-in-the-newsroom.pdf
-    name: Pre-Print PDF
-  title: 'Dirty Data in the Newsroom: Comparing Data Preparation in Journalism and
-    Data Science'
+    - link: http://www.cs.ubc.ca/group/infovis/pubs/2023/dirty-data-in-the-newsroom/dirty-data-in-the-newsroom.pdf
+      name: Pre-print PDF
+  title:
+    "Dirty Data in the Newsroom: Comparing Data Preparation in Journalism and
+    Data Science"
   venue: Proc. CHI Conf. Human Factors in Computing Systems (CHI), 2023
-- abstract: Visualization collections, accessed by platforms such as Tableau Online
-    or Power BI, are used by millions of people to share and access diverse analytical
-    knowledge in the form of interactive visualization bundles. Result snippets, compact
-    previews of these bundles, are presented to users to help them identify relevant
-    content when browsing collections. Our engagement with Tableau product teams and
-    review of existing snippet designs on five platforms showed us that current practices
-    fail to help people judge the relevance of bundles because they include only the
-    title and one image. Users frequently need to undertake the time-consuming endeavour
-    of opening a bundle within its visualization system to examine its many views
-    and dashboards. In response, we contribute the first systematic approach to visualization
-    snippet design. We propose a framework for snippet design that addresses eight
-    key challenges that we identify. We present a computational pipeline to compress
-    the visual and textual content of bundles into representative previews that is
-    adaptive to a provided pixel budget and provides high information density with
-    multiple images and carefully chosen keywords.
+  year: 2023
+
+###############################################################################
+
+- abstract:
+    Visualization collections, accessed by platforms such as Tableau Online or
+    Power BI, are used by millions of people to share and access diverse
+    analytical knowledge in the form of interactive visualization bundles.
+    Result snippets, compact previews of these bundles, are presented to users
+    to help them identify relevant content when browsing collections. Our
+    engagement with Tableau product teams and review of existing snippet designs
+    on five platforms showed us that current practices fail to help people judge
+    the relevance of bundles because they include only the title and one image.
+    Users frequently need to undertake the time-consuming endeavour of opening a
+    bundle within its visualization system to examine its many views and
+    dashboards. In response, we contribute the first systematic approach to
+    visualization snippet design. We propose a framework for snippet design that
+    addresses eight key challenges that we identify. We present a computational
+    pipeline to compress the visual and textual content of bundles into
+    representative previews that is adaptive to a provided pixel budget and
+    provides high information density with multiple images and carefully chosen
+    keywords.
   authors:
-  - link: http://michaeloppermann.com
-    name: Michael Oppermann
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
+    - link: http://michaeloppermann.com
+      name: Michael Oppermann
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
   image: pubs/2021/vizsnippets/figures/vizsnippets_thumb.png
   link: pubs/2021/vizsnippets/
   links:
-  - link: https://www.cs.ubc.ca/group/infovis/pubs/2021/vizsnippets/VizSnippets_2021.pdf
-    name: Pre-Print PDF
-  title: 'VizSnippets: Compressing Visualization Bundles Into Representative Previews
-    for Browsing Visualization Collections'
-  venue: IEEE Transactions on Visualization and Computer Graphics (TVCG), Proc. IEEE
+    - link: https://www.cs.ubc.ca/group/infovis/pubs/2021/vizsnippets/VizSnippets_2021.pdf
+      name: Pre-print PDF
+  title:
+    "VizSnippets: Compressing Visualization Bundles Into Representative Previews
+    for Browsing Visualization Collections"
+  venue:
+    IEEE Transactions on Visualization and Computer Graphics (TVCG), Proc. IEEE
     VIS 2021, 2022.
-- abstract: We introduce the design and implementation of TimeElide, a visual analysis
-    tool for the novel data abstraction of non-contiguous time series slices, namely
-    time intervals that contain a sequence of time-value pairs but are not adjacent
-    to each other. We present a visual encoding design space as an underpinning of
-    TimeElide, and the new sparkbox technique for visualizing fine and coarse grained
-    temporal structures within one view. Datasets from different domains and with
-    varying characteristics guided the development and their analysis provides preliminary
-    evidence of TimeElide's utility.
+  year: 2022
+
+###############################################################################
+
+- abstract:
+    Graph neural networks (GNNs) are a class of powerful machine learning tools
+    that model node relations for making predictions of nodes or links. GNN
+    developers rely on quantitative metrics of the predictions to evaluate a
+    GNN, but similar to many other neural networks, it is difficult for them to
+    understand if the GNN truly learns characteristics of a graph as expected.
+    We propose an approach to corresponding an input graph to its node embedding
+    (aka latent space), a common component of GNNs that is later used for
+    prediction. We abstract the data and tasks, and develop an interactive
+    multi-view interface called CorGIE to instantiate the abstraction. As the
+    key function in CorGIE, we propose the K-hop graph layout to show
+    topological neighbors in hops and their clustering structure. To evaluate
+    the functionality and usability of CorGIE, we present how to use CorGIE in
+    two usage scenarios, and conduct a case study with two GNN experts.
   authors:
-  - link: http://michaeloppermann.com
-    name: Michael Oppermann
-  - link: http://luceliu.com/
-    name: Luce Liu
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
-  image: pubs/2021/timeelide/figures/timeelide_thumb.png
-  link: pubs/2021/timeelide/
-  links:
-  - link: https://www.cs.ubc.ca/group/infovis/pubs/2021/timeelide/TimeElide_2021.pdf
-    name: Pre-Print PDF
-  title: 'TimeElide: Visual Analysis of Non-Contiguous Time Series Slices'
-  venue: IEEE VIS Short Papers 2021
-- abstract: Genomic Epidemiology (genEpi) is a branch of public health that uses many
-    different data types including tabular, network, genomic, and geographic, to identify
-    and contain outbreaks of deadly diseases. Due to the volume and variety of data,
-    it is challenging for genEpi domain experts to conduct data reconnaissance; that
-    is, have an overview of the data they have and make assessments toward its quality,
-    completeness, and suitability. We present an algorithm for data reconnaissance
-    through automatic visualization recommendation, GEViTRec. Our approach handles
-    a broad variety of dataset types and automatically generates visually coherent
-    combinations of charts, in contrast to existing systems that primarily focus on
-    singleton visual encodings of tabular datasets. We automatically detect linkages
-    across multiple input datasets by analyzing non-numeric attribute fields, creating
-    a data source graph within which we analyze and rank paths. For each high-ranking
-    path, we specify chart combinations with positional and color alignments between
-    shared fields, using a gradual binding approach to transform initial partial specifications
-    of singleton charts to complete specifications that are aligned and oriented consistently.
-    A novel aspect of our approach is its combination of domain-agnostic elements
-    with domain-specific information that is captured through a domain-specific visualization
-    prevalence design space. Our implementation is applied to both synthetic data
-    and real Ebola outbreak data. We compare GEViTRec's output to what previous visualization
-    recommendation systems would generate, and to manually crafted visualizations
-    used by practitioners. We conducted formative evaluations with ten genEpi experts
-    to assess the relevance and interpretability of our results.
-  authors:
-  - link: https://amcrisan.github.io
-    name: Anamaria Crisan
-  - link: https://www.linkedin.com/in/shannah-fisher/
-    name: Shannah Elizabeth Fisher
-  - name: Jennifer L
-  image: pubs/2021/gevitrec/figures/overall.thumb.png
-  link: pubs/2021/gevitrec/
-  links:
-  - link: https://www.cs.ubc.ca/group/infovis/pubs/2021/gevitrec/gevitrec-preprint.pdf
-    name: Pre-Print PDF
-  title: 'GEViTRec: Data Reconnaissance Through Recommendation Using a Domain-Specific
-    Visualization Prevalence Design Space'
-  venue: IEEE Transactions on Visualization and Computer Graphics (TVCG), 2021, Early
-    Access.
-- abstract: Graph neural networks (GNNs) are a class of powerful machine learning
-    tools that model node relations for making predictions of nodes or links. GNN
-    developers rely on quantitative metrics of the predictions to evaluate a GNN,
-    but similar to many other neural networks, it is difficult for them to understand
-    if the GNN truly learns characteristics of a graph as expected. We propose an
-    approach to corresponding an input graph to its node embedding (aka latent space),
-    a common component of GNNs that is later used for prediction. We abstract the
-    data and tasks, and develop an interactive multi-view interface called CorGIE
-    to instantiate the abstraction. As the key function in CorGIE, we propose the
-    K-hop graph layout to show topological neighbors in hops and their clustering
-    structure. To evaluate the functionality and usability of CorGIE, we present how
-    to use CorGIE in two usage scenarios, and conduct a case study with two GNN experts.
-  authors:
-  - link: http://www.cs.ubc.ca/~zipeng
-    name: Zipeng Liu
-  - link: https://www.linkedin.com/in/gnavvy
-    name: Yang Wang
-  - link: https://juergen-bernard.de
-    name: "J\xFCrgen Bernard"
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
+    - link: http://www.cs.ubc.ca/~zipeng
+      name: Zipeng Liu
+    - link: https://www.linkedin.com/in/gnavvy
+      name: Yang Wang
+    - link: https://juergen-bernard.de
+      name: "Jürgen Bernard"
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
   image: /assets/images/pub-thumbs/2021-corgie.png
   link: pubs/2021/corgie/
   links:
-  - link: http://www.cs.ubc.ca/group/infovis/pubs/2021/corgie/corgie-under-review.pdf
-    name: Pre-Print PDF
-  title: 'Visualizing Graph Neural Networks with CorGIE: Corresponding a Graph to
-    Its Embedding'
+    - link: http://www.cs.ubc.ca/group/infovis/pubs/2021/corgie/corgie-under-review.pdf
+      name: Pre-print PDF
+  title:
+    "Visualizing Graph Neural Networks with CorGIE: Corresponding a Graph to Its
+    Embedding"
   venue: IEEE TVCG 2022, to appear
-- abstract: We introduce the notion of a data-first design study which is triggered
-    by the acquisition of real-world data instead of specific stakeholder analysis
-    questions. We propose an adaptation of the design study methodology framework
-    to provide practical guidance and to aid transferability to other data-first design
-    processes. We discuss opportunities and risks by reflecting on two of our own
-    data-first design studies. We review 64 previous design studies and identify 16
-    of them as edge cases with characteristics that may indicate a data-first design
-    process in action.
+  year: 2022
+
+###############################################################################
+
+- abstract:
+    We introduce the design and implementation of TimeElide, a visual analysis
+    tool for the novel data abstraction of non-contiguous time series slices,
+    namely time intervals that contain a sequence of time-value pairs but are
+    not adjacent to each other. We present a visual encoding design space as an
+    underpinning of TimeElide, and the new sparkbox technique for visualizing
+    fine and coarse grained temporal structures within one view. Datasets from
+    different domains and with varying characteristics guided the development
+    and their analysis provides preliminary evidence of TimeElide's utility.
   authors:
-  - link: http://michaeloppermann.com
-    name: Michael Oppermann
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
+    - link: http://michaeloppermann.com
+      name: Michael Oppermann
+    - link: http://luceliu.com/
+      name: Luce Liu
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+  image: pubs/2021/timeelide/figures/timeelide_thumb.png
+  link: pubs/2021/timeelide/
+  links:
+    - link: https://www.cs.ubc.ca/group/infovis/pubs/2021/timeelide/TimeElide_2021.pdf
+      name: Pre-print PDF
+  title: "TimeElide: Visual Analysis of Non-Contiguous Time Series Slices"
+  venue: IEEE VIS Short Papers 2021
+  year: 2021
+
+###############################################################################
+
+- abstract:
+    Genomic Epidemiology (genEpi) is a branch of public health that uses many
+    different data types including tabular, network, genomic, and geographic, to
+    identify and contain outbreaks of deadly diseases. Due to the volume and
+    variety of data, it is challenging for genEpi domain experts to conduct data
+    reconnaissance; that is, have an overview of the data they have and make
+    assessments toward its quality, completeness, and suitability. We present an
+    algorithm for data reconnaissance through automatic visualization
+    recommendation, GEViTRec. Our approach handles a broad variety of dataset
+    types and automatically generates visually coherent combinations of charts,
+    in contrast to existing systems that primarily focus on singleton visual
+    encodings of tabular datasets. We automatically detect linkages across
+    multiple input datasets by analyzing non-numeric attribute fields, creating
+    a data source graph within which we analyze and rank paths. For each
+    high-ranking path, we specify chart combinations with positional and color
+    alignments between shared fields, using a gradual binding approach to
+    transform initial partial specifications of singleton charts to complete
+    specifications that are aligned and oriented consistently. A novel aspect of
+    our approach is its combination of domain-agnostic elements with
+    domain-specific information that is captured through a domain-specific
+    visualization prevalence design space. Our implementation is applied to both
+    synthetic data and real Ebola outbreak data. We compare GEViTRec's output to
+    what previous visualization recommendation systems would generate, and to
+    manually crafted visualizations used by practitioners. We conducted
+    formative evaluations with ten genEpi experts to assess the relevance and
+    interpretability of our results.
+  authors:
+    - link: https://amcrisan.github.io
+      name: Anamaria Crisan
+    - link: https://www.linkedin.com/in/shannah-fisher/
+      name: Shannah Fisher
+    - name: Jennifer L. Gardy
+    - name: Tamara Munzner
+  image: pubs/2021/gevitrec/figures/overall.thumb.png
+  link: pubs/2021/gevitrec/
+  links:
+    - link: https://www.cs.ubc.ca/group/infovis/pubs/2021/gevitrec/gevitrec-preprint.pdf
+      name: Pre-print PDF
+  title:
+    "GEViTRec: Data Reconnaissance Through Recommendation Using a
+    Domain-Specific Visualization Prevalence Design Space"
+  venue:
+    IEEE Transactions on Visualization and Computer Graphics (TVCG), 2021, Early
+    Access.
+  year: 2021
+
+###############################################################################
+
+- abstract: "Journal version of SepEx EuroVA workshop paper."
+  authors:
+    - name: Jürgen Bernard
+    - name: Marco Hutter
+    - name: Matthias Zeppelzauer
+    - name: Michael Sedlmair
+    - name: Tamara Munzner
+  title:
+    "ProSeCo: Visual analysis of class separation measures and dataset
+    characteristics."
+  venue: "Computers & Graphics 96:48-60 2021."
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2021
+
+###############################################################################
+
+- abstract:
+    "We conduct a technical observation study of 50 public repositories of data
+    and analysis code authored by 33 professional journalists at 26 news
+    organizations. We develop two detailed and cross-cutting taxonomies of data
+    wrangling in computational journalism, for actions and for processes. We
+    observe the extensive use of multiple tables, a notable gap in previous
+    wrangling analyses. We develop a concise, actionable framework for general
+    multi-table data wrangling that includes wrangling operations documented in
+    our taxonomy that are without clear parallels in other work."
+  authors:
+    - name: Steve Kasica
+    - name: Charles Berret
+    - name: Tamara Munzner
+  title:
+    "Table Scraps: An Actionable Framework for Multi-Table DataWrangling From An
+    Artifact Study of Computational Journalism."
+  venue:
+    "IEEE Trans. Visualization and Computer Graphics (Proc. InfoVis 2020)
+    27(2):957-966 2021."
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2021
+
+###############################################################################
+
+- abstract:
+    We introduce the notion of a data-first design study which is triggered by
+    the acquisition of real-world data instead of specific stakeholder analysis
+    questions. We propose an adaptation of the design study methodology
+    framework to provide practical guidance and to aid transferability to other
+    data-first design processes. We discuss opportunities and risks by
+    reflecting on two of our own data-first design studies. We review 64
+    previous design studies and identify 16 of them as edge cases with
+    characteristics that may indicate a data-first design process in action.
+  authors:
+    - link: http://michaeloppermann.com
+      name: Michael Oppermann
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
   image: /assets/images/pub-thumbs/2020-data-first-ds.png
   link: pubs/2020/data-first
   links:
-  - link: http://www.cs.ubc.ca/group/infovis/pubs/2020/data-first/Data_First_Visualization_Design_Studies_2020.pdf
-    name: Pre-Print PDF
+    - link: http://www.cs.ubc.ca/group/infovis/pubs/2020/data-first/Data_First_Visualization_Design_Studies_2020.pdf
+      name: Pre-print PDF
   title: Data-First Visualization Design Studies
-  venue: IEEE VIS Workshop Evaluation and Beyond - Methodological Approaches for Visualization
-    (BELIV), 2020
-- abstract: Cloud-based visualization services have made visual analytics accessible
-    to a much wider audience than ever before. Systems such as Tableau have started
-    to amass increasingly large repositories of analytical knowledge in the form of
-    interactive visualization workbooks. When shared, these collections can form a
-    visual analytic knowledge base. However, as the size of a collection increases,
-    so does the difficulty in finding relevant information. Content-based recommendation
-    (CBR) systems could help analysts in finding and managing workbooks relevant to
-    their interests. Toward this goal, we focus on text-based content that is representative
-    of the subject matter of visualizations rather than the visual encodings and style.
-    We discuss the challenges associated with creating a CBR based on visualization
-    specifications and explore more concretely how to implement the relevance measures
-    required using Tableau workbook specifications as the source of content data.
-    We also demonstrate what information can be extracted from these visualization
-    specifications and how various natural language processing techniques can be used
-    to compute similarity between workbooks as one way to measure relevance. We report
-    on a crowd-sourced user study to determine if our similarity measure mimics human
-    judgement. Finally, we choose latent Dirichlet allocation (LDA) as a specific
-    model and instantiate it in a proof-of-concept recommender tool to demonstrate
-    the basic function of our similarity measure.
+  venue:
+    IEEE VIS Workshop Evaluation and Beyond - Methodological Approaches for
+    Visualization (BELIV), 2020
+  year: 2020
+
+###############################################################################
+
+- abstract:
+    "We introduce low-stretch trees to the visualization community with LSQT,
+    our novel technique that uses quasi-trees for both layout and edge bundling.
+    Our method offers strong computational speed and complexity guarantees by
+    leveraging the convenient properties of low-stretch trees, which accurately
+    reflect the topological structure of arbitrary graphs with superior fidelity
+    compared to arbitrary spanning trees. Low-stretch quasi-trees also have
+    provable sparseness guarantees, providing algorithmic support for aggressive
+    de-cluttering of hairball graphs. LSQT does not rely on previously computed
+    vertex positions and computes bundles based on topological structure before
+    any geometric layout occurs."
   authors:
-  - link: http://michaeloppermann.com
-    name: Michael Oppermann
-  - link: http://rkincaid.net/
-    name: Robert Kincaid
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
+    - name: Rebecca Vandenberg
+    - name: Madison Elliott
+    - name: Nicholas Harvey
+    - name: Tamara Munzner
+  title: "LSQT: Low-Stretch Quasi-Trees for Bundling and Layout"
+  venue: "arXiv:2007.06237 preprint."
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2020
+
+###############################################################################
+
+- abstract:
+    "We present SepEx, an interactive visualization approach for the assessment
+    and comparison of class separation measures for multiple datasets. SepEx
+    supports analysts with the comparison of multiple separation measures over
+    many high-dimensional datasets, the effect of dimensionality reduction on
+    measure outputs by supporting nD to 2D comparison, and the comparison of the
+    effect of different dimensionality reduction methods on measure outputs."
+  authors:
+    - name: Jürgen Bernard
+    - name: Marco Hutter
+    - name: Matthias Zeppelzauer
+    - name: Michael Sedlmair
+    - name: Tamara Munzner
+  title: "SepEx: Visual Analysis of Class Separation Measures."
+  venue: "EuroVis Workshop on Visual Analytics (EuroVA), 2020"
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2020
+
+###############################################################################
+
+- abstract:
+    "We present detailed data and task models that capture the demands of group
+    decision making in particular, going through the four stages of the nested
+    model of visualization design to develop and test a prototype to support
+    group decision making when decision makers express their preferences
+    directly on the alternatives."
+  authors:
+    - name: Emily Hindalong
+    - name: Jordon Johnson
+    - name: Giuseppe Carenini
+    - name: Tamara Munzner
+  title:
+    "Towards Rigorously Designed Preference Visualizations for Group Decision
+    Making"
+  venue: "Proc. IEEE PacificVis Symp. 2020."
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2020
+
+###############################################################################
+
+- abstract:
+    Cloud-based visualization services have made visual analytics accessible to
+    a much wider audience than ever before. Systems such as Tableau have started
+    to amass increasingly large repositories of analytical knowledge in the form
+    of interactive visualization workbooks. When shared, these collections can
+    form a visual analytic knowledge base. However, as the size of a collection
+    increases, so does the difficulty in finding relevant information.
+    Content-based recommendation (CBR) systems could help analysts in finding
+    and managing workbooks relevant to their interests. Toward this goal, we
+    focus on text-based content that is representative of the subject matter of
+    visualizations rather than the visual encodings and style. We discuss the
+    challenges associated with creating a CBR based on visualization
+    specifications and explore more concretely how to implement the relevance
+    measures required using Tableau workbook specifications as the source of
+    content data. We also demonstrate what information can be extracted from
+    these visualization specifications and how various natural language
+    processing techniques can be used to compute similarity between workbooks as
+    one way to measure relevance. We report on a crowd-sourced user study to
+    determine if our similarity measure mimics human judgement. Finally, we
+    choose latent Dirichlet allocation (LDA) as a specific model and instantiate
+    it in a proof-of-concept recommender tool to demonstrate the basic function
+    of our similarity measure.
+  authors:
+    - link: http://michaeloppermann.com
+      name: Michael Oppermann
+    - link: http://rkincaid.net/
+      name: Robert Kincaid
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
   image: /assets/images/pub-thumbs/2020-vizcommender.jpg
   link: pubs/2020/vizcommender
   links:
-  - link: http://www.cs.ubc.ca/group/infovis/pubs/2020/vizcommender/VizCommender_2020.pdf
-    name: Pre-Print PDF
-  - link: https://youtu.be/k52LnrIDCkg
-    name: Video Preview
-  - link: vizcommender_supp_material.pdf
-    name: Supp. Materials PDF
-  title: 'VizCommender: Computing Text-Based Similarity in Visualization Repositories
-    for Content-Based Recommendations'
+    - link: http://www.cs.ubc.ca/group/infovis/pubs/2020/vizcommender/VizCommender_2020.pdf
+      name: Pre-print PDF
+    - link: https://youtu.be/k52LnrIDCkg
+      name: Video Preview
+    - link: vizcommender_supp_material.pdf
+      name: Supp. Materials PDF
+  title:
+    "VizCommender: Computing Text-Based Similarity in Visualization Repositories
+    for Content-Based Recommendations"
   venue: IEEE Transactions on Visualization and Computer Graphics (TVCG), 2020.
-- abstract: 'Data visualization is an important tool for exploring and communicating
-    findings from genomic and healthcare datasets. Yet, without a systematic way of
-    organizing and describing the design space of data visualizations, researchers
-    may not be aware of the breadth of possible visualization design choices or how
-    to distinguish between good and bad options. We have developed a method that systematically
-    surveys data visualizations using the analysis of both text and images. Our method
-    supports the construction of a visualization design space that is explorable along
-    two axes: why the visualization was created and how it was constructed. We applied
-    our method to a corpus of scientific research articles from infectious disease
-    genomic epidemiology and derived a Genomic Epidemiology Visualization Typology
-    (GEViT) that describes how visualizations were created from a series of chart
-    types, combinations, and enhancements. We have also implemented an online gallery
-    that allows others to explore our resulting design space of visualizations. Our
-    results have important implications for visualization design and for researchers
-    intending to develop or use data visualization tools. Finally, the method that
-    we introduce is extensible to constructing visualizations design spaces across
-    other research areas.'
+  year: 2020
+
+###############################################################################
+
+- abstract:
+    We present a multi-year design study that resulted in Ocupado, a set of
+    visual decision-support tools centered around occupancy data for
+    stakeholders in facilities management and planning. Ocupado uses WiFi
+    devices as a proxy for human presence, capturing location-based counts that
+    preserve privacy without trajectories. We contribute data and task
+    abstractions for studying space utilization for combinations of data
+    granularities in both space and time. In addition, we contribute
+    generalizable design choices for visualizing location-based counts relating
+    to indoor environments.
   authors:
-  - link: https://amcrisan.github.io
-    name: Anamaria Crisan
-  - name: Jennifer L
-  image: /assets/images/gevit_Figure1.png
-  link: https://amcrisan.github.io/gevit
-  links:
-  - link: https://doi.org/10.1093/bioinformatics/bty832
-    name: DOI
-  - link: https://amcrisan.github.io/gevit
-    name: Paper Project Page
-  title: 'A systematic method for surveying data visualizations and a resulting genomic
-    epidemiology visualization typology: GEViT'
-  venue: In Bioinformatics, May 2019
-- abstract: Adjutant is an open-source, interactive, and R-based application to support
-    mining PubMed for literature reviews. Given a PubMed-compatible search query,
-    Adjutant downloads the relevant articles and allows the user to perform an unsupervised
-    clustering analysis to identify data-driven topic clusters. Following clustering,
-    users can also sample documents using different strategies to obtain a more manageable
-    dataset for further analysis. Adjutant makes explicit trade-offs between speed
-    and accuracy, which are modifiable by the user, such that a complete analysis
-    of several thousand documents can take a few minutes. All analytic datasets generated
-    by Adjutant are saved, allowing users to easily conduct other downstream analyses
-    that Adjutant does not explicitly support.
-  authors:
-  - link: https://amcrisan.github.io
-    name: Anamaria Crisan
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
-  - name: Jennifer L
-  image: /assets/images/adjutant_mainFigure.png
-  link: https://amcrisan.github.io/adjutant
-  links:
-  - link: https://doi.org/10.1093/bioinformatics/bty722
-    name: DOI
-  - link: http://adjutant.s3.amazonaws.com/Supplemental_Materials.pdf
-    name: Supplemental Materials
-  - link: https://amcrisan.github.io/adjutant
-    name: Paper Project Page
-  title: 'Adjutant: an R-based tool to support topic discovery for systematic and
-    literature reviews'
-  venue: In Bioinformatics, March 2019
-- abstract: We present a multi-year design study that resulted in Ocupado, a set of
-    visual decision-support tools centered around occupancy data for stakeholders
-    in facilities management and planning. Ocupado uses WiFi devices as a proxy for
-    human presence, capturing location-based counts that preserve privacy without
-    trajectories. We contribute data and task abstractions for studying space utilization
-    for combinations of data granularities in both space and time. In addition, we
-    contribute generalizable design choices for visualizing location-based counts
-    relating to indoor environments.
-  authors:
-  - link: http://michaeloppermann.com
-    name: Michael Oppermann
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
+    - link: http://michaeloppermann.com
+      name: Michael Oppermann
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
   image: /assets/images/pub-thumbs/2020-ocupado.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2020/ocupado/
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2020/ocupado/Ocupado2020.pdf
-    name: pre-print PDF
-  title: 'Ocupado: Visualizing Location-Based Counts Over Time Across Buildings'
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2020/ocupado/Ocupado2020.pdf
+      name: Pre-print PDF
+  title: "Ocupado: Visualizing Location-Based Counts Over Time Across Buildings"
   venue: Computer Graphics Forum (Proc. EuroVis 2020).
-- abstract: 'We propose a multi-level segmentation model that works for many image
-    editing tasks including poster creation, portrait retouching, and special effect
-    creation. Our model takes into account features derived from four event attributes
-    collected in realistically complex Photoshop sessions with expert users: command,
-    timestamp, image content, and artwork layer.'
+  year: 2020
+
+###############################################################################
+
+- abstract:
+    "[Preprint] Aggregate-Driven Trace Visualizations for Performance Debugging.
+    Vaastav Anand, Matheus Stolet, Thomas Davidson, Ivan Beschastnikh, Tamara
+    Munzner, Jonathan Mace. arXiv:2010.13681 preprint."
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2020
+
+###############################################################################
+
+- abstract:
+    "We propose a multi-level segmentation model that works for many image
+    editing tasks including poster creation, portrait retouching, and special
+    effect creation. Our model takes into account features derived from four
+    event attributes collected in realistically complex Photoshop sessions with
+    expert users: command, timestamp, image content, and artwork layer."
   authors:
-  - link: http://www.cs.ubc.ca/~zipeng
-    name: Zipeng Liu
-  - link: http://www.zcliu.org/
-    name: Zhicheng Liu
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
+    - link: http://www.cs.ubc.ca/~zipeng
+      name: Zipeng Liu
+    - link: http://www.zcliu.org/
+      name: Zhicheng Liu
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
   image: /assets/images/pub-thumbs/2020-logseg.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2020/logseg/
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2020/logseg/logseg-chi20-preprint.pdf
-    name: pre-print PDF
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2020/logseg/logseg-chi20-preprint.pdf
+      name: Pre-print PDF
   title: Data-driven Multi-level Segmentation of Image Editing Logs
   venue: Proc. CHI Conf. Human Factors in Computing Systems (CHI), 2020
-- abstract: We propose the sprawlter metric for node-link graph readability to measure
-    both sprawl, which is the sparsity of graph elements, and clutter in a more detailed
-    way, which goes beyond traditional counts and handles multi-level graph layout.
+  year: 2020
+
+###############################################################################
+
+- abstract:
+    We propose the sprawlter metric for node-link graph readability to measure
+    both sprawl, which is the sparsity of graph elements, and clutter in a more
+    detailed way, which goes beyond traditional counts and handles multi-level
+    graph layout.
   authors:
-  - link: http://www.cs.ubc.ca/~zipeng
-    name: Zipeng Liu
-  - link: http://itolab.is.ocha.ac.jp/~itot/
-    name: Takayuki Itoh
-  - name: Jessica Q
+    - link: http://www.cs.ubc.ca/~zipeng
+      name: Zipeng Liu
+    - link: http://itolab.is.ocha.ac.jp/~itot/
+      name: Takayuki Itoh
+    - name: Jessica Q
   image: /assets/images/pub-thumbs/2020-sprawlter.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2020/sprawlter/
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2020/sprawlter/sprawlter-preprint.pdf
-    name: pre-print PDF
-  title: 'The Sprawlter Graph Readability Metric: Combining Sprawl and Area-aware
-    Clutter'
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2020/sprawlter/sprawlter-preprint.pdf
+      name: Pre-print PDF
+  title:
+    "The Sprawlter Graph Readability Metric: Combining Sprawl and Area-aware
+    Clutter"
   venue: IEEE Transactions on Visualization and Computer Graphics (TVCG), 2020.
-- abstract: "Domain experts are inundated with new and heterogeneous types of data\
-    \ and require better and more specific types of data visualization systems to\
-    \ help them. In this paper, we consider the data landscape that domain experts\
-    \ seek to understand, namely the set of datasets that are either currently available\
-    \ or could be obtained. Experts need to understand this landscape to triage which\
-    \ data analysis projects might be viable, out of the many possible research questions\
-    \ that they could pursue. We identify data reconnaissance and task wrangling as\
-    \ processes that experts undertake to discover and identify sources of data that\
-    \ could be valuable for some specific analysis goal. These processes have thus\
-    \ far not been formally named or defined by the research community. We provide\
-    \ formal definitions of data reconnaissance and task wrangling and describe how\
-    \ they relate to the data landscape that domain experts must uncover. We propose\
-    \ a conceptual framework with a four-phase cycle of acquire, view, assess, and\
-    \ pursue that occurs within three distinct chronological stages, which we call\
-    \ fog and friction, informed data ideation, and demarcation of final data. Collectively,\
-    \ these four phases embedded within three temporal stages delineate an expert\u2019\
-    s progressively evolving understanding of the data landscape. We describe and\
-    \ provide concrete examples of these processes within the visualization community\
-    \ through an initial systematic analysis of previous design studies, identifying\
-    \ situations where there is evidence that they were at play. We also comment on\
-    \ the response of domain experts to this framework, and suggest design implications\
-    \ stemming from these processes to motivate future research directions. As technological\
-    \ changes will only keep adding unknown terrain to the data landscape, data reconnaissance\
-    \ and task wrangling are important processes that need to be more widely understood\
-    \ and supported by the data visualization tools. By articulating a concrete understanding\
-    \ of this challenge and its implications, our work impacts the design and evaluation\
-    \ of data visualization systems."
+  year: 2020
+
+###############################################################################
+
+- abstract:
+    "Data visualization is an important tool for exploring and communicating
+    findings from genomic and healthcare datasets. Yet, without a systematic way
+    of organizing and describing the design space of data visualizations,
+    researchers may not be aware of the breadth of possible visualization design
+    choices or how to distinguish between good and bad options. We have
+    developed a method that systematically surveys data visualizations using the
+    analysis of both text and images. Our method supports the construction of a
+    visualization design space that is explorable along two axes: why the
+    visualization was created and how it was constructed. We applied our method
+    to a corpus of scientific research articles from infectious disease genomic
+    epidemiology and derived a Genomic Epidemiology Visualization Typology
+    (GEViT) that describes how visualizations were created from a series of
+    chart types, combinations, and enhancements. We have also implemented an
+    online gallery that allows others to explore our resulting design space of
+    visualizations. Our results have important implications for visualization
+    design and for researchers intending to develop or use data visualization
+    tools. Finally, the method that we introduce is extensible to constructing
+    visualizations design spaces across other research areas."
   authors:
-  - link: http://www.cs.ubc.ca/~acrisan
-    name: Anamaria Crisan
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
+    - link: https://amcrisan.github.io
+      name: Anamaria Crisan
+    - name: Jennifer L
+  image: /assets/images/gevit_Figure1.png
+  link: https://amcrisan.github.io/gevit
+  links:
+    - link: https://doi.org/10.1093/bioinformatics/bty832
+      name: DOI
+    - link: https://amcrisan.github.io/gevit
+      name: Paper Project Page
+  title:
+    "A systematic method for surveying data visualizations and a resulting
+    genomic epidemiology visualization typology: GEViT"
+  venue: In Bioinformatics, May 2019
+  year: 2019
+
+###############################################################################
+
+- abstract:
+    Adjutant is an open-source, interactive, and R-based application to support
+    mining PubMed for literature reviews. Given a PubMed-compatible search
+    query, Adjutant downloads the relevant articles and allows the user to
+    perform an unsupervised clustering analysis to identify data-driven topic
+    clusters. Following clustering, users can also sample documents using
+    different strategies to obtain a more manageable dataset for further
+    analysis. Adjutant makes explicit trade-offs between speed and accuracy,
+    which are modifiable by the user, such that a complete analysis of several
+    thousand documents can take a few minutes. All analytic datasets generated
+    by Adjutant are saved, allowing users to easily conduct other downstream
+    analyses that Adjutant does not explicitly support.
+  authors:
+    - link: https://amcrisan.github.io
+      name: Anamaria Crisan
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+    - name: Jennifer L
+  image: /assets/images/adjutant_mainFigure.png
+  link: https://amcrisan.github.io/adjutant
+  links:
+    - link: https://doi.org/10.1093/bioinformatics/bty722
+      name: DOI
+    - link: http://adjutant.s3.amazonaws.com/Supplemental_Materials.pdf
+      name: Supplemental material
+    - link: https://amcrisan.github.io/adjutant
+      name: Paper Project Page
+  title:
+    "Adjutant: an R-based tool to support topic discovery for systematic and
+    literature reviews"
+  venue: In Bioinformatics, March 2019
+  year: 2019
+
+###############################################################################
+
+- abstract:
+    "Domain experts are inundated with new and heterogeneous types of data and
+    require better and more specific types of data visualization systems to help
+    them. In this paper, we consider the data landscape that domain experts seek
+    to understand, namely the set of datasets that are either currently
+    available or could be obtained. Experts need to understand this landscape to
+    triage which data analysis projects might be viable, out of the many
+    possible research questions that they could pursue. We identify data
+    reconnaissance and task wrangling as processes that experts undertake to
+    discover and identify sources of data that could be valuable for some
+    specific analysis goal. These processes have thus far not been formally
+    named or defined by the research community. We provide formal definitions of
+    data reconnaissance and task wrangling and describe how they relate to the
+    data landscape that domain experts must uncover. We propose a conceptual
+    framework with a four-phase cycle of acquire, view, assess, and pursue that
+    occurs within three distinct chronological stages, which we call fog and
+    friction, informed data ideation, and demarcation of final data.
+    Collectively, these four phases embedded within three temporal stages
+    delineate an expert - progressively evolving understanding of the data
+    landscape. We describe and provide concrete examples of these processes
+    within the visualization community through an initial systematic analysis of
+    previous design studies, identifying situations where there is evidence that
+    they were at play. We also comment on the response of domain experts to this
+    framework, and suggest design implications stemming from these processes to
+    motivate future research directions. As technological changes will only keep
+    adding unknown terrain to the data landscape, data reconnaissance and task
+    wrangling are important processes that need to be more widely understood and
+    supported by the data visualization tools. By articulating a concrete
+    understanding of this challenge and its implications, our work impacts the
+    design and evaluation of data visualization systems."
+  authors:
+    - link: http://www.cs.ubc.ca/~acrisan
+      name: Anamaria Crisan
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
   link: http://www.cs.ubc.ca/labs/imager/tr/2019/datareac_and_taskwrangling/
   links:
-  - link: https://amcrisan.github.io/assets/files/papers/Data_Recon_and_Task_Wrangling.pdf
-    name: PDF
-  title: Uncovering Data Landscapes through Data Reconnaissance and Task Wrangling
+    - link: https://amcrisan.github.io/assets/files/papers/Data_Recon_and_Task_Wrangling.pdf
+      name: PDF
+  title:
+    Uncovering Data Landscapes through Data Reconnaissance and Task Wrangling
   venue: IEEE VIS
-- abstract: Evaluative practices within vis research are not routinely comparedto
-    those of psychology, sociology, or other areas of empirical study,leaving vis
-    vulnerable to the replicability crisis that has embroiledscientific research more
-    generally. In this position paper, we com-pare contemporary vis evaluative practices
-    against those in thoseother disciplines, and make concrete recommendations as
-    to how visevaluative practice can be improved through the use of quantitative,qualitative,
-    and mixed research methods. We summarize our discus-sion and recommendations as
-    a checklist, that we intend to be useda resource for vis researchers conducting
-    evaluative studies, and forreviewers evaluating the merits of such studies.
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2019
+
+###############################################################################
+
+- abstract:
+    Clickstream data has the potential to provide insights into e-commerce
+    consumer behavior, but previous techniques fall short of handling the scale
+    and complexity of real-world datasets because they require relatively clean
+    and small input. We present Segmentifier, a novel visual analytics interface
+    that supports an iterative process of refining collections of action
+    sequences into meaningful segments. We present task and data abstractions
+    for clickstream data analysis, leading to a high-level model built around an
+    iterative view-refine-record loop with outcomes of conclude with an answer,
+    export segment for further analysis in downstream tools, or abandon the
+    question for a more fruitful analysis path. Segmentifier supports fast and
+    fluid refinement of segments through tightly coupled visual encoding and
+    interaction with a rich set of views that show evocative derived attributes
+    for segments, sequences, and actions in addition to underlying raw
+    sequences. These views support fast and fluid refinement of segments through
+    filtering and partitioning attribute ranges. Interactive visual queries on
+    custom action sequences are aggregated according to a three-level hierarchy.
+    Segmentifier features a detailed glyph-based visual history of the
+    automatically recorded analysis process showing the provenance of each
+    segment as an analysis path of attribute constraints. We demonstrate the
+    effectiveness of our approach through a usage scenario with real-world data
+    and a case study documenting the insights gained by a corporate e-commerce
+    analyst.
   authors:
-  - link: https://amcrisan.github.io
-    name: Ana Crisan
-  - link: https://viscoglab.psych.ubc.ca/person/madison-elliott/
-    name: Madison Elliott
-  link: https://amcrisan.github.io/assets/files/papers/beliv-2018.pdf
-  links:
-  - link: https://amcrisan.github.io/assets/files/papers/beliv-2018.pdf
-    name: PDF
-  title: How to Evaluate an Evaluation Study? Comparing and Contrasting Practices
-    in Vis with Those of Other Disciplines
-  venue: BELIV'18 - an IEEE VIS affilitated workshop
-- abstract: Clickstream data has the potential to provide insights into e-commerce
-    consumer behavior, but previous techniques fall short of handling the scale and
-    complexity of real-world datasets because they require relatively clean and small
-    input. We present Segmentifier, a novel visual analytics interface that supports
-    an iterative process of refining collections of action sequences into meaningful
-    segments. We present task and data abstractions for clickstream data analysis,
-    leading to a high-level model built around an iterative view-refine-record loop
-    with outcomes of conclude with an answer, export segment for further analysis
-    in downstream tools, or abandon the question for a more fruitful analysis path.
-    Segmentifier supports fast and fluid refinement of segments through tightly coupled
-    visual encoding and interaction with a rich set of views that show evocative derived
-    attributes for segments, sequences, and actions in addition to underlying raw
-    sequences. These views support fast and fluid refinement of segments through filtering
-    and partitioning attribute ranges. Interactive visual queries on custom action
-    sequences are aggregated according to a three-level hierarchy. Segmentifier features
-    a detailed glyph-based visual history of the automatically recorded analysis process
-    showing the provenance of each segment as an analysis path of attribute constraints.
-    We demonstrate the effectiveness of our approach through a usage scenario with
-    real-world data and a case study documenting the insights gained by a corporate
-    e-commerce analyst.
-  authors:
-  - link: http://www.cs.ubc.ca/~kdextras
-    name: Kimberly Dextras-Romagnino
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
+    - link: http://www.cs.ubc.ca/~kdextras
+      name: Kimberly Dextras-Romagnino
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
   image: http://www.cs.ubc.ca/labs/imager/tr/2019/segmentifier/interface_caseStudy2.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2019/segmentifier/
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2019/segmentifier/segmentifier-eurovis-preprint.pdf
-    name: "pre-print\n                            PDF"
-  title: 'Segmentifier: Interactive Refinement of Clickstream Data'
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2019/segmentifier/segmentifier-eurovis-preprint.pdf
+      name: "Pre-print PDF"
+  title: "Segmentifier: Interactive Refinement of Clickstream Data"
   venue: Computer Graphics Forum (Proceedings of EuroVis 2019).
-- abstract: We present the new visual encoding idiom of aggregated dendrograms to
-    concisely summarize the topological relationships between interactively chosen
-    focal subtrees according to biologically meaningful criteria, and provide a layout
-    algorithm that automatically adapts to the available screen space.
+  year: 2019
+
+###############################################################################
+
+- abstract:
+    We present the new visual encoding idiom of aggregated dendrograms to
+    concisely summarize the topological relationships between interactively
+    chosen focal subtrees according to biologically meaningful criteria, and
+    provide a layout algorithm that automatically adapts to the available screen
+    space.
   authors:
-  - link: http://www.cs.ubc.ca/~zipeng
-    name: Zipeng Liu
-  - name: Shing Hei Zhan
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
+    - link: http://www.cs.ubc.ca/~zipeng
+      name: Zipeng Liu
+    - name: Shing Hei Zhan
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
   image: http://www.cs.ubc.ca/labs/imager/tr/2019/adview/teaser-low-res.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2019/adview/
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2019/adview/adview-tvcg-preprint.pdf
-    name: "pre-print\n                            PDF"
-  title: Aggregated Dendrograms for Visual Comparison Between Many Phylogenetic Trees
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2019/adview/adview-tvcg-preprint.pdf
+      name: "Pre-print PDF"
+  title:
+    Aggregated Dendrograms for Visual Comparison Between Many Phylogenetic Trees
   venue: IEEE Transactions on Visualization and Computer Graphics (TVCG), 2019.
-- abstract: We discuss general implications of spatiotemporal non-trajectory data
-    in terms of ethics, data preprocessing, tasks, and visual encodings.
+  year: 2019
+
+###############################################################################
+
+- abstract:
+    "We discuss we learned across two projects involving spatiotemporal data
+    that does not use the data abstraction of trajectories: bike-sharing
+    networks and human occupancy data for buildings. We discuss the general
+    implications of this data type in terms of ethics, data preprocessing,
+    tasks, and visual encodings."
   authors:
-  - link: http://michaeloppermann.com
-    name: Michael Oppermann
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
+    - link: http://michaeloppermann.com
+      name: Michael Oppermann
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
   image: http://www.cs.ubc.ca/labs/imager/tr/2018/SpatiotemporalNonTrajectory/figures/thumb.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2018/SpatiotemporalNonTrajectory/
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2018/SpatiotemporalNonTrajectory/CityVis_2018_SpatiotemporalNonTrajectory.pdf
-    name: "pre-print\n                            PDF"
-  - link: CityVis_2018_SpatiotemporalNonTrajectory_Slides.pdf
-    name: Talk
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2018/SpatiotemporalNonTrajectory/CityVis_2018_SpatiotemporalNonTrajectory.pdf
+      name: "Pre-print PDF"
+    - link: CityVis_2018_SpatiotemporalNonTrajectory_Slides.pdf
+      name: Talk
   title: Uncovering Spatiotemporal Dynamics From Non-Trajectory Data
   venue: CityVis Workshop at IEEE VIS 2018.
-- abstract: Microbial genomics is playing an increasingly important role in public
-    health microbiology, and its successful implementation in the clinic will rely
-    not just on validation and accreditation of WGS-based tests, but also in how effective
-    the resulting reports are to stakeholders, including clinicians, nurses, laboratory
-    staff, researchers, and surveillance expert. Using design study methodology, we
-    developed a two-page report template to communicate WGS-derived test results related
-    to TB diagnosis, drug susceptibility testing, and clustering. The process and
-    findings for this WGS report design project target domain specialists in the microbial
-    genomics community who typically develop such reports and also more complex bioinformatics
-    software, however we also present the aspects of our work that we believe are
-    of interest to the Information Visualization research community.
+  year: 2018
+
+###############################################################################
+
+- abstract:
+    "The Gaze Reading Self-Interruption Visualizer integrates a visualization
+    front-end suitable for data cleansing and a prediction back-end that can be
+    run repeatedly as the input data is iteratively improved."
   authors:
-  - link: http://www.cs.ubc.ca/~acrisan
-    name: Anamaria Crisan
-  - name: Geoff McKee
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
-  - name: Jennifer L
+    - name: Jan Pilzer
+    - name: Shareen Mahmud
+    - name: Vanessa Putnam
+    - name: Tamara Munzner
+  title:
+    "GaRSIVis: Improving the Predicting of Self-Interruption during Reading
+    using Gaze Data."
+  venue: "Proc. ETVIS 2018."
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2018
+
+###############################################################################
+
+- abstract:
+    "The patch lineage graph encapsulates the history of cellular colonies by
+    exploiting temporal and spatial coherence of subpopulations using a
+    particle-based approach, for datasets where the traditional approach of
+    single-cell detection fails due to high density, and high diversity of cell
+    shapes and numbers, for high-resolution images with high amounts of noise."
+  authors:
+    - name: Georges Hattab
+    - name: Veit Wiesmann
+    - name: Anke Becker
+    - name: Tamara Munzner
+    - name: Tim W. Nattkemper
+  title:
+    "A Novel Methodology for Characterizing Cell Subpopulations in Automated
+    Time-lapse Microscopy."
+  venue: "Frontiers in in Bioengineering and Biotechnology 28;6:17, 2018."
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2018
+
+###############################################################################
+
+- abstract:
+    Evaluative practices within vis research are not routinely comparedto those
+    of psychology, sociology, or other areas of empirical study,leaving vis
+    vulnerable to the replicability crisis that has embroiledscientific research
+    more generally. In this position paper, we com-pare contemporary vis
+    evaluative practices against those in thoseother disciplines, and make
+    concrete recommendations as to how visevaluative practice can be improved
+    through the use of quantitative,qualitative, and mixed research methods. We
+    summarize our discus-sion and recommendations as a checklist, that we intend
+    to be useda resource for vis researchers conducting evaluative studies, and
+    forreviewers evaluating the merits of such studies.
+  authors:
+    - link: https://amcrisan.github.io
+      name: Ana Crisan
+    - link: https://viscoglab.psych.ubc.ca/person/madison-elliott/
+      name: Madison Elliott
+  link: https://amcrisan.github.io/assets/files/papers/beliv-2018.pdf
+  links:
+    - link: https://amcrisan.github.io/assets/files/papers/beliv-2018.pdf
+      name: PDF
+  title:
+    How to Evaluate an Evaluation Study? Comparing and Contrasting Practices in
+    Vis with Those of Other Disciplines
+  venue: BELIV'18 - an IEEE VIS affilitated workshop
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2018
+
+###############################################################################
+
+- abstract:
+    Microbial genomics is playing an increasingly important role in public
+    health microbiology, and its successful implementation in the clinic will
+    rely not just on validation and accreditation of WGS-based tests, but also
+    in how effective the resulting reports are to stakeholders, including
+    clinicians, nurses, laboratory staff, researchers, and surveillance expert.
+    Using design study methodology, we developed a two-page report template to
+    communicate WGS-derived test results related to TB diagnosis, drug
+    susceptibility testing, and clustering. The process and findings for this
+    WGS report design project target domain specialists in the microbial
+    genomics community who typically develop such reports and also more complex
+    bioinformatics software, however we also present the aspects of our work
+    that we believe are of interest to the Information Visualization research
+    community.
+  authors:
+    - link: http://www.cs.ubc.ca/~acrisan
+      name: Anamaria Crisan
+    - name: Geoff McKee
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+    - name: Jennifer L. Gardy
   image: http://www.cs.ubc.ca/labs/imager/tr/2017/MicroReportDesign/figures/tb-wgs-report_p1.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2017/MicroReportDesign/
   links:
-  - link: https://doi.org/10.1101/199570
-    name: pre-print PDF
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2017/MicroReportDesign/ASM_NGS_2017_ReportDesign_Presentation_v2.pdf
-    name: Talk
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2017/MicroReportDesign/
-    name: Additional Details
-  title: Evidence-Based Design and Evaluation of a Whole Genome Sequencing Clinical
+    - link: https://doi.org/10.1101/199570
+      name: Pre-print PDF
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2017/MicroReportDesign/ASM_NGS_2017_ReportDesign_Presentation_v2.pdf
+      name: Talk
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2017/MicroReportDesign/
+      name: Additional Details
+  title:
+    Evidence-Based Design and Evaluation of a Whole Genome Sequencing Clinical
     Report for the Reference Microbiology Laboratory
-- abstract: Framework based on analysis reports derived from open-coding 20 design
-    study papers published at IEEE InfoVis 2009-2015, to build on the previous work
-    of abstractions that collectively encompass a broad variety of domains.
+  venue: PeerJ 6:e4218; DOI 10.7717/peerj.4218
+  year: 2018
+
+###############################################################################
+
+- abstract:
+    Framework based on analysis reports derived from open-coding 20 design study
+    papers published at IEEE InfoVis 2009-2015, to build on the previous work of
+    abstractions that collectively encompass a broad variety of domains.
   authors:
-  - link: http://heidilam.com
-    name: Heidi Lam
-  - link: https://research.tableau.com/user/melanie-tory
-    name: Melanie Tory
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
+    - link: http://heidilam.com
+      name: Heidi Lam
+    - link: https://research.tableau.com/user/melanie-tory
+      name: Melanie Tory
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
   image: /assets/images/pub-thumbs/2017-goals-to-tasks.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2017/GoalsToTasks/
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2017/GoalsToTasks/GoalsToTasks.pdf
-    name: "pre-print\n                            PDF"
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2017/GoalsToTasks/GoalsToTasks.pdf
+      name: "Pre-print PDF"
   title: Bridging From Goals to Tasks with Design Study Analysis Reports
-  venue: In IEEE Transactions on Visualization and Computer Graphics (TVCG, Proceedings
-    of InfoVis 2017).
-- abstract: 'There are many ways to visualize event sequences as timelines. In a storytelling
-    context where the intent is to convey multiple narrative points, a richer set
-    of timeline designs may be more appropriate than the narrow range that has been
-    used for exploratory data analysis by the research community. Informed by a survey
-    of 263 timelines, we present a design space for storytelling with timelines that
-    balances expressiveness and effectiveness, identifying 14 design choices characterized
-    by three dimensions: representation, scale, and layout. Twenty combinations of
-    these choices are viable timeline designs that can be matched to different narrative
-    points, while smooth animated transitions between narrative points allow for the
-    presentation of a cohesive story, an important aspect of both interactive storytelling
-    and data videos. We further validate this design space by realizing the full set
-    of viable timeline designs and transitions in a proof-of-concept sandbox implementation
-    that we used to produce seven example timeline stories. Ultimately, this work
-    is intended to inform and inspire the design of future tools for storytelling
-    with timelines.'
+  venue:
+    In IEEE Transactions on Visualization and Computer Graphics (TVCG,
+    Proceedings of InfoVis 2017).
+  year: 2017
+
+###############################################################################
+
+- abstract:
+    "[Poster] Showcasing the design study methodology through simpler design
+    challenges: An application to a microbial genomics clinical report design.
+    Anamaria Crisan, Geoffrey McKee, Tamara Munzner, Jennifer L. Gardy. IEEE
+    InfoVis 2017 Poster, October 2017."
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2017
+
+###############################################################################
+
+- abstract:
+    "There are many ways to visualize event sequences as timelines. In a
+    storytelling context where the intent is to convey multiple narrative
+    points, a richer set of timeline designs may be more appropriate than the
+    narrow range that has been used for exploratory data analysis by the
+    research community. Informed by a survey of 263 timelines, we present a
+    design space for storytelling with timelines that balances expressiveness
+    and effectiveness, identifying 14 design choices characterized by three
+    dimensions: representation, scale, and layout. Twenty combinations of these
+    choices are viable timeline designs that can be matched to different
+    narrative points, while smooth animated transitions between narrative points
+    allow for the presentation of a cohesive story, an important aspect of both
+    interactive storytelling and data videos. We further validate this design
+    space by realizing the full set of viable timeline designs and transitions
+    in a proof-of-concept sandbox implementation that we used to produce seven
+    example timeline stories. Ultimately, this work is intended to inform and
+    inspire the design of future tools for storytelling with timelines."
   authors:
-  - link: http://mattbrehmer.github.io
-    name: Matthew Brehmer
-  - name: Bongshin Lee
-  - link: http://benjbach.me/
-    name: Benjamin Bach
-  - name: Nathalie Henry Riche
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
+    - link: http://mattbrehmer.github.io
+      name: Matthew Brehmer
+    - name: Bongshin Lee
+    - link: http://benjbach.me/
+      name: Benjamin Bach
+    - name: Nathalie Henry Riche
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
   image: http://mattbrehmer.github.io/images/pub-thumbs/timelines.png
   link: http://timelinesrevisited.github.io
   links:
-  - link: https://timelinesrevisited.github.io/preprint.pdf
-    name: pre-print PDF
-  - link: http://dx.doi.org/10.1109/TVCG.2016.2614803
-    name: IEEE DL Link
-  title: 'Timelines Revisited: A Design Space and Considerations for Expressive Storytelling'
+    - link: https://timelinesrevisited.github.io/preprint.pdf
+      name: Pre-print PDF
+    - link: http://dx.doi.org/10.1109/TVCG.2016.2614803
+      name: IEEE DL Link
+  title:
+    "Timelines Revisited: A Design Space and Considerations for Expressive
+    Storytelling"
   venue: In IEEE Transactions on Visualization and Computer Graphics (TVCG).
-- abstract: Problem-based visualization research provides explicit guidance toward
-    identifying and designing for the needs of users, but absent is more concrete
-    guidance toward factors external to a user's needs that also have implications
-    for visualization design and evaluation. This lack of more explicit guidance can
-    leave visualization researchers and practitioners vulnerable to unforeseen constraints
-    beyond the user's needs that can affect the validity of evaluations, or even lead
-    to the premature termination of a project. Here we explore two types of external
-    constraints in depth, regulatory and organizational constraints, and describe
-    how these constraints impact visualization design and evaluation. By borrowing
-    from techniques in software development, project management, and visualization
-    research we recommend strategies for identifying, mitigating, and evaluating these
-    external constraints through a design study methodology. Finally, we present an
-    application of those recommendations in a healthcare case study. We argue that
-    by explicitly incorporating external constraints into visualization design and
-    evaluation, researchers and practitioners can improve the utility and validity
-    of their visualization solution and improve the likelihood of successful collaborations
-    with industries where external constraints are more present.
+  year: 2016
+
+###############################################################################
+
+- abstract:
+    Problem-based visualization research provides explicit guidance toward
+    identifying and designing for the needs of users, but absent is more
+    concrete guidance toward factors external to a user's needs that also have
+    implications for visualization design and evaluation. This lack of more
+    explicit guidance can leave visualization researchers and practitioners
+    vulnerable to unforeseen constraints beyond the user's needs that can affect
+    the validity of evaluations, or even lead to the premature termination of a
+    project. Here we explore two types of external constraints in depth,
+    regulatory and organizational constraints, and describe how these
+    constraints impact visualization design and evaluation. By borrowing from
+    techniques in software development, project management, and visualization
+    research we recommend strategies for identifying, mitigating, and evaluating
+    these external constraints through a design study methodology. Finally, we
+    present an application of those recommendations in a healthcare case study.
+    We argue that by explicitly incorporating external constraints into
+    visualization design and evaluation, researchers and practitioners can
+    improve the utility and validity of their visualization solution and improve
+    the likelihood of successful collaborations with industries where external
+    constraints are more present.
   authors:
-  - link: http://www.cs.ubc.ca/~acrisan
-    name: Anamaria Crisan
-  - link: http://spph.ubc.ca/person/jennifer-gardy/
-    name: Jennifer Gardy
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
+    - link: http://www.cs.ubc.ca/~acrisan
+      name: Anamaria Crisan
+    - link: http://spph.ubc.ca/person/jennifer-gardy/
+      name: Jennifer Gardy
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
   image: /assets/images/pub-thumbs/2016-beliv.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2016/regulatory/
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2016/regulatory/preprint.pdf
-    name: pre-print PDF
-  - link: http://dl.acm.org/citation.cfm?id=2993911
-    name: ACM DL Link
-  title: On Regulatory and Organizational Constraints in Visualization Design and
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2016/regulatory/preprint.pdf
+      name: Pre-print PDF
+    - link: http://dl.acm.org/citation.cfm?id=2993911
+      name: ACM DL Link
+  title:
+    On Regulatory and Organizational Constraints in Visualization Design and
     Evaluation
-  venue: 'In Proceedings of the ACM Workshop on Beyond time and errors: novel evaluation
-    methods for Information Visualization (BELIV), 2016, p. 1-9.'
+  venue:
+    "In Proceedings of the ACM Workshop on Beyond time and errors: novel
+    evaluation methods for Information Visualization (BELIV), 2016, p. 1-9."
 - image: /assets/images/paperquest-icon.png
   link: http://www.antoineponsard.com/res/PaperQuest.pdf
   title: PaperQuest
-- abstract: A visualization system designed for sequence analysis of eye tracking
-    data.
+  year: 2016
+
+###############################################################################
+
+- abstract:
+    A design study in the domain of commercial energy management and
+    conservation.
   authors:
-  - link: //mikewu.net
-    name: Mike Wu
-  - link: http://www.cs.ubc.ca/~tmm/
-    name: Tamara Munzner
-  image: http://www.cs.ubc.ca/labs/imager/tr/2015/SEQIT/figures/fig-thumbnail.png
-  link: http://www.cs.ubc.ca/labs/imager/tr/2015/SEQIT/
-  links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2015/SEQIT/seqit-infovis15.pdf
-    name: pre-print PDF
-  title: 'SEQIT: Visualizing Sequences of Interest in Eye Tracking Data'
-  venue: Poster Proceedings of IEEE Conference on Information Visualization (InfoVis)
-    2015.
-- abstract: A design study in the domain of commercial energy management and conservation.
-  authors:
-  - link: http://www.cs.ubc.ca/~brehmer/
-    name: Matthew Brehmer
-  - name: Jocelyn Ng
-  - name: Kevin Tate
-  - link: http://www.cs.ubc.ca/~tmm/
-    name: Tamara Munzner
+    - link: http://www.cs.ubc.ca/~brehmer/
+      name: Matthew Brehmer
+    - name: Jocelyn Ng
+    - name: Kevin Tate
+    - link: http://www.cs.ubc.ca/~tmm/
+      name: Tamara Munzner
   image: http://www.cs.ubc.ca/labs/imager/tr/2015/MatchesMismatchesMethods/figures/thumb.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2015/MatchesMismatchesMethods/
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2015/MatchesMismatchesMethods/brehmer-infovis15.pdf
-    name: "pre-print\n                            PDF"
-  title: 'Matches, Mismatches, and Methods: Multiple-View Workflows for Energy Portfolio
-    Analysis'
-  venue: IEEE Transactions on Visualization and Computer Graphics (TVCG, Proceedings
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2015/MatchesMismatchesMethods/brehmer-infovis15.pdf
+      name: "Pre-print PDF"
+  title:
+    "Matches, Mismatches, and Methods: Multiple-View Workflows for Energy
+    Portfolio Analysis"
+  venue:
+    IEEE Transactions on Visualization and Computer Graphics (TVCG, Proceedings
     of InfoVis 2015), 22(1), p. 449-458, 2016.
-- abstract: Browser-based vis tool for curating timelines generated from freeform
-    text.
+  year: 2016
+
+###############################################################################
+
+- abstract:
+    Browser-based vis tool for curating timelines generated from freeform text.
   authors:
-  - link: http://www.cs.ubc.ca/~jfulda
-    name: Johanna Fulda
-  - link: http://www.cs.ubc.ca/~brehmer/
-    name: Matthew Brehmer
-  - link: http://www.cs.ubc.ca/~tmm/
-    name: Tamara Munzner
-  image: software/TimeLineCurator/figures/tlc-thumb.png
+    - link: http://www.cs.ubc.ca/~jfulda
+      name: Johanna Fulda
+    - link: http://www.cs.ubc.ca/~brehmer/
+      name: Matthew Brehmer
+    - link: http://www.cs.ubc.ca/~tmm/
+      name: Tamara Munzner
   link: software/TimeLineCurator/
   links:
-  - link: software/TimeLineCurator/tlc-vast-2015.pdf
-    name: pre-print PDF
-  title: 'TimeLineCurator: Interactive Authoring of Visual Timelines from Unstructured
-    Text'
-  venue: IEEE Transactions on Visualization and Computer Graphics (TVCG, Proceedings
+    - link: software/TimeLineCurator/tlc-vast-2015.pdf
+      name: Pre-print PDF
+  title:
+    "TimeLineCurator: Interactive Authoring of Visual Timelines from
+    Unstructured Text"
+  venue:
+    IEEE Transactions on Visualization and Computer Graphics (TVCG, Proceedings
     of VAST 2015), 22(1), p. 300-309, 2016.
-- abstract: 'A multiplex network has links of different types, allowing it to express
-    many overlapping types of relationships. A core task in network analysis is to
-    evaluate and understand group cohesion; that is, to explain why groups of elements
-    belong together based on the underlying structure of the network. We present Detangler,
-    a system that supports visual analysis of group cohesion in multiplex networks
-    through dual linked views. These views feature new data abstractions derived from
-    the original multiplex network: the substrate network and the catalyst network.
-    We contribute two novel techniques that allow the user to analyze the complex
-    structure of the multiplex network without the extreme visual clutter that would
-    result from simply showing it directly. The harmonized layout visual encoding
-    technique provides spatial stability between the substrate and catalyst views.
-    The pivot brushing interaction technique supports linked highlighting between
-    the views based on computations in the underlying multiplex network to leapfrog
-    between subsets of catalysts and substrates. We present results from the motivating
-    application domain of annotated news documents with a usage scenario and preliminary
-    expert feedback. A second usage scenario presents group cohesion analysis of the
-    social network of the early American independence movement.'
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2016
+
+###############################################################################
+
+- abstract:
+    "[Poster] PaperQuest: A Visualization Tool to Support Literature Review.
+    Antoine Ponsard, Francisco 'Pax' Escalona, and Tamara Munzner ACM CHI 2016
+    Poster, May 2016. PaperQuest prototype."
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2016
+
+###############################################################################
+
+- abstract:
+    "[Poster] SEQIT: Visualizing Sequences of Interest in Eye Tracking Data.
+    Mike Wu and Tamara Munzner. IEEE InfoVis 2015 Poster, October 2015."
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2015
+
+###############################################################################
+
+- abstract:
+    "A multiplex network has links of different types, allowing it to express
+    many overlapping types of relationships. A core task in network analysis is
+    to evaluate and understand group cohesion; that is, to explain why groups of
+    elements belong together based on the underlying structure of the network.
+    We present Detangler, a system that supports visual analysis of group
+    cohesion in multiplex networks through dual linked views. These views
+    feature new data abstractions derived from the original multiplex network:
+    the substrate network and the catalyst network. We contribute two novel
+    techniques that allow the user to analyze the complex structure of the
+    multiplex network without the extreme visual clutter that would result from
+    simply showing it directly. The harmonized layout visual encoding technique
+    provides spatial stability between the substrate and catalyst views. The
+    pivot brushing interaction technique supports linked highlighting between
+    the views based on computations in the underlying multiplex network to
+    leapfrog between subsets of catalysts and substrates. We present results
+    from the motivating application domain of annotated news documents with a
+    usage scenario and preliminary expert feedback. A second usage scenario
+    presents group cohesion analysis of the social network of the early American
+    independence movement."
   authors:
-  - link: http://www.renoust.com/
-    name: Benjamin Renoust
-  - link: http://www.labri.fr/perso/melancon/
-    name: "Guy Melan\xE7on"
-  - link: http://www.cs.ubc.ca/~tmm/
-    name: Tamara Munzner
+    - link: http://www.renoust.com/
+      name: Benjamin Renoust
+    - link: http://www.labri.fr/perso/melancon/
+      name: "Guy Melan\xE7on"
+    - link: http://www.cs.ubc.ca/~tmm/
+      name: Tamara Munzner
   image: /assets/images/pub-thumbs/2015-detangler-thumb.png
   link: http://www.renoust.com/pub/detangler.pdf
   links:
-  - link: http://www.renoust.com/pub/detangler.pdf
-    name: pre-print pdf
-  - link: http://www.renoust.com/pub/supplemental.pdf
-    name: supplemental material
-  title: 'Detangler: Visual Analytics for Multiplex Networks'
+    - link: http://www.renoust.com/pub/detangler.pdf
+      name: Pre-print PDF
+    - link: http://www.renoust.com/pub/supplemental.pdf
+      name: Supplemental material
+  title: "Detangler: Visual Analytics for Multiplex Networks"
   venue: Computer Graphics Forum (Proceedings of EuroVis 2015).
-- abstract: We characterize five task sequences related to visualizing dimensionally-reduced
-    data, drawing from data collected from interviews with ten data analysts spanning
-    six application domains, and from our understanding of the technique literature.
+  year: 2015
+
+###############################################################################
+
+- abstract:
+    A visualization system designed for sequence analysis of eye tracking data.
   authors:
-  - link: http://www.cs.ubc.ca/~brehmer
-    name: Matthew Brehmer
-  - name: Michael Sedlmair
-  - link: http://www.cs.ubc.ca/~sfingram
-    name: Stephen Ingram
-  - link: http://www.cs.ubc.ca/~tmm/
-    name: Tamara Munzner
-  image: /assets/images/pub-thumbs/2014-drvistasks-thumb.png
-  link: http://www.cs.ubc.ca/labs/imager/tr/2014/DRVisTasks/
+    - link: //mikewu.net
+      name: Mike Wu
+    - link: http://www.cs.ubc.ca/~tmm/
+      name: Tamara Munzner
+  image: http://www.cs.ubc.ca/labs/imager/tr/2015/SEQIT/figures/fig-thumbnail.png
+  link: http://www.cs.ubc.ca/labs/imager/tr/2015/SEQIT/
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2014/DRVisTasks/drvistasks.pdf
-    name: pre-print pdf
-  title: 'Visualizing Dimensionally-Reduced Data: Interviews with Analysts and a Characterization
-    of Task Sequences'
-  venue: 'In Proceedings of the ACM Workshop on BEyond time and errors: novel evaLuation
-    methods for Information Visualization (BELIV), 2014, p. 1-8.'
-- abstract: We present a predictive model of human behaviour when tracing paths through
-    a node-link graph, a low-level abstract task that feeds into many other visual
-    data analysis tasks that require understanding topological structure. Results
-    of a user study show that our approach provides modest improvements for predictions
-    of response time and error using search-set factors.
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2015/SEQIT/seqit-infovis15.pdf
+      name: Pre-print PDF
+  title: "SEQIT: Visualizing Sequences of Interest in Eye Tracking Data"
+  venue:
+    Poster Proceedings of IEEE Conference on Information Visualization (InfoVis)
+    2015.
+  year: 2015
+
+###############################################################################
+
+- abstract:
+    We present a predictive model of human behaviour when tracing paths through
+    a node-link graph, a low-level abstract task that feeds into many other
+    visual data analysis tasks that require understanding topological structure.
+    Results of a user study show that our approach provides modest improvements
+    for predictions of response time and error using search-set factors.
   authors:
-  - name: Jessica Q
+    - name: Jessica Q
   image: /assets/images/pub-thumbs/2014-searchset-thumb.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2014/SearchSet
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2014/SearchSet/searchset_ivj_preprint.pdf
-    name: "pre-print\n                            pdf"
-  - link: http://dx.doi.org/10.1177/1473871614550536
-    name: DOI
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2014/SearchSet/searchset_ivj_preprint.pdf
+      name: "Pre-print PDF"
+    - link: http://dx.doi.org/10.1177/1473871614550536
+      name: DOI
   title: A search-set model of path tracing in graphs
   venue: "Information Visualization, 14(4):308\u2013338, 2015."
-- abstract: "Visualization Analysis and Design provides a systematic, comprehensive\
-    \ framework for thinking about visualization in terms of principles and design\
-    \ choices. The book features a unified approach encompassing information visualization\
-    \ techniques for abstract data, scientific visualization techniques for spatial\
-    \ data, and visual analytics techniques for interweaving data transformation and\
-    \ analysis with interactive visual exploration. It emphasizes the careful validation\
-    \ of effectiveness and the consideration of function before form. The book is\
-    \ suitable for a broad set of readers, from beginners to more experienced visualization\
-    \ designers. It does not assume any previous experience in programming, mathematics,\
-    \ human\u2013computer interaction, or graphic design and can be used in an introductory\
-    \ visualization course at the graduate or undergraduate level."
+  year: 2015
+
+###############################################################################
+
+- abstract:
+    "Visualization Analysis and Design provides a systematic, comprehensive
+    framework for thinking about visualization in terms of principles and design
+    choices. The book features a unified approach encompassing information
+    visualization techniques for abstract data, scientific visualization
+    techniques for spatial data, and visual analytics techniques for
+    interweaving data transformation and analysis with interactive visual
+    exploration. It emphasizes the careful validation of effectiveness and the
+    consideration of function before form. The book is suitable for a broad set
+    of readers, from beginners to more experienced visualization designers. It
+    does not assume any previous experience in programming, mathematics,
+    human-computer interaction, or graphic design and can be used in an
+    introductory visualization course at the graduate or undergraduate level."
   authors:
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
+    - name: "[Hardcover Book]"
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
   image: http://www.cs.ubc.ca/~tmm/vadbook/vadcover.med.png
   link: http://www.cs.ubc.ca/~tmm/vadbook/
   links:
-  - link: http://www.crcpress.com/product/isbn/9781466508910
-    name: "pre-order\n                            (CRC)"
-  - link: http://www.amazon.com/Visualization-Analysis-Design-Peters-Series/dp/1466508914
-    name: pre-order (amazon)
-  title: Visualization Analysis and Design
-  venue: AK Peters Visualization Series (CRC Press),
-- abstract: A design study about Overview, an application for the systematic analysis
-    of large document collections based on document clustering, visualization, and
+    - link: http://www.crcpress.com/product/isbn/9781466508910
+      name: "CRC Press"
+    - link: http://www.amazon.com/Visualization-Analysis-Design-Peters-Series/dp/1466508914
+      name: "Amazon"
+  title: "Visualization Analysis and Design"
+  venue: AK Peters Visualization Series (CRC Press)
+  year: 2014
+
+###############################################################################
+
+- abstract:
+    We characterize five task sequences related to visualizing
+    dimensionally-reduced data, drawing from data collected from interviews with
+    ten data analysts spanning six application domains, and from our
+    understanding of the technique literature.
+  authors:
+    - link: http://www.cs.ubc.ca/~brehmer
+      name: Matthew Brehmer
+    - name: Michael Sedlmair
+    - link: http://www.cs.ubc.ca/~sfingram
+      name: Stephen Ingram
+    - link: http://www.cs.ubc.ca/~tmm/
+      name: Tamara Munzner
+  image: /assets/images/pub-thumbs/2014-drvistasks-thumb.png
+  link: http://www.cs.ubc.ca/labs/imager/tr/2014/DRVisTasks/
+  links:
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2014/DRVisTasks/drvistasks.pdf
+      name: Pre-print PDF
+  title:
+    "Visualizing Dimensionally-Reduced Data: Interviews with Analysts and a
+    Characterization of Task Sequences"
+  venue:
+    "In Proceedings of the ACM Workshop on BEyond time and errors: novel
+    evaLuation methods for Information Visualization (BELIV), 2014, p. 1-8."
+  year: 2014
+
+###############################################################################
+
+- abstract:
+    A design study about Overview, an application for the systematic analysis of
+    large document collections based on document clustering, visualization, and
     tagging.
   authors:
-  - link: http://www.cs.ubc.ca/~brehmer
-    name: Matthew Brehmer
-  - link: http://www.cs.ubc.ca/~sfingram
-    name: Stephen Ingram
-  - link: http://jonathanstray.com/
-    name: Jonathan Stray
-  - name: Tamara Munzner
+    - link: http://www.cs.ubc.ca/~brehmer
+      name: Matthew Brehmer
+    - link: http://www.cs.ubc.ca/~sfingram
+      name: Stephen Ingram
+    - link: http://jonathanstray.com/
+      name: Jonathan Stray
+    - name: Tamara Munzner
   image: /assets/images/pub-thumbs/2014-overview-thumb.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2014/Overview/
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2014/Overview/overview.pdf
-    name: pdf
-  title: 'Overview: The Design, Adoption, and Analysis of a Visual Document Mining
-    Tool For Investigative Journalists'
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2014/Overview/overview.pdf
+      name: PDF
+  title:
+    "Overview: The Design, Adoption, and Analysis of a Visual Document Mining
+    Tool For Investigative Journalists"
   venue: IEEE Trans. Visualization and Computer Graphics (Proc. InfoVis), 20(12)
-- abstract: The QSNE document-focused dimensionality reduction algorithm combines
-    stochastic neighborhood embedding with query techniques from information retrieval.
+  year: 2014
+
+###############################################################################
+
+- abstract:
+    The QSNE document-focused dimensionality reduction algorithm combines
+    stochastic neighborhood embedding with query techniques from information
+    retrieval.
   authors:
-  - link: http://www.cs.ubc.ca/~sfingram
-    name: Stephen Ingram
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
+    - link: http://www.cs.ubc.ca/~sfingram
+      name: Stephen Ingram
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
   image: /assets/images/pub-thumbs/2014-qsne-thumb.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2014/QSNE/
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2014/QSNE/qsne.pdf
-    name: pdf
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2014/QSNE/qsne.pdf
+      name: PDF
   title: Dimensionality Reduction for Documents with Nearest Neighbor Queries
-  venue: Neurocomputing (Special Issue for Workshop on Visual Analytics using Multidimensional
-    Projections (VAMP) held at EuroVis 2013), Volume 150 Part B, p 557-569.
-- abstract: An extension to the four-level Nested Model for design and validation
-    of visualization systems that defines the term guidelines in terms of blocks at
+  venue:
+    Neurocomputing (Special Issue for Workshop on Visual Analytics using
+    Multidimensional Projections (VAMP) held at EuroVis 2013), Volume 150 Part
+    B, p 557-569.
+  year: 2013
+
+###############################################################################
+
+- abstract:
+    An extension to the four-level Nested Model for design and validation of
+    visualization systems that defines the term guidelines in terms of blocks at
     each level.
   authors:
-  - link: http://www.cs.utah.edu/~miriah/
-    name: Miriah Meyer
-  - link: http://homepage.univie.ac.at/michael.sedlmair/
-    name: Michael Sedlmair
-  - name: P
+    - link: http://www.cs.utah.edu/~miriah/
+      name: Miriah Meyer
+    - link: http://homepage.univie.ac.at/michael.sedlmair/
+      name: Michael Sedlmair
+    - name: P
   image: /assets/images/pub-thumbs/2014-nested-blocks-thumb.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2013/NBGM/
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2013/NBGM/nbgm.pdf
-    name: pdf
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2013/NBGM/nbgm.pdf
+      name: PDF
   title: The Nested Blocks and Guidelines Model
-  venue: Information Visualization 14(3), Special Issue on Visualization Evaluation
+  venue:
+    Information Visualization 14(3), Special Issue on Visualization Evaluation
     (BELIV)
-- abstract: Empirical evaluation of 2D Scatterplots, 3D Scatterplots, and Scatterplot
-    Matrices for dimensionality reduced data and class separation tasks. The results
-    indicate that 2D Scatterplots are often sufficient for perceptually revealing
-    class structure. If 2D is not good enough, the most promising approach is to use
-    an alternative dimension reduction techniques in 2D.
+  year: 2013
+
+###############################################################################
+
+- abstract:
+    Empirical evaluation of 2D Scatterplots, 3D Scatterplots, and Scatterplot
+    Matrices for dimensionality reduced data and class separation tasks. The
+    results indicate that 2D Scatterplots are often sufficient for perceptually
+    revealing class structure. If 2D is not good enough, the most promising
+    approach is to use an alternative dimension reduction techniques in 2D.
   authors:
-  - link: http://homepage.univie.ac.at/michael.sedlmair/
-    name: Michael Sedlmair
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
-  - link: http://webhome.cs.uvic.ca/~mtory/
-    name: Melanie Tory
+    - link: http://homepage.univie.ac.at/michael.sedlmair/
+      name: Michael Sedlmair
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+    - link: http://webhome.cs.uvic.ca/~mtory/
+      name: Melanie Tory
   image: /assets/images/pub-thumbs/2013-scatterplotEval-thumb.jpg
   link: http://www.cs.ubc.ca/labs/imager/tr/2013/ScatterplotEval/
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2013/ScatterplotEval/ScatterplotEval.pdf
-    name: pdf
-  title: Empirical Guidance on Scatterplot and Dimension Reduction Technique Choices
-  venue: IEEE Trans. Visualization and Computer Graphics (Proc. InfoVis), 19(12):2634-2643
-- abstract: Our typology of visualization tasks distinguishes why and how a visualization
-    task is performed, as well as what the task inputs and outputs are.
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2013/ScatterplotEval/ScatterplotEval.pdf
+      name: PDF
+  title:
+    Empirical Guidance on Scatterplot and Dimension Reduction Technique Choices
+  venue:
+    IEEE Trans. Visualization and Computer Graphics (Proc. InfoVis),
+    19(12):2634-2643
+  year: 2013
+
+###############################################################################
+
+- abstract:
+    Our typology of visualization tasks distinguishes why and how a
+    visualization task is performed, as well as what the task inputs and outputs
+    are.
   authors:
-  - link: http://www.cs.ubc.ca/~brehmer
-    name: Matthew Brehmer
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
+    - link: http://www.cs.ubc.ca/~brehmer
+      name: Matthew Brehmer
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
   image: /assets/images/pub-thumbs/2013-task-typology-thumb.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2013/MultiLevelTaskTypology/
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2013/MultiLevelTaskTypology/brehmer_infovis13.pdf
-    name: pdf
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2013/MultiLevelTaskTypology/brehmer_infovis13.pdf
+      name: PDF
   title: A Multi-Level Typology of Abstract Visualization Tasks
-  venue: IEEE Trans. Visualization and Computer Graphics (Proc. InfoVis), 19(12):2376-2385
-- abstract: Design study for genomic data proposing alternative to standard genome
+  venue:
+    IEEE Trans. Visualization and Computer Graphics (Proc. InfoVis),
+    19(12):2376-2385
+  year: 2013
+
+###############################################################################
+
+- abstract:
+    Design study for genomic data proposing alternative to standard genome
     browser approach.
   authors:
-  - name: Joel A
+    - name: Joel A Ferstay
+    - name: Cydney B Nielsen
+    - name: Tamara Munzner
   image: /assets/images/pub-thumbs/2013-variant-view-thumb.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2013/VariantView/
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2013/VariantView/ferstay_infovis13.pdf
-    name: pdf
-  title: 'Variant View: Visualizing Sequence Variants in their Gene Context'
-  venue: IEEE Trans. Visualization and Computer Graphics (Proc. InfoVis), 19(12):2546-2555
-- abstract: An extension to the four-level Nested Model for design and validation
-    of visualization systems that defines the term guidelines in terms of blocks at
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2013/VariantView/ferstay_infovis13.pdf
+      name: PDF
+  title: "Variant View: Visualizing Sequence Variants in their Gene Context"
+  venue:
+    IEEE Trans. Visualization and Computer Graphics (Proc. InfoVis),
+    19(12):2546-2555
+  year: 2013
+
+###############################################################################
+
+- abstract:
+    An extension to the four-level Nested Model for design and validation of
+    visualization systems that defines the term guidelines in terms of blocks at
     each level.
   authors:
-  - link: http://www.cs.utah.edu/~miriah/
-    name: Miriah Meyer
-  - link: http://homepage.univie.ac.at/michael.sedlmair/
-    name: Michael Sedlmair
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
+    - link: http://www.cs.utah.edu/~miriah/
+      name: Miriah Meyer
+    - link: http://homepage.univie.ac.at/michael.sedlmair/
+      name: Michael Sedlmair
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
   image: /assets/images/pub-thumbs/2013-nested-thumb.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2012/NestedModelExt/
   links:
-  - link: /labs/imager/tr/2012/NestedModelExt/beliv12.pdf
-    name: pdf
-  title: 'The Four-Level Nested Model Revisited: Blocks and Guidelines'
-  venue: 'Proc. Workshop on BEyond time and errors: novel evaLuation methods for Information
-    Visualization (BELIV)'
-- abstract: Glint is designed to automatically minimize the total number of distances
-    computed by progressively computing a more and more densely sampled approximation
-    of the distance matrix.
+    - link: /labs/imager/tr/2012/NestedModelExt/beliv12.pdf
+      name: PDF
+  title: "The Four-Level Nested Model Revisited: Blocks and Guidelines"
+  venue:
+    "Proc. Workshop on BEyond time and errors: novel evaLuation methods for
+    Information Visualization (BELIV)"
+  year: 2012
+
+###############################################################################
+
+- abstract:
+    Glint is designed to automatically minimize the total number of distances
+    computed by progressively computing a more and more densely sampled
+    approximation of the distance matrix.
   authors:
-  - link: http://www.cs.ubc.ca/~sfingram
-    name: Stephen Ingram
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
+    - link: http://www.cs.ubc.ca/~sfingram
+      name: Stephen Ingram
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
   image: /assets/images/pub-thumbs/2013-glint-thumb.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2012/Glint/
   links:
-  - link: /labs/imager/tr/2012/Glint/glint.pdf
-    name: pdf
-  title: 'Glint: An MDS Framework for Costly Distance Functions'
+    - link: /labs/imager/tr/2012/Glint/glint.pdf
+      name: PDF
+  title: "Glint: An MDS Framework for Costly Distance Functions"
   venue: Proc. SIGRAD 2012
-- abstract: We provide definitions, propose a methodological framework, and provide
+  year: 2012
+
+###############################################################################
+
+- abstract:
+    We provide definitions, propose a methodological framework, and provide
     practical guidance for conducting design studies.
   authors:
-  - link: http://homepage.univie.ac.at/michael.sedlmair/
-    name: Michael Sedlmair
-  - link: http://www.cs.utah.edu/~miriah/
-    name: Miriah Meyer
-  - name: Tamara Munzner
+    - link: http://homepage.univie.ac.at/michael.sedlmair/
+      name: Michael Sedlmair
+    - link: http://www.cs.utah.edu/~miriah/
+      name: Miriah Meyer
+    - name: Tamara Munzner
   image: /assets/images/pub-thumbs/axes-thumb.jpg
   link: http://www.cs.ubc.ca/labs/imager/tr/2012/dsm/
   links:
-  - link: /labs/imager/tr/2012/dsm/dsm.pdf
-    name: pdf
-  title: 'Design Study Methodology: Reflections from the Trenches and the Stacks'
+    - link: /labs/imager/tr/2012/dsm/dsm.pdf
+      name: PDF
+  title:
+    "Design Study Methodology: Reflections from the Trenches and the Stacks"
   venue: IEEE Trans. Visualization and Computer Graphics (Proc. InfoVis)
-- abstract: Design study focused on supporting automotive engineers who need to specify
-    and optimize traffic patterns for in-car communication networks. The task and
-    data abstractions for actively making changes to an overlay network, where logical
-    communication specifications must be mapped to an underlying physical network
-    network, are very different than the dominant use cases from the domain of social
-    network analysis.
+  year: 2012
+
+###############################################################################
+
+- abstract:
+    Design study focused on supporting automotive engineers who need to specify
+    and optimize traffic patterns for in-car communication networks. The task
+    and data abstractions for actively making changes to an overlay network,
+    where logical communication specifications must be mapped to an underlying
+    physical network network, are very different than the dominant use cases
+    from the domain of social network analysis.
   authors:
-  - link: http://homepage.univie.ac.at/michael.sedlmair/
-    name: Michael Sedlmair
-  - name: Annika Frank
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
-  - link: http://www.medien.ifi.lmu.de/team/andreas.butz/
-    name: Andreas Butz
+    - link: http://homepage.univie.ac.at/michael.sedlmair/
+      name: Michael Sedlmair
+    - name: Annika Frank
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+    - link: http://www.medien.ifi.lmu.de/team/andreas.butz/
+      name: Andreas Butz
   image: /assets/images/pub-thumbs/relex-thumb.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2012/RelEx/
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2012/RelEx/relex.pdf
-    name: pdf
-  title: 'RelEx: Visualization for Actively Changing Overlay Network Specifications'
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2012/RelEx/relex.pdf
+      name: PDF
+  title:
+    "RelEx: Visualization for Actively Changing Overlay Network Specifications"
   venue: IEEE Trans. Visualization and Computer Graphics (Proc. InfoVis)
-- abstract: Qualitative evaluation of 800+ plots, including analysis of the reasons
-    for failure of previous cluster separation metrics and a taxonomy of factors that
-    affect separation.
+  year: 2012
+
+###############################################################################
+
+- abstract:
+    Qualitative evaluation of 800+ plots, including analysis of the reasons for
+    failure of previous cluster separation metrics and a taxonomy of factors
+    that affect separation.
   authors:
-  - link: http://homepage.univie.ac.at/michael.sedlmair/
-    name: Michael Sedlmair
-  - name: Andrada Tatu
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
-  - link: http://webhome.cs.uvic.ca/~mtory/
-    name: Melanie Tory
+    - link: http://homepage.univie.ac.at/michael.sedlmair/
+      name: Michael Sedlmair
+    - name: Andrada Tatu
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+    - link: http://webhome.cs.uvic.ca/~mtory/
+      name: Melanie Tory
   image: /assets/images/pub-thumbs/taxonomy-thumb.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2012/VisClusterSep/
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2012/VisClusterSep/VisClusterSep.pdf
-    name: pdf
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2012/VisClusterSep/VisClusterSep.pdf
+      name: PDF
   title: A Taxonomy of Visual Cluster Separation Factors
   venue: Computer Graphics Forum (Proc. EuroVis 2012)
-- abstract: Design study supporting the analysis of fisheries simulation data, including
+  year: 2012
+
+###############################################################################
+
+- abstract:
+    Design study supporting the analysis of fisheries simulation data, including
     sensitivity analysis, global trade-offs analysis, and staged uncertainty.
   authors:
-  - name: Maryam Booshehrian
-  - link: http://www.cs.sfu.ca/~torsten
-    name: "Torsten M\xF6ller"
-  - link: http://www.rem.sfu.ca/people/faculty/peterman/
-    name: Randall Peterman
-  - link: http://www.cs.ubc.ca/~tmm/
-    name: Tamara Munzner
+    - name: Maryam Booshehrian
+    - link: http://www.cs.sfu.ca/~torsten
+      name: "Torsten M\xF6ller"
+    - link: http://www.rem.sfu.ca/people/faculty/peterman/
+      name: Randall Peterman
+    - link: http://www.cs.ubc.ca/~tmm/
+      name: Tamara Munzner
   image: /assets/images/pub-thumbs/vismon-thumb.png
   link: http://www.vismon.org/
   links:
-  - link: http://www.vismon.org/Vismonpaper-EuroVis12.pdf
-    name: pdf
-  title: 'Vismon: Facilitating Analysis of Trade-Offs, Uncertainty, and Sensitivity
-    In Fisheries Management Decision Making'
+    - link: http://www.vismon.org/Vismonpaper-EuroVis12.pdf
+      name: PDF
+  title:
+    "Vismon: Facilitating Analysis of Trade-Offs, Uncertainty, and Sensitivity
+    In Fisheries Management Decision Making"
   venue: Computer Graphics Forum (Proc. EuroVis 2012)
-- abstract: 'The proposed design space is spanned by two axes: recall support, and
-    absolute rating vs. relative ranking.'
+  year: 2012
+
+###############################################################################
+
+- abstract:
+    "The proposed design space is spanned by two axes: recall support, and
+    absolute rating vs. relative ranking."
   authors:
-  - link: http://syavash.nobarany.com
-    name: Syavash Nobarany
-  - link: http://www.cs.ubc.ca/~olouise
-    name: Louise Oram
-  - name: Vasanth Kumar Rajendran
-  - name: Chi-Hsiang Chen
-  - link: http://www.cs.ubc.ca/~joanna
-    name: Joanna McGrenere
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
+    - link: http://syavash.nobarany.com
+      name: Syavash Nobarany
+    - link: http://www.cs.ubc.ca/~olouise
+      name: Louise Oram
+    - name: Vasanth Kumar Rajendran
+    - name: Chi-Hsiang Chen
+    - link: http://www.cs.ubc.ca/~joanna
+      name: Joanna McGrenere
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
   image: http://www.cs.ubc.ca/labs/imager/tr/2012/rating/header.jpg
   link: http://www.cs.ubc.ca/labs/imager/tr/2012/rating/
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2012/rating/rating.pdf
-    name: pdf
-  title: 'The Design Space of Opinion Measurement Interfaces: Exploring Recall Support
-    for Rating and Ranking'
-  venue: Proc. Conf. on Human Factors in Computing Systems (CHI) 2012, pp 2035-2044.
-- abstract: ''
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2012/rating/rating.pdf
+      name: PDF
+  title:
+    "The Design Space of Opinion Measurement Interfaces: Exploring Recall
+    Support for Rating and Ranking"
+  venue:
+    Proc. Conf. on Human Factors in Computing Systems (CHI) 2012, pp 2035-2044.
+  year: 2012
+
+###############################################################################
+
+- abstract:
+    "[Technical Report] Dimensionality Reduction in the Wild: Gaps and Guidance.
+    Michael Sedlmair, Matt Brehmer, Stephen Ingram, and Tamara Munzner. UBC
+    Computer Science Technical Report TR-2012-03, June 2012."
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2012
+
+###############################################################################
+
+- abstract:
+    "[Technical Report] Hierarchical Clustering and Tagging of Mostly
+    Disconnected Data Stephen Ingram, Tamara Munzner, and Jonathan Stray. UBC
+    Department of Computer Science Technical Report TR-2012-01, May 2012."
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2012
+
+###############################################################################
+
+- abstract:
+    "[Technical Report] Ephemeral Paths: Gradual Fade-In as a Visual Cue for
+    Subgraph Highlighting. Jessica Dawson, Joanna McGrenere, Tamara Munzner,
+    Karyn Moffatt, and Leah Findlater. UBC Computer Science Technical Report
+    TR-2011-10, August 2011."
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2011
+
+###############################################################################
+
+- abstract: ""
   authors:
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
   image: /assets/images/pub-thumbs/anscombe-thumb.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2011/MunznerBionet/
   links:
-  - link: /labs/imager/tr/2011/MunznerBionet/#pdf
-    name: pdf
-  title: Applying Information Visualization Principles to Biological Network Displays
+    - link: /labs/imager/tr/2011/MunznerBionet/#pdf
+      name: PDF
+  title:
+    Applying Information Visualization Principles to Biological Network Displays
   venue: Proc. SPIE-IS&T Human Vision and Electronic Imaging 2011,
-- abstract: Reflections on the design of a system for visualizing a high-dimensional
-    environmental sustainability dataset. Despite some successes on designing visual
-    encoding and interaction techniques, QuestVis was ultimately not deployed because
-    of a mismatch between the design goals of the project and the true needs of the
-    target user community. We analyze this breakdown in the context of the Nested
-    Model framework, which was motivated in part by this experience.
+  year: 2011
+
+###############################################################################
+
+- abstract:
+    Reflections on the design of a system for visualizing a high-dimensional
+    environmental sustainability dataset. Despite some successes on designing
+    visual encoding and interaction techniques, QuestVis was ultimately not
+    deployed because of a mismatch between the design goals of the project and
+    the true needs of the target user community. We analyze this breakdown in
+    the context of the Nested Model framework, which was motivated in part by
+    this experience.
   authors:
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
-  - link: http://www.cs.ubc.ca/~barsky
-    name: Aaron Barsky
-  - name: Matt Williams
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+    - link: http://www.cs.ubc.ca/~barsky
+      name: Aaron Barsky
+    - name: Matt Williams
   image: /assets/images/pub-thumbs/detailsquest-thumb.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2011/QuestVis/
   links:
-  - link: /labs/imager/tr/2011/QuestVis/#pdf
-    name: pdf
-  title: 'Reflections on QuestVis: A Visualization System for an Environmental Sustainability
-    Model'
-  venue: 'Scientific Visualization: Interactions, Features, Metaphors.'
+    - link: /labs/imager/tr/2011/QuestVis/#pdf
+      name: PDF
+  title:
+    "Reflections on QuestVis: A Visualization System for an Environmental
+    Sustainability Model"
+  venue: "Scientific Visualization: Interactions, Features, Metaphors."
+  year: 2011
+
+###############################################################################
+
 - abstract: Journal version of PacificVis TugGraph paper.
   authors:
-  - link: http://www.cs.ubc.ca/~archam
-    name: Daniel Archambault
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
-  - link: http://www.labri.fr/~auber
-    name: David Auber
+    - link: http://www.cs.ubc.ca/~archam
+      name: Daniel Archambault
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+    - link: http://www.labri.fr/~auber
+      name: David Auber
   image: /assets/images/swpix/tugjournal.png
   link: http://www.cliquecluster.org/system/files/pacificVisTVCG.pdf
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2009/Archambault_TugGraph_PacificVis/TugJournal.pdf
-    name: pdf
-  title: 'Tugging Graphs Faster: Efficiently Modifying Path-Preserving Hierarchies
-    for Browsing Paths'
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2009/Archambault_TugGraph_PacificVis/TugJournal.pdf
+      name: PDF
+  title:
+    "Tugging Graphs Faster: Efficiently Modifying Path-Preserving Hierarchies
+    for Browsing Paths"
   venue: IEEE Trans. Visualization and Computer Graphics 17(3):276--289, 2011.
-- abstract: 'This monograph provides design guidelines for designing multi-level interfaces
-    based on a fine-grained analysis of of 22 empirical studies. We considered three
-    multi-level interface types in this synthesis review: temporal, or temporal switching
-    of the different levels as in zooming interfaces; separate, or displaying the
-    different levels simultaneously but in separate windows as in overview + detail
-    interfaces; and embedded, or showing the different levels in a unified view as
-    in focus + context interfaces.'
+  year: 2011
+
+###############################################################################
+
+- abstract:
+    "This monograph provides design guidelines for designing multi-level
+    interfaces based on a fine-grained analysis of of 22 empirical studies. We
+    considered three multi-level interface types in this synthesis review:
+    temporal, or temporal switching of the different levels as in zooming
+    interfaces; separate, or displaying the different levels simultaneously but
+    in separate windows as in overview + detail interfaces; and embedded, or
+    showing the different levels in a unified view as in focus + context
+    interfaces."
   authors:
-  - link: http://www.heidilam.com
-    name: Heidi Lam
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
+    - link: http://www.heidilam.com
+      name: Heidi Lam
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
   image: /assets/images/swpix/mrmc-dtree.png
   link: http://www.morganclaypool.com/doi/abs/10.2200/S00308ED1V01Y201011VIS001
-  title: A Guide to Visual Multi-Level Interface Design From Synthesis of Empirical
+  title:
+    A Guide to Visual Multi-Level Interface Design From Synthesis of Empirical
     Study Evidence
-  venue: 'Synthesis Lectures on Visualization Series, Lecture 1, Morgan Claypool,
-    November 2010. ISBN: 9781608455928 paperback, ISBN: 9781608455935 ebook. (117
-    page monograph)'
-- abstract: Design study about a visualization tool that supports exploration of multiple
-    possible computational summaries that mix spatial information about each cell
-    in a developing fruit fly embryo, gene expression measurements over time, and
-    data from multiple related species or organisms.
+  venue:
+    "Synthesis Lectures on Visualization Series, Lecture 1, Morgan Claypool,
+    November 2010. ISBN: 9781608455928 paperback, ISBN: 9781608455935 ebook.
+    (117 page monograph)"
+  year: 2010
+
+###############################################################################
+
+- abstract:
+    Design study about a visualization tool that supports exploration of
+    multiple possible computational summaries that mix spatial information about
+    each cell in a developing fruit fly embryo, gene expression measurements
+    over time, and data from multiple related species or organisms.
   authors:
-  - link: http://www.iic.harvard.edu/~miriah
-    name: Miriah Meyer
-  - name: Tamara Munzner
-  - link: https://depace.med.harvard.edu/
-    name: Angela DePace
-  - link: http://gvi.seas.harvard.edu/pfister
-    name: Hanspeter Pfister
+    - link: http://www.iic.harvard.edu/~miriah
+      name: Miriah Meyer
+    - name: Tamara Munzner
+    - link: https://depace.med.harvard.edu/
+      name: Angela DePace
+    - link: http://gvi.seas.harvard.edu/pfister
+      name: Hanspeter Pfister
   image: /assets/images/swpix/multeesum-overview.small.png
   link: http://www.multeesum.org
   links:
-  - link: http://www.cs.utah.edu/~miriah/publications/multeesum.pdf
-    name: pdf
-  title: 'MulteeSum: A Tool for Comparative Temporal Gene Expression and Spatial Data'
-  venue: IEEE Trans. Visualization and Computer Graphics 16(6):908-917 (Proc. InfoVis),
-    2010.
-- abstract: 'Dimensionality reduction for the rest of us: system paper about toolkit
-    for dimensionality reduction providing local and global guidance to users who
-    may not be experts in the mathematics of high-dimensional data analysis.'
+    - link: http://www.cs.utah.edu/~miriah/publications/multeesum.pdf
+      name: PDF
+  title:
+    "MulteeSum: A Tool for Comparative Temporal Gene Expression and Spatial Data"
+  venue:
+    IEEE Trans. Visualization and Computer Graphics 16(6):908-917 (Proc.
+    InfoVis), 2010.
+  year: 2010
+
+###############################################################################
+
+- abstract:
+    "Dimensionality reduction for the rest of us: system paper about toolkit for
+    dimensionality reduction providing local and global guidance to users who
+    may not be experts in the mathematics of high-dimensional data analysis."
   authors:
-  - link: http://www.cs.ubc.ca/~sfingram
-    name: Stephen Ingram
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
-  - name: Veronika Irvine
-  - link: http://webhome.cs.uvic.ca/~mtory/
-    name: Melanie Tory
-  - link: http://www.cs.sfu.ca/~sbergner/personal/
-    name: Steven Bergner
-  - link: http://www.cs.sfu.ca/~torsten/
-    name: "Torsten M\xF6ller"
+    - link: http://www.cs.ubc.ca/~sfingram
+      name: Stephen Ingram
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+    - name: Veronika Irvine
+    - link: http://webhome.cs.uvic.ca/~mtory/
+      name: Melanie Tory
+    - link: http://www.cs.sfu.ca/~sbergner/personal/
+      name: Steven Bergner
+    - link: http://www.cs.sfu.ca/~torsten/
+      name: "Torsten M\xF6ller"
   image: /assets/images/swpix/dimstiller_screenshot.small.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2010/DimStiller/
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2010/DimStiller/dimstiller.pdf
-    name: pdf
-  title: 'DimStiller: Workflows for Dimensional Analysis and Reduction'
-  venue: IEEE Conference on Visual Analytics Software and Technologies (VAST) 2010,
-    p 3-10
-- abstract: 'Design study of a visualization tool for comparative functional genomics
-    supporting simultaneous analysis of functional, pathway, and phylogenetic data.
-    We present two new visual encoding techniques: linearized metabolic pathways,
-    and curvemaps.'
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2010/DimStiller/dimstiller.pdf
+      name: PDF
+  title: "DimStiller: Workflows for Dimensional Analysis and Reduction"
+  venue:
+    IEEE Conference on Visual Analytics Software and Technologies (VAST) 2010, p
+    3-10.
+  year: 2010
+
+###############################################################################
+
+- abstract:
+    "Design study of a visualization tool for comparative functional genomics
+    supporting simultaneous analysis of functional, pathway, and phylogenetic
+    data. We present two new visual encoding techniques: linearized metabolic
+    pathways, and curvemaps."
   authors:
-  - link: http://www.iic.harvard.edu/~miriah
-    name: Miriah Meyer
-  - link: http://www.clearscience.info/
-    name: Bang Wong
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
-  - link: http://www.chbe.gatech.edu/fac_staff/faculty/styczynski.php
-    name: Mark Styczynski
-  - link: http://gvi.seas.harvard.edu/pfister
-    name: Hanspeter Pfister
+    - link: http://www.iic.harvard.edu/~miriah
+      name: Miriah Meyer
+    - link: http://www.clearscience.info/
+      name: Bang Wong
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+    - link: http://www.chbe.gatech.edu/fac_staff/faculty/styczynski.php
+      name: Mark Styczynski
+    - link: http://gvi.seas.harvard.edu/pfister
+      name: Hanspeter Pfister
   image: http://www.cs.ubc.ca/~tmm/pix/pathline.small.jpg
   link: http://www.pathline.org/
   links:
-  - link: http://www.cs.utah.edu/~miriah/publications/pathline.pdf
-    name: pdf
-  title: 'Pathline: A Tool for Comparative Functional Genomics'
+    - link: http://www.cs.utah.edu/~miriah/publications/pathline.pdf
+      name: PDF
+  title: "Pathline: A Tool for Comparative Functional Genomics"
   venue: Computer Graphics Forum (Proc. EuroVis 2010), 29(3):1043-1052.
-- abstract: This model provides a unified framework for considering both the design
-    and the validation of visualization systems at four cascading levels, withprescriptive
-    advice on determining appropriate evaluation approaches by identifying threats
-    to validity unique to each level.
+  year: 2010
+
+###############################################################################
+
+- abstract:
+    "[Technical Report] A Guide to Visual Multi-Level Interface Design From
+    Synthesis of Empirical Study Evidence. Heidi Lam and Tamara Munzner. UBC
+    Computer Science Technical Report TR-2010-11, October 2010. Interfaces for
+    the 22 empirical studies covered in the summary synthesis. Final version:
+    Morgan Claypool Synthesis Lecture monograph."
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2010
+
+###############################################################################
+
+- abstract:
+    "[Technical Report] Reflections on QuestVis: A Visualization System for an
+    Environmental Sustainability Model. Tamara Munzner, Aaron Barsky, and Matt
+    Williams. UBC Computer Science Technical Report TR-2009-24, November 2009.
+    Final version: Dagstuhl Follow-Ups volume 2."
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2009
+
+###############################################################################
+
+- abstract:
+    This model provides a unified framework for considering both the design and
+    the validation of visualization systems at four cascading levels,
+    withprescriptive advice on determining appropriate evaluation approaches by
+    identifying threats to validity unique to each level.
   authors:
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
   image: http://www.cs.ubc.ca/labs/imager/tr/2009/NestedModel/figs/nested.small.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2009/NestedModel/
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2009/NestedModel/NestedModel.pdf
-    name: pdf
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2009/NestedModel/NestedModel.pdf
+      name: PDF
   title: A Nested Model for Visualization Design and Validation
-  venue: IEEE Trans. Visualization and Computer Graphics (Proc. InfoVis 09), 15(6):921-928,
-    2009.
-- abstract: Design study on the creation of a multiscale synteny browser for exploring
+  venue:
+    IEEE Trans. Visualization and Computer Graphics (Proc. InfoVis 09),
+    15(6):921-928, 2009.
+  year: 2009
+
+###############################################################################
+
+- abstract:
+    Design study on the creation of a multiscale synteny browser for exploring
     conservation relationship in comparative genomics data.
   authors:
-  - link: http://www.iic.harvard.edu/~miriah
-    name: Miriah Meyer
-  - name: Tamara Munzner
-  - link: http://gvi.seas.harvard.edu/pfister
-    name: Hanspeter Pfister
+    - link: http://www.iic.harvard.edu/~miriah
+      name: Miriah Meyer
+    - name: Tamara Munzner
+    - link: http://gvi.seas.harvard.edu/pfister
+      name: Hanspeter Pfister
   image: http://www.cs.ubc.ca/~tmm/pix/fish_overview.small.jpg
   link: http://www.cs.utah.edu/~miriah/mizbee/More_Info.html
   links:
-  - link: http://www.cs.utah.edu/~miriah/mizbee/More_Info_files/mizbee.pdf
-    name: pdf
-  title: 'MizBee: A Multiscale Synteny Browser'
-  venue: IEEE Trans. Visualization and Computer Graphics (Proc. InfoVis 09), 15(6):897-904,
-    2009.
-- abstract: TugGraph is a system for exploring paths and proximity around nodes and
+    - link: http://www.cs.utah.edu/~miriah/mizbee/More_Info_files/mizbee.pdf
+      name: PDF
+  title: "MizBee: A Multiscale Synteny Browser"
+  venue:
+    IEEE Trans. Visualization and Computer Graphics (Proc. InfoVis 09),
+    15(6):897-904, 2009.
+  year: 2009
+
+###############################################################################
+
+- abstract:
+    TugGraph is a system for exploring paths and proximity around nodes and
     subgraphs in a multilevel graph.
   authors:
-  - link: http://www.cs.ubc.ca/~archam
-    name: Daniel Archambault
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
-  - link: http://www.labri.fr/~auber
-    name: David Auber
+    - link: http://www.cs.ubc.ca/~archam
+      name: Daniel Archambault
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+    - link: http://www.labri.fr/~auber
+      name: David Auber
   image: http://www.cs.ubc.ca/labs/imager/tr/2009/Archambault_TugGraph_PacificVis/airportDecompThumb.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2009/Archambault_TugGraph_PacificVis/
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2009/Archambault_TugGraph_PacificVis/tugGraph.pdf
-    name: pdf
-  title: 'TugGraph: Path-Preserving Hierarchies for Browsing Proximity and Paths in
-    Graphs'
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2009/Archambault_TugGraph_PacificVis/tugGraph.pdf
+      name: PDF
+  title:
+    "TugGraph: Path-Preserving Hierarchies for Browsing Proximity and Paths in
+    Graphs"
   venue: IEEE Pacific Visualization Symposium 2009, pp 113-121.
-- abstract: A book chapter for an undergraduate computer graphics textbook summarizing
-    process, principles, and techniques for visualization with an emphasis on abstract
-    data.
+  year: 2009
+
+###############################################################################
+
+- abstract:
+    A book chapter for an undergraduate computer graphics textbook summarizing
+    process, principles, and techniques for visualization with an emphasis on
+    abstract data.
   authors:
-  - name: Tamara Munzner
+    - name: Tamara Munzner
   image: http://www.cs.ubc.ca/labs/imager/tr/2009/VisChapter/vischapter.small.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2009/VisChapter
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2009/VisChapter/akp-vischapter.pdf
-    name: pdf
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2009/VisChapter/akp-vischapter.pdf
+      name: PDF
   title: Visualization
-  venue: 'Chapter 27, p 675-707, of Fundamentals of Graphics, Third Edition. by Peter
-    Shirley and Steve Marschner, with additional contributions by Michael Ashikhmin,
-    Michael Gleicher, Naty Hoffman, Garrett Johnson, Tamara Munzner, Erik Reinhard,
-    Kelvin Sung, William B. Thompson, Peter Willemsen, Brian Wyvill. AK Peters, 2009.
-    ISBN: 978-1-56881-469-8.'
-- abstract: Glimmer is a new multilevel multidimensional scaling algorithm that exploits
-    the GPU. We demonstrate its benefits in a detailed comparison against several
-    previous algorithms.
+  venue:
+    "Chapter 27, p 675-707, of Fundamentals of Graphics, Third Edition. by Peter
+    Shirley and Steve Marschner, with additional contributions by Michael
+    Ashikhmin, Michael Gleicher, Naty Hoffman, Garrett Johnson, Tamara Munzner,
+    Erik Reinhard, Kelvin Sung, William B. Thompson, Peter Willemsen, Brian
+    Wyvill. AK Peters, 2009. ISBN: 978-1-56881-469-8."
+  year: 2009
+
+###############################################################################
+
+- abstract:
+    Glimmer is a new multilevel multidimensional scaling algorithm that exploits
+    the GPU. We demonstrate its benefits in a detailed comparison against
+    several previous algorithms.
   authors:
-  - link: http://www.cs.ubc.ca/~sfingram
-    name: Stephen Ingram
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
-  - link: www.csee.umbc.edu/~olano/
-    name: Marc Olano
+    - link: http://www.cs.ubc.ca/~sfingram
+      name: Stephen Ingram
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+    - link: www.csee.umbc.edu/~olano/
+      name: Marc Olano
   image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/glimmer.pdf
-    name: pdf
-  title: 'Glimmer: Multilevel MDS on the GPU'
-  venue: IEEE Trans. Visualization and Computer Graphics (TVCG) 15(2):249-261, Mar/Apr
-    2009.
-- abstract: Paper for the biological community describing InnateDB,including the Cerebral
-    visualization component.
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/glimmer.pdf
+      name: PDF
+  title: "Glimmer: Multilevel MDS on the GPU"
+  venue:
+    IEEE Trans. Visualization and Computer Graphics (TVCG) 15(2):249-261,
+    Mar/Apr 2009.
+  year: 2009
+
+###############################################################################
+
+- abstract:
+    Paper for the biological community describing InnateDB,including the
+    Cerebral visualization component.
   authors:
-  - name: David J
+    - name: David J
   image: http://www.cs.ubc.ca/~tmm/pix/innatedb-cerebral.small.jpg
   link: http://www.nature.com/msb/journal/v4/n1/full/msb200855.html
   links:
-  - link: http://msb.embopress.org/content/msb/4/1/218.full.pdf
-    name: pdf
-  title: 'InnateDB: facilitating systems-level analyses of the mammalian innate immune
-    response'
+    - link: http://msb.embopress.org/content/msb/4/1/218.full.pdf
+      name: PDF
+  title:
+    "InnateDB: facilitating systems-level analyses of the mammalian innate
+    immune response"
   venue: Molecular Systems Biology 4:218, 2008.
-- abstract: We describe the data information display needs of immunologists and describe
-    the design decisions used to create Cerebral, a system that incorporates experimental
-    data directly into the graph display, using the biologically guided graph layout
-    announced in the previous appnote.
+  year: 2008
+
+###############################################################################
+
+- abstract:
+    We describe the data information display needs of immunologists and describe
+    the design decisions used to create Cerebral, a system that incorporates
+    experimental data directly into the graph display, using the biologically
+    guided graph layout announced in the previous appnote.
   authors:
-  - link: http://www.cs.ubc.ca/~barskya
-    name: Aaron Barsky
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
-  - name: Jennifer L
+    - link: http://www.cs.ubc.ca/~barskya
+      name: Aaron Barsky
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+    - name: Jennifer L
   image: http://www.cs.ubc.ca/labs/imager/tr/2008/cerebral/figs/hour4compare.small.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2008/cerebral/
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2008/cerebral/cerebral.pdf
-    name: pdf
-  title: 'Cerebral: Visualizing Multiple Experimental Conditions on a Graph with Biological
-    Context'
-  venue: IEEE Transactions on Visualization and Computer Graphics (Proc. InfoVis 2008)
-    14(6) (Nov-Dec) 2008, p 1253-1260.
-- abstract: GrouseFlocks supports interactive exploration of the space of possible
-    hierarchies for an input graph with domain-specific attributes at the nodes. The
-    system generates hierarchies that reflect the underlying graph topology by requiring
-    that subgraphs respect edge and connectivity conservation.
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2008/cerebral/cerebral.pdf
+      name: PDF
+  title:
+    "Cerebral: Visualizing Multiple Experimental Conditions on a Graph with
+    Biological Context"
+  venue:
+    IEEE Transactions on Visualization and Computer Graphics (Proc. InfoVis
+    2008) 14(6) (Nov-Dec) 2008, p 1253-1260.
+  year: 2008
+
+###############################################################################
+
+- abstract:
+    GrouseFlocks supports interactive exploration of the space of possible
+    hierarchies for an input graph with domain-specific attributes at the nodes.
+    The system generates hierarchies that reflect the underlying graph topology
+    by requiring that subgraphs respect edge and connectivity conservation.
   authors:
-  - link: http://www.cs.ubc.ca/~archam
-    name: Daniel Archambault
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
-  - link: http://www.labri.fr/~auber
-    name: David Auber
+    - link: http://www.cs.ubc.ca/~archam
+      name: Daniel Archambault
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+    - link: http://www.labri.fr/~auber
+      name: David Auber
   image: http://www.cs.ubc.ca/labs/imager/tr/2008/Archambault_GrouseFlocks_TVCG/MooreComposite.small.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2008/Archambault_GrouseFlocks_TVCG/
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2008/Archambault_GrouseFlocks_TVCG/grouseFlocksSub.pdf
-    name: pdf
-  title: 'GrouseFlocks: Steerable Exploration of Graph Hierarchy Space'
-  venue: IEEE Transactions on Visualization and Computer Graphics 14(4):900-913 (July/August)
-    2008.
-- abstract: Based on our experience in extracting design guidelines from existing
-    quantitative studies, we recommend improvements to both study design and reporting
-    to promote meta-analysis.
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2008/Archambault_GrouseFlocks_TVCG/grouseFlocksSub.pdf
+      name: PDF
+  title: "GrouseFlocks: Steerable Exploration of Graph Hierarchy Space"
+  venue:
+    IEEE Transactions on Visualization and Computer Graphics 14(4):900-913
+    (July/August) 2008.
+  year: 2008
+
+###############################################################################
+
+- abstract:
+    Based on our experience in extracting design guidelines from existing
+    quantitative studies, we recommend improvements to both study design and
+    reporting to promote meta-analysis.
   authors:
-  - link: http://www.cs.ubc.ca/~hllam
-    name: Heidi Lam
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
+    - link: http://www.cs.ubc.ca/~hllam
+      name: Heidi Lam
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
   image: /assets/images/pub-thumbs/empirical.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2008/Lam_Eval_BELIV/
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2008/Lam_Eval_BELIV/LamMunzner_IncUtilStuMeta_2008.pdf
-    name: pdf
-  title: Increasing the Utility of Quantitative Empirical Studies for Meta-analysis
-  venue: 'Proc. CHI Workshop on BEyond time and errors: novel evaLuation methods for
-    Information Visualization (BELIV), 2008, pp. 21-27.'
-- abstract: The LiveRAC visualization system supports the analysis of large collections
-    of time-series data with hundreds of parameters across thousands of network devices.
-    It provides high information density using a reorderable matrix of charts, with
-    semantic zooming adapting each chart's visual representation to the available
-    space.
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2008/Lam_Eval_BELIV/LamMunzner_IncUtilStuMeta_2008.pdf
+      name: PDF
+  title:
+    Increasing the Utility of Quantitative Empirical Studies for Meta-analysis
+  venue:
+    "Proc. CHI Workshop on BEyond time and errors: novel evaLuation methods for
+    Information Visualization (BELIV), 2008, pp. 21-27."
+  year: 2008
+
+###############################################################################
+
+- abstract:
+    The LiveRAC visualization system supports the analysis of large collections
+    of time-series data with hundreds of parameters across thousands of network
+    devices. It provides high information density using a reorderable matrix of
+    charts, with semantic zooming adapting each chart's visual representation to
+    the available space.
   authors:
-  - link: http://www.cs.ubc.ca/~spark343
-    name: Peter McLachlan
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
-  - link: http://www.research.att.com/info/ek
-    name: Eleftherios Koutsofios
-  - link: http://www.research.att.com/info/north
-    name: Stephen North
+    - link: http://www.cs.ubc.ca/~spark343
+      name: Peter McLachlan
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+    - link: http://www.research.att.com/info/ek
+      name: Eleftherios Koutsofios
+    - link: http://www.research.att.com/info/north
+      name: Stephen North
   image: http://www.cs.ubc.ca/labs/imager/tr/2008/liverac/figs/late_screenshot1.small.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2008/liverac
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2008/liverac/liverac.pdf
-    name: pdf
-  title: LiveRAC - Interactive Visual Exploration of System Management Time-Series
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2008/liverac/liverac.pdf
+      name: PDF
+  title:
+    LiveRAC - Interactive Visual Exploration of System Management Time-Series
     Data
-  venue: Proc. Conf. on Human Factors in Computing Systems (CHI) 2008, pp 1483-1492
-- abstract: A book chapter exhorting infovis authors to avoid pitfalls at several
-    stages of research process, including visual encoding during design, a checkpoint
-    before starting to write, and after a full paper draft exists. The paper page
-    includes my current list of favorite design study examples.
+  venue:
+    Proc. Conf. on Human Factors in Computing Systems (CHI) 2008, pp 1483-1492
+  year: 2008
+
+###############################################################################
+
+- abstract:
+    A book chapter exhorting infovis authors to avoid pitfalls at several stages
+    of research process, including visual encoding during design, a checkpoint
+    before starting to write, and after a full paper draft exists. The paper
+    page includes my current list of favorite design study examples.
   authors:
-  - name: Tamara Munzner
+    - name: Tamara Munzner
   image: http://www.cs.ubc.ca/labs/imager/tr/2008/pitfalls/pitfalls.small.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2008/pitfalls
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2008/pitfalls/pitfalls.pdf
-    name: pdf
-  title: Process and Pitfalls in Writing Information Visualization Research Papers
-  venue: 'Information Visualization: Human-Centered Issues and Perspectives. Andreas
-    Kerren, John T. Stasko, Jean-Daniel Fekete, Chris North, eds. Springer LNCS Volume
-    4950, p 134-153, 2008.'
-- abstract: For the task we studied, point-based spatializations were far superior
-    to landscapes, and 2D landscapes were superior to 3D landscapes.
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2008/pitfalls/pitfalls.pdf
+      name: PDF
+  title:
+    Process and Pitfalls in Writing Information Visualization Research Papers
+  venue:
+    "Information Visualization: Human-Centered Issues and Perspectives. Andreas
+    Kerren, John T. Stasko, Jean-Daniel Fekete, Chris North, eds. Springer LNCS
+    Volume 4950, p 134-153, 2008."
+  year: 2008
+
+###############################################################################
+
+- abstract:
+    "[Poster] InnateDB and Cerebral: Computational Tools for the Systems-Level
+    Analysis of Innate Immunity. Gardy, J., Lynn, D., Winsor, G., Barsky, A.,
+    Roche, F., Chan, T., Laird, M., Chan, C., Shah, N., Richard, N., Lo, R.,
+    Naseer, M., Que, J., Yau, M., Acab, M., Tulpan, D., Whiteside, M., Munzner,
+    T., Hancock, R., and Brinkman, F. Experimental Biology, April 5-9, 2008, San
+    Diego, CA, USA."
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2008
+
+###############################################################################
+
+- abstract:
+    "[Technical Report] GLUG: GPU Layout of Undirected Graphs. Stephen Ingram,
+    Tamara Munzner, and Marc Olano. UBC Computer Science Technical Report
+    TR-2007-23, October 2007."
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2007
+
+###############################################################################
+
+- abstract:
+    "[Technical Report] A Study-Based Guide to Multiple Visual Information
+    Resolution Interface Designs. Heidi Lam and Tamara Munzner. UBC Computer
+    Science Technical Report TR-2007-21, September 2007. Final version: Morgan
+    Claypool Synthesis Lecture monograph."
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2007
+
+###############################################################################
+
+- abstract:
+    "[Technical Report] Glimmer: Multilevel MDS on the GPU. Stephen Ingram,
+    Tamara Munzner and Marc Olano. UBC Computer Science Technical Report
+    TR-2007-15, June 2007. Final version: IEEE TVCG paper."
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2007
+
+###############################################################################
+
+- abstract:
+    "[Poster] InnateDB: A knowledge base for systems biology approaches to
+    studying mammalian innate immunity. David J. Lynn, Fiona M. Roche, Timothy
+    H.W. Chan, Jennifer L. Gardy, Geoff Winsor, Matthew R. Laird, Michael Acab,
+    Calvin Chan, Naisha Shah, John Ling, Raymond Lo, Aaron Barsky, Tamara M.
+    Munzner, Dan Tulpan, Matthew Whiteside, Lorne A. Babiuk, Karsten Hokamp,
+    Robert E.W. Hancock, Fiona S.L. Brinkman. 2nd American Society for
+    Microbiology Pathogenomics Conference. June 24-27, 2007. Halifax, Nova
+    Scotia, Canada."
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2007
+
+###############################################################################
+
+- abstract:
+    For the task we studied, point-based spatializations were far superior to
+    landscapes, and 2D landscapes were superior to 3D landscapes.
   authors:
-  - link: http://www.cs.uvic.ca/~mtory/
-    name: Melanie Tory
-  - name: David W
+    - link: http://www.cs.uvic.ca/~mtory/
+      name: Melanie Tory
+    - name: David W
   image: http://www.cs.ubc.ca/~tmm/pix/spatialization.small.png
   link: http://webhome.cs.uvic.ca/~mtory/publications/infovis2007.pdf
   links:
-  - link: http://webhome.cs.uvic.ca/~mtory/publications/infovis2007.pdf
-    name: pdf
-  title: 'Spatialization Design: Comparing Points and Landscapes'
-  venue: IEEE Trans. Visualization and Computer Graphics (Proc. InfoVis 07), 13(6):1262--1269,
-    2007.
-- abstract: 'We compared four interfaces: overview-only, detail-only,separate overview
-    and detail windows, and detail embedded within overview as in Focus+Context interfaces.'
+    - link: http://webhome.cs.uvic.ca/~mtory/publications/infovis2007.pdf
+      name: PDF
+  title: "Spatialization Design: Comparing Points and Landscapes"
+  venue:
+    IEEE Trans. Visualization and Computer Graphics (Proc. InfoVis 07),
+    13(6):1262--1269, 2007.
+  year: 2007
+
+###############################################################################
+
+- abstract:
+    "We compared four interfaces: overview-only, detail-only,separate overview
+    and detail windows, and detail embedded within overview as in Focus+Context
+    interfaces."
   authors:
-  - link: http://www.cs.ubc.ca/~hllam
-    name: Heidi Lam
-  - link: http://rkincaid.net/
-    name: Robert Kincaid
-  - link: .
-    name: Tamara Munzner
+    - link: http://www.cs.ubc.ca/~hllam
+      name: Heidi Lam
+    - link: http://rkincaid.net/
+      name: Robert Kincaid
+    - link:
+      name: Tamara Munzner
   image: http://www.cs.ubc.ca/~tmm/pix/lge_study_embedded_highest.small.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2007/Lam_OverviewUse_InfoVis/
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2007/Lam_OverviewUse_InfoVis/LamMunznerKincaid_OverviewUse_InfoVis07.pdf
-    name: pdf
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2007/Lam_OverviewUse_InfoVis/LamMunznerKincaid_OverviewUse_InfoVis07.pdf
+      name: PDF
   title: Overview Use in Multiple Visual Information Resolution Interfaces
-  venue: IEEE Trans. Visualization and Computer Graphics (Proc. InfoVis 07) 13(6):1278--1285,
-    2007.
-- abstract: Taking a multiple-coordinated view approach, Session Viewer shows multiple
-    session populations at the Aggregate, Multiple, and Detail data levels to support
-    different analysis styles.
+  venue:
+    IEEE Trans. Visualization and Computer Graphics (Proc. InfoVis 07)
+    13(6):1278--1285, 2007.
+  year: 2007
+
+###############################################################################
+
+- abstract:
+    Taking a multiple-coordinated view approach, Session Viewer shows multiple
+    session populations at the Aggregate, Multiple, and Detail data levels to
+    support different analysis styles.
   authors:
-  - link: http://www.cs.ubc.ca/~hllam
-    name: Heidi Lam
-  - name: Daniel Russell
-  - name: Diane Tang
-  - link: .
-    name: Tamara Munzner
+    - link: http://www.cs.ubc.ca/~hllam
+      name: Heidi Lam
+    - name: Daniel Russell
+    - name: Diane Tang
+    - link: .
+      name: Tamara Munzner
   image: http://www.cs.ubc.ca/~tmm/pix/sv2_main.small.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2007/Lam_SessionViewer_VAST/
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2007/Lam_SessionViewer_VAST/LamRussellTangMunzner_SessionViewer_VAST07.pdf
-    name: pdf
-  title: 'Session Viewer: Visual Exploratory Analysis of Web Session Logs'
-  venue: Proc. IEEE Symposium on Visual Analytics Science and Technology (VAST), p
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2007/Lam_SessionViewer_VAST/LamRussellTangMunzner_SessionViewer_VAST07.pdf
+      name: PDF
+  title: "Session Viewer: Visual Exploratory Analysis of Web Session Logs"
+  venue:
+    Proc. IEEE Symposium on Visual Analytics Science and Technology (VAST), p
     147-154, 2007.
-- abstract: Interactive and steerable exploration of multilevel graph hierarchies,
-    as created by TopoLayout
+  year: 2007
+
+###############################################################################
+
+- abstract:
+    Interactive and steerable exploration of multilevel graph hierarchies, as
+    created by TopoLayout
   authors:
-  - link: http://www.cs.ubc.ca/~archam
-    name: Daniel Archambault
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
-  - link: http://www.labri.fr/~auber
-    name: David Auber
+    - link: http://www.cs.ubc.ca/~archam
+      name: Daniel Archambault
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+    - link: http://www.labri.fr/~auber
+      name: David Auber
   image: http://www.cs.ubc.ca/labs/imager/tr/2007/Archambault_Grouse_EuroVis/Stone1999CoverThumb.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2007/Archambault_Grouse_EuroVis/
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2007/Archambault_Grouse_EuroVis/grouseEvis.pdf
-    name: pdf
-  title: 'Grouse: Feature-Based, Steerable Graph Hierarchy Exploration'
-  venue: Proc. Eurographics / IEEE VGTC Symposium on Visualization (EuroVis 07), p
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2007/Archambault_Grouse_EuroVis/grouseEvis.pdf
+      name: PDF
+  title: "Grouse: Feature-Based, Steerable Graph Hierarchy Exploration"
+  venue:
+    Proc. Eurographics / IEEE VGTC Symposium on Visualization (EuroVis 07), p
     67-74
-- abstract: Short note aimed at the bioinformatics community announcing a graph layout
-    approach for protein-protein interaction networks that exploits annotations about
-    where genes/proteins are expressed within a cell and their function.
+  year: 2007
+
+###############################################################################
+
+- abstract:
+    Short note aimed at the bioinformatics community announcing a graph layout
+    approach for protein-protein interaction networks that exploits annotations
+    about where genes/proteins are expressed within a cell and their function.
   authors:
-  - link: http://www.cs.ubc.ca/~barskya
-    name: Aaron Barsky
-  - name: Jennifer L
+    - link: http://www.cs.ubc.ca/~barskya
+      name: Aaron Barsky
+    - name: Jennifer L
   image: http://www.cs.ubc.ca/labs/imager/tr/2007/barskya_cerebral_appnote/cerebraltlr4.small.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2007/barskya_cerebral_appnote/
   links:
-  - link: http://bioinformatics.oxfordjournals.org/cgi/reprint/btm057?ijkey=oMsE1gJOp7Ljz3T&keytype=ref
-    name: pdf
-  title: 'Cerebral: a Cytoscape plugin for layout of and interaction with biological
-    networks using subcellular localization annotation'
-  venue: Bioinformatics 23(8):1040-1042, 2007 Bioinformatics Advance Access published
+    - link: http://bioinformatics.oxfordjournals.org/cgi/reprint/btm057?ijkey=oMsE1gJOp7Ljz3T&keytype=ref
+      name: PDF
+  title:
+    "Cerebral: a Cytoscape plugin for layout of and interaction with biological
+    networks using subcellular localization annotation"
+  venue:
+    Bioinformatics 23(8):1040-1042, 2007 Bioinformatics Advance Access published
     online on February 19, 2007
-- abstract: Multilevel graph drawing algorithm where the original graph is decomposed
-    into features based on topological structures such as trees and clusters, each
-    feature is drawn with an appropriately tuned algorithm, and passes for crossing
-    reduction and overlap elimination reduce visual clutter.
+  year: 2007
+
+###############################################################################
+
+- abstract:
+    Multilevel graph drawing algorithm where the original graph is decomposed
+    into features based on topological structures such as trees and clusters,
+    each feature is drawn with an appropriately tuned algorithm, and passes for
+    crossing reduction and overlap elimination reduce visual clutter.
   authors:
-  - link: http://www.cs.ubc.ca/~archam
-    name: Daniel Archambault
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
-  - link: http://www.labri.fr/~auber
-    name: David Auber
+    - link: http://www.cs.ubc.ca/~archam
+      name: Daniel Archambault
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+    - link: http://www.labri.fr/~auber
+      name: David Auber
   image: http://www.cs.ubc.ca/~tmm/pix/table2.small.crop.jpg
   link: http://www.cs.ubc.ca/labs/imager/tr/2006/Archambault_TopoLayout_TVCG
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2006/Archambault_TopoLayout_TVCG/TVCG-0215-1205.R1-TopoLayout.pdf
-    name: pdf
-  title: 'TopoLayout: Multi-Level Graph Layout by Topological Features'
-  venue: Transactions on Visualization and Computer Graphics, 13(2):305--317, Mar/Apr
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2006/Archambault_TopoLayout_TVCG/TVCG-0215-1205.R1-TopoLayout.pdf
+      name: PDF
+  title: "TopoLayout: Multi-Level Graph Layout by Topological Features"
+  venue:
+    Transactions on Visualization and Computer Graphics, 13(2):305--317, Mar/Apr
     2007.
-- abstract: Two-level approach to drawing complex graphs where an area-aware version
-    of the RINGS tree drawing algorithm is used to show the high-level structure,
+  year: 2007
+
+###############################################################################
+
+- abstract:
+    Two-level approach to drawing complex graphs where an area-aware version of
+    the RINGS tree drawing algorithm is used to show the high-level structure,
     and the force-directed LGL approach is used to show the low-level structure.
   authors:
-  - link: http://www.cs.ubc.ca/~archam
-    name: Daniel Archambault
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
-  - link: http://www.labri.fr/~auber
-    name: David Auber
+    - link: http://www.cs.ubc.ca/~archam
+      name: Daniel Archambault
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+    - link: http://www.labri.fr/~auber
+      name: David Auber
   image: http://www.cs.ubc.ca/~tmm/pix/chesFig.small.crop.jpg
   link: http://www.cs.ubc.ca/labs/imager/tr/2006/Archambault_SPF_InfoVis2006
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2006/Archambault_SPF_InfoVis2006/ArchambaultMunznerAuberQuasiTree.pdf
-    name: pdf
-  title: 'Smashing Peacocks Further: Drawing Quasi-Trees From Biconnected Components'
-  venue: IEEE Trans. Visualization and Computer Graphics (Proc. InfoVis 06) 12(5),
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2006/Archambault_SPF_InfoVis2006/ArchambaultMunznerAuberQuasiTree.pdf
+      name: PDF
+  title:
+    "Smashing Peacocks Further: Drawing Quasi-Trees From Biconnected Components"
+  venue:
+    IEEE Trans. Visualization and Computer Graphics (Proc. InfoVis 06) 12(5),
     September 2006, p 813-820.
-- abstract: Navigation for accordion drawing, whereas previous papers focused on rendering.
+  year: 2006
+
+###############################################################################
+
+- abstract:
+    Navigation for accordion drawing, whereas previous papers focused on
+    rendering.
   authors:
-  - link: http://www.cs.ubc.ca/~jslack
-    name: James Slack
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
+    - link: http://www.cs.ubc.ca/~jslack
+      name: James Slack
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
   image: http://www.cs.ubc.ca/~tmm/pix/stretchsquish.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2006/Slack_ADNAV_Vis2006
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2006/Slack_ADNAV_Vis2006/Slack2006.pdf
-    name: pdf
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2006/Slack_ADNAV_Vis2006/Slack2006.pdf
+      name: PDF
   title: Composite Rectilinear Deformation for Stretch and Squish Navigation
-  venue: IEEE Trans. Visualization and Computer Graphics (Proc. Visualization 2006)
+  venue:
+    IEEE Trans. Visualization and Computer Graphics (Proc. Visualization 2006)
     12(5), September 2006, p 901-908.
-- abstract: Evaluation of how both linear and nonlinear geometric transformations
-    affect visual memory, as opposed to previous paper on visual search.
+  year: 2006
+
+###############################################################################
+
+- abstract:
+    Evaluation of how both linear and nonlinear geometric transformations affect
+    visual memory, as opposed to previous paper on visual search.
   authors:
-  - link: http://www.cs.ubc.ca/~hllam
-    name: Heidi Lam
-  - name: Ronald A
+    - link: http://www.cs.ubc.ca/~hllam
+      name: Heidi Lam
+    - name: Ronald A
   image: http://www.cs.ubc.ca/~tmm/pix/apgv06.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2006/Lam_IT_APGV
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2006/Lam_IT_APGV/LamRensinkMunzner_GeoTxVisualMemory_APGV2006.pdf
-    name: pdf
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2006/Lam_IT_APGV/LamRensinkMunzner_GeoTxVisualMemory_APGV2006.pdf
+      name: PDF
   title: Effects of 2D Geometric Transformations on Visual Memory
-  venue: Proc. Applied Perception in Graphics and Visualization (APGV 2006), 119-126,
+  venue:
+    Proc. Applied Perception in Graphics and Visualization (APGV 2006), 119-126,
     2006.
-- abstract: Evaluation comparing navigation techniques and availability of contextual
+  year: 2006
+
+###############################################################################
+
+- abstract:
+    Evaluation comparing navigation techniques and availability of contextual
     information.
   authors:
-  - link: http://www.cs.ubc.ca/~dmitry
-    name: Dmitry Nekrasovski
-  - link: http://www.cs.ubc.ca/~bodnar
-    name: Adam Bodnar
-  - link: http://www.cs.umd.edu/~francois
-    name: "Fran\xE7ois Guimbreti\xE8re"
-  - link: http://www.cs.ubc.ca/~joanna
-    name: Joanna McGrenere
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
+    - link: http://www.cs.ubc.ca/~dmitry
+      name: Dmitry Nekrasovski
+    - link: http://www.cs.ubc.ca/~bodnar
+      name: Adam Bodnar
+    - link: http://www.cs.umd.edu/~francois
+      name: "Fran\xE7ois Guimbreti\xE8re"
+    - link: http://www.cs.ubc.ca/~joanna
+      name: Joanna McGrenere
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
   image: http://www.cs.ubc.ca/~tmm/pix/chi06.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2006/Nekrasovski2006CHI
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2006/Nekrasovski2006CHI/Nekrasovski2006CHI.pdf
-    name: pdf
-  title: An Evaluation of Pan&Zoom and Rubber Sheet Navigation with and without an
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2006/Nekrasovski2006CHI/Nekrasovski2006CHI.pdf
+      name: PDF
+  title:
+    An Evaluation of Pan&Zoom and Rubber Sheet Navigation with and without an
     Overview
-  venue: Proc. ACM Conf. on Human Factors in Computing Systems (CHI) 2006, p 11-20.
+  venue:
+    Proc. ACM Conf. on Human Factors in Computing Systems (CHI) 2006, p 11-20.
+  year: 2006
+
+###############################################################################
+
 - abstract: Five-page summary of VRC report
   authors:
-  - link: http://www.erc.msstate.edu/~rjm/
-    name: Robert Moorhead
-  - link: http://www.cs.utah.edu/~crj/
-    name: Chris Johnson
-  - name: Tamara Munzner
-  - name: Hanspeter Pfister
-  - link: http://www.csee.umbc.edu/~rheingan/
-    name: Penny Rheingans
-  - name: Terry S
+    - link: http://www.erc.msstate.edu/~rjm/
+      name: Robert Moorhead
+    - link: http://www.cs.utah.edu/~crj/
+      name: Chris Johnson
+    - name: Tamara Munzner
+    - name: Hanspeter Pfister
+    - link: http://www.csee.umbc.edu/~rheingan/
+      name: Penny Rheingans
+    - name: Terry S
   image: http://tab.computer.org/vgtc/pics/Report_cover_sm.jpg
   link: http://doi.ieeecomputersociety.org/10.1109/MCSE.2006.77
-  title: 'Visualization Research Challenges: A Report Summary'
-  venue: IEEE Computing in Science & Engineering, Vol 8, No 4 (July/Aug) 2006, p 66-73.
+  title: "Visualization Research Challenges: A Report Summary"
+  venue:
+    IEEE Computing in Science & Engineering, Vol 8, No 4 (July/Aug) 2006, p
+    66-73.
+  year: 2006
+
+###############################################################################
+
 - abstract: Five-page summary of VRC report
   authors:
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
-  - name: Chris Johnson
-  - link: http://www.erc.msstate.edu/~rjm/
-    name: Robert Moorhead
-  - link: http://www.merl.com/people/pfister/pfister.html
-    name: Hanspeter Pfister
-  - link: http://www.csee.umbc.edu/~rheingan/
-    name: Penny Rheingans
-  - name: Terry S
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+    - name: Chris Johnson
+    - link: http://www.erc.msstate.edu/~rjm/
+      name: Robert Moorhead
+    - link: http://www.merl.com/people/pfister/pfister.html
+      name: Hanspeter Pfister
+    - link: http://www.csee.umbc.edu/~rheingan/
+      name: Penny Rheingans
+    - name: Terry S
   image: http://tab.computer.org/vgtc/pics/Report_cover_sm.jpg
   link: papers/vrcviewpoints/vrcviewpoints.pdf
   title: NIH/NSF Visualization Research Challenges Report Summary
-  venue: IEEE Computer Graphics and Applications, Vol 26, No 2 (March/April) 2006,
-    p 20-24.
-- abstract: This report, sponsored by the NIH and NSF, is a followup to the 1987 NSF
-    Visualization report. Our goal is to evaluate the progress of the maturing field
-    of visualization, to help focus and direct future research projects, and to provide
-    guidance on how to apportion national resources. Our findings and recommendations
-    reflect not only information gathered from visualization and applications scientists
-    during two workshops on Visualization Research Challenges but also input from
-    the larger visualization community.
+  venue:
+    IEEE Computer Graphics and Applications, Vol 26, No 2 (March/April) 2006, p
+    20-24.
+  year: 2006
+
+###############################################################################
+
+- abstract:
+    This report, sponsored by the NIH and NSF, is a followup to the 1987 NSF
+    Visualization report. Our goal is to evaluate the progress of the maturing
+    field of visualization, to help focus and direct future research projects,
+    and to provide guidance on how to apportion national resources. Our findings
+    and recommendations reflect not only information gathered from visualization
+    and applications scientists during two workshops on Visualization Research
+    Challenges but also input from the larger visualization community.
   authors:
-  - link: http://www.cs.utah.edu/~crj/
-    name: Chris Johnson
-  - link: http://www.erc.msstate.edu/~rjm/
-    name: Robert Moorhead
-  - name: Tamara Munzner
-  - name: Hanspeter Pfister
-  - link: http://www.csee.umbc.edu/~rheingan/
-    name: Penny Rheingans
-  - name: Terry S
+    - link: http://www.cs.utah.edu/~crj/
+      name: Chris Johnson
+    - link: http://www.erc.msstate.edu/~rjm/
+      name: Robert Moorhead
+    - name: Tamara Munzner
+    - name: Hanspeter Pfister
+    - link: http://www.csee.umbc.edu/~rheingan/
+      name: Penny Rheingans
+    - name: Terry S
   image: http://tab.computer.org/vgtc/pics/Report_cover_sm.jpg
   link: http://www.vgtc.org/PDF/awards/NIH-NSF-VRC-Report-Final.pdf
   title: NIH/NSF Visualization Research Challenges Report
   venue: IEEE Computer Society Press, 2006, ISBN 0-7695-2733-7 (36 page book).
-- abstract: Longer journal version of PRISAD paper, recommended over the conference
+  year: 2006
+
+###############################################################################
+
+- abstract:
+    Longer journal version of PRISAD paper, recommended over the conference
     version. The algorithm explanation is clearer and more detailed.
   authors:
-  - link: http://www.cs.ubc.ca/~jslack
-    name: James Slack
-  - link: http://www.uni-weimar.de/~hildebr2/
-    name: Kristian Hildebrand
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
+    - link: http://www.cs.ubc.ca/~jslack
+      name: James Slack
+    - link: http://www.uni-weimar.de/~hildebr2/
+      name: Kristian Hildebrand
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
   image: http://www.cs.ubc.ca/~tmm/pix/prisadjournal.small.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2006/prisadjournal
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2006/prisadjournal/prisadJournal.pdf
-    name: pdf
-  title: Partitioned Rendering Infrastructure for Scalable Accordion Drawing (Extended
-    Version)
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2006/prisadjournal/prisadJournal.pdf
+      name: PDF
+  title:
+    Partitioned Rendering Infrastructure for Scalable Accordion Drawing
+    (Extended Version)
   venue: Information Visualization, 5(2), p. 137-151, 2006.
-- abstract: Conference version of PRISAD paper, presenting generic and efficient infrastructure
-    for accordion drawing with an emphasis on rendering.
+  year: 2006
+
+###############################################################################
+
+- abstract:
+    "[Abstract] The Invariance of Visual Long-term Long-term Memory to Geometric
+    Transformation. Heidi Lam, Tamara Munzner, and Ronald A. Rensink. Journal of
+    Vision, 6(6):983, 983a. Vision Sciences Society, Sarasota, FL, USA. May
+    2006. Final version: APGV 2006 conference paper."
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2006
+
+###############################################################################
+
+- abstract:
+    "[Poster] A bioinformatics platform facilitating robust cross-species
+    comparisons of innate immunity microarray data. Roche FM, Acab M, Barsky A,
+    Chan T, Fulton DL, Gardy JL, Laird MR, Li YL, Lo R, Munzner T, Winsor GL,
+    Wei R, Whiteside M, Babiuk L, Hancock REW, Hokamp K, Brinkman FSL. 2006
+    International Workshop on Systems Biology, July 17-19, National University
+    of Ireland, Maynooth, Kildare, Ireland."
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2006
+
+###############################################################################
+
+- abstract:
+    "[Technical Report] TopoLayout: Graph Layout by Topological Features. Daniel
+    Archambault, Tamara Munzner and David Auber. UBC Computer Science Technical
+    Report TR-2005-30, Dec 2005. Final version: TopoLayout TVCG journal paper."
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2005
+
+###############################################################################
+
+- abstract:
+    "[Technical Report. Visual Mining of Power Sets with Large Alphabets. Tamara
+    Munzner, Qiang Kong, Raymond T. Ng, Jordan Lee, Janek Klawe, Dragana
+    Radulovic and Carson K. Leung. UBC Computer Science Technical Report
+    TR-2005-25, Dec 2005. Videos: PSV Video (20MB Quicktime, no audio)."
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2005
+
+###############################################################################
+
+- abstract:
+    "[Poster] TopoLayout: Graph Layout by Topological Features. Daniel
+    Archambault, Tamara Munzner and David Auber. InfoVis 2005 Poster Compendium,
+    p. 3-4. Final version: TopoLayout TVCG journal paper."
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2005
+
+###############################################################################
+
+- abstract:
+    "[Poster] MusicLand: Exploratory Browsing in Music Space. Heidi Lam and
+    Tamara Munzner. InfoVis 2005 Posters Compendium, p. 29-30."
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2005
+
+###############################################################################
+
+- abstract:
+    Conference version of PRISAD paper, presenting generic and efficient
+    infrastructure for accordion drawing with an emphasis on rendering.
   authors:
-  - link: http://www.cs.ubc.ca/~jslack
-    name: James Slack
-  - link: http://www.uni-weimar.de/~hildebr2/
-    name: Kristian Hildebrand
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
+    - link: http://www.cs.ubc.ca/~jslack
+      name: James Slack
+    - link: http://www.uni-weimar.de/~hildebr2/
+      name: Kristian Hildebrand
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
   image: http://www.cs.ubc.ca/~tmm/pix/prisad.small.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2005/prisad
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2005/prisad/prisad.pdf
-    name: pdf
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2005/prisad/prisad.pdf
+      name: PDF
   title: Partitioned Rendering Infrastructure for Scalable Accordion Drawing
-  venue: Proc. IEEE Symposium on Information Visualization (InfoVis) 2005, pp 41--48.
-- abstract: Highly scalable accordion drawing for huge trees of 15 million nodes with
+  venue:
+    Proc. IEEE Symposium on Information Visualization (InfoVis) 2005, pp 41--48.
+  year: 2005
+
+###############################################################################
+
+- abstract:
+    Highly scalable accordion drawing for huge trees of 15 million nodes with
     leading-edge graphics hardware and 5 million nodes on commodity platforms.
   authors:
-  - link: http://www.cs.virginia.edu/~drb3t/
-    name: Dale Beermann
-  - name: Tamara Munzner
-  - name: Greg HumphreysProc
+    - link: http://www.cs.virginia.edu/~drb3t/
+      name: Dale Beermann
+    - name: Tamara Munzner
+    - name: Greg HumphreysProc
   image: http://www.cs.ubc.ca/~tmm/pix/tjc.png
   link: http://www.cs.virginia.edu/~gfx/pmwiki/index.php?n=Pubs.Beermann2005SRV
   links:
-  - link: http://www.cs.virginia.edu/~gfx/pubs/Beermann_2005_SRV/beermann2005.pdf
-    name: pdf
+    - link: http://www.cs.virginia.edu/~gfx/pubs/Beermann_2005_SRV/beermann2005.pdf
+      name: PDF
   title: Scalable, Robust Visualization of Large Trees
   venue: Proc. EuroVis 2005, pp 37--44.
+  year: 2005
+
+###############################################################################
+
 - abstract: Accordion drawing for comparing gene sequences.
   authors:
-  - link: http://www.cs.ubc.ca/~jslack
-    name: James Slack
-  - link: http://www.uni-weimar.de/~hildebr2/
-    name: Kristian Hildebrand
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
-  - name: Katherine St
+    - link: http://www.cs.ubc.ca/~jslack
+      name: James Slack
+    - link: http://www.uni-weimar.de/~hildebr2/
+      name: Kristian Hildebrand
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+    - name: Katherine St
   image: http://www.cs.ubc.ca/~tmm/pix/sj.small.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2004/sj
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2004/sj/gcb.pdf
-    name: pdf
-  title: 'SequenceJuxtaposer: Fluid Navigation For Large-Scale Sequence Comparison
-    In Context'
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2004/sj/gcb.pdf
+      name: PDF
+  title:
+    "SequenceJuxtaposer: Fluid Navigation For Large-Scale Sequence Comparison In
+    Context"
   venue: German Conference on Bioinformatics 2004, pp 37-42.
+  year: 2004
+
+###############################################################################
+
 - abstract: Steerable multidimensional scaling with progressive layout.
   authors:
-  - link: http://www.cs.ubc.ca/~mwill
-    name: Matt Williams
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
+    - link: http://www.cs.ubc.ca/~mwill
+      name: Matt Williams
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
   image: http://www.cs.ubc.ca/labs/imager/tr/2004/mdsteer/figs/ProgMDSLayout-S200KbShot4.tiny.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2004/mdsteer/
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2004/mdsteer/mds.pdf
-    name: pdf
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2004/mdsteer/mds.pdf
+      name: PDF
   title: Steerable, Progressive Multidimensional Scaling
-  venue: Proc IEEE Symposium on Information Visualization (InfoVis) 2004, pp 57-64.
-- abstract: We quantify the perceptual cost of geometric transformations for visual
-    search tasks, finding no-cost and low-cost zones for fisheye transformations.
+  venue:
+    Proc IEEE Symposium on Information Visualization (InfoVis) 2004, pp 57-64.
+  year: 2004
+
+###############################################################################
+
+- abstract:
+    We quantify the perceptual cost of geometric transformations for visual
+    search tasks, finding no-cost and low-cost zones for fisheye
+    transformations.
   authors:
-  - name: Keith Lau
-  - link: http://www.cs.ubc.ca/~rensink
-    name: Ron Rensink
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
+    - name: Keith Lau
+    - link: http://www.cs.ubc.ca/~rensink
+      name: Ron Rensink
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
   image: http://www.cs.ubc.ca/~tmm/pix/apgv04.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2004/LauAPGV04
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2004/LauAPGV04/apgv.pdf
-    name: pdf
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2004/LauAPGV04/apgv.pdf
+      name: PDF
   title: Perceptual Invariance of Nonlinear Focus+Context Transformations
-  venue: Proc. First Symposium on Applied Perception in Graphics and Visualization
+  venue:
+    Proc. First Symposium on Applied Perception in Graphics and Visualization
     (APGV 04) 2004, pp 65-72.
+  year: 2004
+
+###############################################################################
+
+- abstract:
+    "[Contest] Exploring InfoVis Publication History with Tulip. Maylis Delest,
+    Tamara Munzner, David Auber, and Jean-Philippe Domenger. InfoVis 2004
+    Contest Entry, one of eight second place winners. Preview PPT, HTML, PDF
+    Poster PPT PDF."
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2004
+
+###############################################################################
+
+- abstract:
+    "[Poster] BinX: Dynamic Exploration of Time Series Datasets Across
+    Aggregation Levels. Lior Berry and Tamara Munzner. InfoVis 04 Posters
+    Compendium, pp 5-6."
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2004
+
+###############################################################################
+
+- abstract:
+    "[Poster] Accordion Comparison of Evolutionary Trees and Genomic Sequences.
+    James Slack, Kristian Hildebrand, and Tamara Munzner. Evolution 2004, Fort
+    Collins CO, 6/04."
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2004
+
+###############################################################################
+
+- abstract:
+    "[Contest] TreeJuxtaposer: InfoVis03 Contest Entry. James Slack, Tamara
+    Munzner, and François Guimbretière. InfoVis 2003 Contest Overall winner in
+    the inaugural InfoVis Contest."
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2003
+
+###############################################################################
+
 - abstract: Visual diff for trees, introducing accordion drawing.
   authors:
-  - link: http://www.cs.ubc.ca/~tmm/
-    name: Tamara Munzner
-  - link: http://www.cs.umd.edu/~francois/
-    name: "Fran\xE7ois Guimbreti\xE8re"
-  - name: Serdar Tasiran
-  - name: Li Zhang
-  - name: Yunhong Zhou
+    - link: http://www.cs.ubc.ca/~tmm/
+      name: Tamara Munzner
+    - link: http://www.cs.umd.edu/~francois/
+      name: "Fran\xE7ois Guimbreti\xE8re"
+    - name: Serdar Tasiran
+    - name: Li Zhang
+    - name: Yunhong Zhou
   image: http://www.cs.ubc.ca/labs/imager/tr/2003/tj/smallfigs/teaser.small.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2003/tj
   links:
-  - link: http://www.cs.ubc.ca/labs/imager/tr/2003/tj/tj.camready.pdf
-    name: pdf
-  title: 'TreeJuxtaposer: Scalable Tree Comparison using Focus+Context with Guaranteed
-    Visibility'
+    - link: http://www.cs.ubc.ca/labs/imager/tr/2003/tj/tj.camready.pdf
+      name: PDF
+  title:
+    "TreeJuxtaposer: Scalable Tree Comparison using Focus+Context with
+    Guaranteed Visibility"
   venue: SIGGRAPH 2003, pp 453--462.
-- abstract: In this short introduction I briefly describe the goals of the field of
-    information visualization to set the stage for the four accepted papers in this
-    special issue, for which I was the guest editor.
+  year: 2003
+
+###############################################################################
+
+- abstract:
+    In this short introduction I briefly describe the goals of the field of
+    information visualization to set the stage for the four accepted papers in
+    this special issue, for which I was the guest editor.
   authors:
-  - link: http://www.cs.ubc.ca/~tmm
-    name: Tamara Munzner
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
   link: http://graphics.stanford.edu/~munzner/cga02/index.html
   links:
-  - link: http://graphics.stanford.edu/~munzner/cga02/gei.pdf
-    name: pdf
+    - link: http://graphics.stanford.edu/~munzner/cga02/gei.pdf
+      name: PDF
   title: Guest Editor's Introduction
-  venue: IEEE Computer Graphics and Applications Special Issue on Information Visualization,
-    22(1), Jan/Feb 2002, pp 20-21.
-- abstract: This paper discusses a user study conducted at Microsoft Research that
-    found a statistically significant improvement in task time when a novel web browser
-    that included the H3Viewer was compared to more traditional browsers.
+  venue:
+    IEEE Computer Graphics and Applications Special Issue on Information
+    Visualization, 22(1), Jan/Feb 2002, pp 20-21.
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 2002
+
+###############################################################################
+
+- abstract:
+    This paper discusses a user study conducted at Microsoft Research that found
+    a statistically significant improvement in task time when a novel web
+    browser that included the H3Viewer was compared to more traditional
+    browsers.
   authors:
-  - name: Kirsten Risden
-  - name: Mary P
+    - name: Kirsten Risden
+    - name: Mary P
   image: http://www.cs.ubc.ca/~tmm/pix/ijhcs.small.png
   link: http://research.microsoft.com/users/marycz/ijhcs004.pdf
-  title: An Initial Examination of Ease of Use for 2D and 3D Information Visualizations
-    of Web Content
-  venue: International Journal of Human Computer Studies, Vol. 53, No. 5, November
+  title:
+    An Initial Examination of Ease of Use for 2D and 3D Information
+    Visualizations of Web Content
+  venue:
+    International Journal of Human Computer Studies, Vol. 53, No. 5, November
     2000, pp 695-714.
-- abstract: My dissertation includes a chapter each on the H3, Planet Multicast, and
-    Constellation projects, with much more analysis than appeared in any of the original
-    papers.
+  year: 2000
+
+###############################################################################
+
+- abstract:
+    My dissertation includes a chapter each on the H3, Planet Multicast, and
+    Constellation projects, with much more analysis than appeared in any of the
+    original papers.
   authors:
-  - link: http://graphics.stanford.edu/~munzner
-    name: Tamara Munzner
+    - link: http://graphics.stanford.edu/~munzner
+      name: Tamara Munzner
   link: http://graphics.stanford.edu/papers/munzner_thesis
   links:
-  - link: http://graphics.stanford.edu/papers/munzner_thesis/all.onscreen.pdf
-    name: pdf
+    - link: http://graphics.stanford.edu/papers/munzner_thesis/all.onscreen.pdf
+      name: PDF
   title: Interactive Visualization of Large Graphs and Networks
   venue: Ph.D. Dissertation, Stanford University, June 2000.
-- abstract: A paper on interactive rendering of scenes where objects can have different
+  image: http://graphics.stanford.edu/papers/h3cga/smallfig/idle.jpg
+  year: 2000
+
+###############################################################################
+
+- abstract:
+    A paper on interactive rendering of scenes where objects can have different
     projections, as in the simulaneous multiple viewpoints of Cubist paintings.
   authors:
-  - link: http://graphics.stanford.edu/~maneesh
-    name: Maneesh Agrawala
-  - link: http://graphics.stanford.edu/~dzorin
-    name: Denis Zorin
-  - link: http://graphics.stanford.edu/~munzner
-    name: Tamara Munzner
+    - link: http://graphics.stanford.edu/~maneesh
+      name: Maneesh Agrawala
+    - link: http://graphics.stanford.edu/~dzorin
+      name: Denis Zorin
+    - link: http://graphics.stanford.edu/~munzner
+      name: Tamara Munzner
   image: http://www.cs.ubc.ca/~tmm/pix/stilllife-imp.small.jpg
   link: http://graphics.stanford.edu/papers/mpr
   links:
-  - link: http://graphics.stanford.edu/papers/mpr/mpr.pdf
-    name: pdf
+    - link: http://graphics.stanford.edu/papers/mpr/mpr.pdf
+      name: PDF
   title: Artistic Multiprojection Rendering
-  venue: Proceedings of the 11th Eurographics Rendering Workshop, June 26-28 2000,
-    pp 125-136. These proceedings were also published as Rendering Techniques 2000,
+  venue:
+    Proceedings of the 11th Eurographics Rendering Workshop, June 26-28 2000, pp
+    125-136. These proceedings were also published as Rendering Techniques 2000,
     B. Peroche and H. Rushmeier, eds, Springer, 2000.
-- abstract: A paper on a 2D interactive system that uses a custom graph layout algorithm
-    and many perceptual channels to help computational linguists debug their algorithms
-    for generating and using large semantic networks.
+  year: 2000
+
+###############################################################################
+
+- abstract:
+    A paper on a 2D interactive system that uses a custom graph layout algorithm
+    and many perceptual channels to help computational linguists debug their
+    algorithms for generating and using large semantic networks.
   authors:
-  - link: http://graphics.stanford.edu/~munzner
-    name: Tamara Munzner
-  - link: http://graphics.stanford.edu/~francois
-    name: "Fran\xE7ois Guimbreti\xE8re"
-  - link: http://www.research.microsoft.com/~ggr
-    name: George Robertson
+    - link: http://graphics.stanford.edu/~munzner
+      name: Tamara Munzner
+    - link: http://graphics.stanford.edu/~francois
+      name: "Fran\xE7ois Guimbreti\xE8re"
+    - link: http://www.research.microsoft.com/~ggr
+      name: George Robertson
   image: http://www.cs.ubc.ca/~tmm/pix/const.small.png
   link: http://graphics.stanford.edu/papers/const
   links:
-  - link: http://graphics.stanford.edu/papers/const/const.pdf
-    name: pdf
-  - link: http://graphics.stanford.edu/papers/const/colorplate.pdf
-    name: color plate pdf
-  title: 'Constellation: A Visualization Tool For Linguistic Queries from MindNet'
-  venue: Proceedings of the 1999 IEEE Symposium on Information Visualization (InfoVis
+    - link: http://graphics.stanford.edu/papers/const/const.pdf
+      name: PDF
+    - link: http://graphics.stanford.edu/papers/const/colorplate.pdf
+      name: color plate pdf
+  title:
+    "Constellation: A Visualization Tool For Linguistic Queries from MindNet"
+  venue:
+    Proceedings of the 1999 IEEE Symposium on Information Visualization (InfoVis
     99), 1999, pp 132-135.
-- abstract: A paper which presents the H3Viewer guaranteed frame rate drawing algorithm,
-    along with a brief review of the H3 layout algorithm for context. Very large graphs
-    can be navigated at a constant frame rate, as long as the entire graph can fit
-    into main memory. The viewer is custom OpenGL/C++ code. My implementation of the
-    algorithm discussed here was shipped with the Site Manager 1.1 software from SGI.
-    The source is available for free noncommercial use.
+  year: 1999
+
+###############################################################################
+
+- abstract:
+    A paper which presents the H3Viewer guaranteed frame rate drawing algorithm,
+    along with a brief review of the H3 layout algorithm for context. Very large
+    graphs can be navigated at a constant frame rate, as long as the entire
+    graph can fit into main memory. The viewer is custom OpenGL/C++ code. My
+    implementation of the algorithm discussed here was shipped with the Site
+    Manager 1.1 software from SGI. The source is available for free
+    noncommercial use.
   authors:
-  - link: http://graphics.stanford.edu/~munzner
-    name: Tamara Munzner
+    - link: http://graphics.stanford.edu/~munzner
+      name: Tamara Munzner
   image: http://graphics.stanford.edu/papers/h3draw/smallfig/scrshot.jpg
   link: http://graphics.stanford.edu/papers/h3draw
   links:
-  - link: http://graphics.stanford.edu/papers/h3draw/gd98.pdf
-    name: pdf
+    - link: http://graphics.stanford.edu/papers/h3draw/gd98.pdf
+      name: PDF
   title: Drawing Large Graphs with H3Viewer and Site Manager
-  venue: Proceedings of Graph Drawing '98, Montreal, Canada, August 1998, Lecture
+  venue:
+    Proceedings of Graph Drawing '98, Montreal, Canada, August 1998, Lecture
     Notes in Computer Science 1547, pp. 384-393, Springer-Verlag.
-- abstract: An article which briefly reviews the H3 layout and H3Viewer drawing algorithms.
-    The main new material here is a discussion about possible tasks for graph drawing
-    beyond the global overview problem.
+  year: 1998
+
+###############################################################################
+
+- abstract:
+    An article which briefly reviews the H3 layout and H3Viewer drawing
+    algorithms. The main new material here is a discussion about possible tasks
+    for graph drawing beyond the global overview problem.
   authors:
-  - link: http://graphics.stanford.edu/~munzner
-    name: Tamara Munzner
+    - link: http://graphics.stanford.edu/~munzner
+      name: Tamara Munzner
   image: http://graphics.stanford.edu/papers/h3cga/smallfig/idle.jpg
   link: http://graphics.stanford.edu/papers/h3cga
   links:
-  - link: http://graphics.stanford.edu/papers/h3cga/html
-    name: html
+    - link: http://graphics.stanford.edu/papers/h3cga/html
+      name: html
   title: Exploring Large Graphs in 3D Hyperbolic Space
-  venue: IEEE Computer Graphics and Applications, Vol. 18, No. 4, pp 18-23, July/August
-    1998.
-- abstract: A paper that presents a much improved layout algorithm that exploits some
-    of the properties of 3D hyperbolic space to achieve reasonable information density.
-    The viewer is a highly modified version of Geomview, which supports manual subtree
-    collapse and expansion. My implementation of the algorithm discussed here was
-    shipped with the Site Manager 1.0 software from SGI.
+  venue:
+    IEEE Computer Graphics and Applications, Vol. 18, No. 4, pp 18-23,
+    July/August 1998.
+  year: 1998
+
+###############################################################################
+
+- abstract:
+    A paper that presents a much improved layout algorithm that exploits some of
+    the properties of 3D hyperbolic space to achieve reasonable information
+    density. The viewer is a highly modified version of Geomview, which supports
+    manual subtree collapse and expansion. My implementation of the algorithm
+    discussed here was shipped with the Site Manager 1.0 software from SGI.
   authors:
-  - link: http://graphics.stanford.edu/~munzner
-    name: Tamara Munzner
+    - link: http://graphics.stanford.edu/~munzner
+      name: Tamara Munzner
   image: http://graphics.stanford.edu/papers/h3/smallfig/stanf.jpg
   link: http://graphics.stanford.edu/papers/h3
   links:
-  - link: http://graphics.stanford.edu/papers/h3/html.nosplit
-    name: html
-  title: 'H3: Laying Out Large Directed Graphs in 3D Hyperbolic Space'
-  venue: Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis
+    - link: http://graphics.stanford.edu/papers/h3/html.nosplit
+      name: html
+  title: "H3: Laying Out Large Directed Graphs in 3D Hyperbolic Space"
+  venue:
+    Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis
     97), October 20-21 1997, Phoenix, AZ, pp 2-10, 1997.
-- abstract: 'A case study describing the Planet Multicast project: an interactive
-    3D geographic visualization of the Internet''s multicast backbone, where tunnels
-    are shown as arcs on a globe.'
+  year: 1997
+
+###############################################################################
+
+- abstract:
+    "A case study describing the Planet Multicast project: an interactive 3D
+    geographic visualization of the Internet's multicast backbone, where tunnels
+    are shown as arcs on a globe."
   authors:
-  - link: http://graphics.stanford.edu/~munzner
-    name: Tamara Munzner
-  - name: Eric Hoffman
-  - name: K
+    - name: Tamara Munzner
+    - name: Eric Hoffman
+    - name: K. Claffy
   image: http://graphics.stanford.edu/papers/mbone/smallfigs/default.jpeg
   link: http://graphics.stanford.edu/papers/mbone/
   links:
-  - link: http://graphics.stanford.edu/papers/mbone/mbone/mbone.html
-    name: html
+    - link: http://graphics.stanford.edu/papers/mbone/mbone/mbone.html
+      name: html
   title: Visualizing the Global Topology of the MBone
-  venue: Proceedings of the 1996 IEEE Symposium on Information Visualization (InfoVis
+  venue:
+    Proceedings of the 1996 IEEE Symposium on Information Visualization (InfoVis
     96), October 28-29 1996, San Francisco, CA, pp 85-92, 1996.
-- abstract: The first of my hyperbolic papers. The layout algorithm is the the most
-    straightforward extension of cone trees to 3D hyperbolic space. The viewer is
-    Geomview/WebOOGL. The system allows neither manual nor automatic collapsing of
-    the graph, so scalability is extremely limited.
+  year: 1996
+
+###############################################################################
+
+- abstract:
+    The first of my hyperbolic papers. The layout algorithm is the the most
+    straightforward extension of cone trees to 3D hyperbolic space. The viewer
+    is Geomview/WebOOGL. The system allows neither manual nor automatic
+    collapsing of the graph, so scalability is extremely limited.
   authors:
-  - link: http://graphics.stanford.edu/~munzner
-    name: Tamara Munzner
-  - link: http://www.cs.princeton.edu/~burchard
-    name: Paul Burchard
+    - link: http://graphics.stanford.edu/~munzner
+      name: Tamara Munzner
+    - link: http://www.cs.princeton.edu/~burchard
+      name: Paul Burchard
   image: http://www.cs.ubc.ca/~tmm/pix/fs3.small.png
   link: http://graphics.stanford.edu/papers/webviz/
   links:
-  - link: http://graphics.stanford.edu/papers/webviz/webviz.72dpi.pdf
-    name: pdf
+    - link: http://graphics.stanford.edu/papers/webviz/webviz.72dpi.pdf
+      name: PDF
   title: Visualizing the Structure of the World Wide Web in 3D Hyperbolic Space
-  venue: Proceedings of the Virtual Reality Modelling Language (VRML 95) (San Diego,
-    California, December 14-15, 1995), special issue of Computer Graphics, pp 33-38,
-    ACM SIGGRAPH, New York, 1995.
-- abstract: A survey article about interactive mathematical visualization, includes
-    many pictures.
+  venue:
+    Proceedings of the Virtual Reality Modelling Language (VRML 95) (San Diego,
+    California, December 14-15, 1995), special issue of Computer Graphics, pp
+    33-38, ACM SIGGRAPH, New York, 1995.
+  year: 1995
+
+###############################################################################
+
+- abstract:
+    "A short note announcing the release of Geomview, a public domain 3D
+    visualization system, aimed at the computational geometry community."
   authors:
-  - name: Andrew J
+    - name: Nina Amenta
+    - name: Stuart Levy
+    - name: Tamara Munzner
+    - name: Mark Phillips
+  title: "Geomview: A system for geometric visualization"
+  venue:
+    "Communication to the Proceedings of the 11th Annual ACM Symposium on
+    Computational Geometry (1995), pp C12-13. A short note announcing the
+    release of Geomview, a public domain 3D visualization system, aimed at the
+    computational geometry community."
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 1995
+
+###############################################################################
+
+- abstract:
+    A survey article about interactive mathematical visualization, includes many
+    pictures.
+  authors:
+    - name: Andrew J. Hanson
+    - name: Tamara Munzner
+    - name: George Francis
   image: /assets/images/swpix/fermat4.gif
   link: http://graphics.stanford.edu/papers/visgeom/
-  links:
-  - link: http://www.geom.umn.edu/docs/research/ieee94
-    name: html
   title: Interactive Methods for Visualizable Geometry
   venue: IEEE Computer, Vol. 27, No. 4, pp 73-83, July 1994.
+  year: 1994
+
+###############################################################################
+
+- abstract:
+    "[Note] Geomview: An Interactive Geometry Viewer. Mark Phillips and Silvio
+    Levy and Tamara Munzner. Notices of the American Mathematical Society
+    (Computers and Mathematics Column), Vol. 40, No.8, pp 985-988, October 1993.
+    A short note announcing the release of Geomview, a public domain 3D
+    visualization system, aimed at the math community."
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 1993
+
+###############################################################################
+
+- abstract:
+    "A position paper on the MinneView/OOGL project, the prececessor of
+    Geomview."
+  authors:
+    - name: Tamara Munzner
+    - name: Mark B. Phillips
+  title: "Visualization in Geometry Research and Education"
+  venue:
+    "Scientific Visualization Environments Workshop IEEE Visualization 1991."
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  year: 1991

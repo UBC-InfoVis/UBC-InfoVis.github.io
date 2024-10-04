@@ -1,6 +1,31 @@
 ###############################################################################
 
 - abstract:
+    "While previous work has found success in deploying visualizations as museum exhibits, it has not investigated whether museum context impacts visitor behaviour with these exhibits. We present an interactive Deep-time Literacy Visualization Exhibit (DeLVE) to help museum visitors understand deep time (lengths of extremely long geological processes) by improving proportional reasoning skills through comparison of different time periods. DeLVE uses a new visualization idiom, Connected Multi-Tier Ranges, to visualize curated datasets of past events across multiple scales of time, relating extreme scales with concrete scales that have more familiar magnitudes and units. Museum staff at three separate museums approved the deployment of DeLVE as a digital kiosk, and devoted time to curating a unique dataset in each of them. We collect data from two sources, an observational study and system trace logs. We discuss the importance of context: similar museum exhibits in different contexts were received very differently by visitors. We additionally discuss differences in our process from Sedlmair et al.'s design study methodology which is focused on design studies triggered by connection with collaborators rather than the discovery of a concept to communicate. Supplemental materials are available at: https://osf.io/z53dq/"
+  authors:
+    - link: http://www.cs.ubc.ca/~solen
+      name: Mara Solen
+    - link: 
+      name: Nigar Sultana
+    - link: https://www.eoas.ubc.ca/people/lauralukes
+      name: Laura Lukes
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+  image: pubs/2024/delve/teaser.png
+  link: pubs/2024/delve
+  links:
+    - link: https://arxiv.org/abs/2404.01488
+      name: Pre-print PDF
+    - link: https://ieeexplore.ieee.org/document/10680250
+      name: IEEE Xplore
+  title:
+    "DeLVE into Earth's Past: A Visualization-Based Exhibit Deployed Across Multiple Museum Contexts"
+  venue: IEEE Transactions on Visualization and Computer Graphics (TVCG), Proc. IEEE VIS 2024
+  year: 2024
+
+###############################################################################
+
+- abstract:
     "The work involved in gathering, wrangling, cleaning, and otherwise
     preparing data for analysis is often the most time consuming and tedious
     aspect of data work. Although many studies describe data preparation within
@@ -27,6 +52,8 @@
   links:
     - link: http://www.cs.ubc.ca/group/infovis/pubs/2023/dirty-data-in-the-newsroom/dirty-data-in-the-newsroom.pdf
       name: Pre-print PDF
+    - link: https://dl.acm.org/doi/abs/10.1145/3544548.3581271
+      name: ACM DL
   title:
     "Dirty Data in the Newsroom: Comparing Data Preparation in Journalism and
     Data Science"
@@ -104,7 +131,7 @@
   title:
     "Visualizing Graph Neural Networks with CorGIE: Corresponding a Graph to Its
     Embedding"
-  venue: IEEE TVCG 2022, to appear
+  venue: IEEE Transactions on Visualization and Computer Graphics (TVCG), 2022
   year: 2022
 
 ###############################################################################

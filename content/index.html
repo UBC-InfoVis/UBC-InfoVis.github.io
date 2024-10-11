@@ -14,16 +14,23 @@ title: Home
 <br>
 
 <div class="news">
-    <p class="info">
-        <a href="news.html#1"><b>{{ site.data.news[0].title }}</b></a>
-        <br>
-        <i>Posted: {{ site.data.news[0].date }}</i>
-        <br> 
-    </p>
     <div class="thumb">
         <a href="{{ site.data.news[0].link }}"><img src="{{ site.data.news[0].image }}"></a>
     </div>
+    <h2><b><a href="news.html#1">{{ site.data.news[0].title }}</a></b></h2>
     <p class="info">
+        {% if site.data.news[0].link and site.data.news[0].link.size > 0 %}
+        <a href="{{ site.data.news[0].link }}">
+            {% if site.data.news[0].link contains '://' %}
+            {{ site.data.news[0].link }}
+            {% else %}
+            {{ site.data.news[0].link | prepend: 'https://www.cs.ubc.ca/group/infovis/' }}
+            {% endif %}
+        </a>
+        <br>
+        {% endif %}
+        <i>Posted: {{ site.data.news[0].date }}</i>
+        <br>
         {{ site.data.news[0].content }}
     </p>
 </div>

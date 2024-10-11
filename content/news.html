@@ -5,16 +5,31 @@ title: News
 <br><br><br>
 {% for item in site.data.news %}
     <div class="news">
+        <a class="item-link" name="{{ forloop.index }}"> </a>
+        <h2><b>{{ item.title }}</b></h2>
+        <p class="info">
+            {% if item.link and item.link.size > 0 %}
+            <a href="{{ item.link }}">
+                {% if item.link contains '://' %}
+                {{ item.link }}
+                {% else %}
+                {{ item.link | prepend: 'https://www.cs.ubc.ca/group/infovis/' }}
+                {% endif %}
+            </a>
+            <br>
+            {% endif %}
+            <i>Posted: {{ item.date }}</i>
+        </p>
         <div class="thumb">
             <a href="{{ item.link }}"><img src="{{ item.image }}"></a>
         </div>
         <p class="info">
-            <b>{{ item.title }} [{{ item.date }}]</b>
-            <br> 
             {{ item.content }}
         </p>
     </div>
-    <hr style="clear: both; border-style: dashed;" width="95%">
+    {% if forloop.last == false %}
+        <br><hr style="clear: both;" width="100%"><br>
+    {% endif %}
 {% endfor %}
 
 <p>To see older news articles that we haven't ported over yet, visit <a href="https://www.cs.ubc.ca/group/infovis/news.shtml">our old site</a>.</p>

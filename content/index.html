@@ -18,25 +18,26 @@ title: Home
         <a href="{{ site.data.news[0].link }}"><img src="{{ site.data.news[0].image }}"></a>
     </div>
     <p class="info">
-        <b>{{ site.data.news[0].title }} [{{ site.data.news[0].date }}]</b>
+        <a href="news.html#1"><b>{{ site.data.news[0].title }}</b></a>
+        <br>
+        <i>Posted: {{ site.data.news[0].date }}</i>
         <br> 
         {{ site.data.news[0].content }}
     </p>
 </div>
+
 <br><br>
 
 <div id="recent-news">
     {% for item in site.data.news %}
         {% if forloop.index < 6 and forloop.index > 1 %}
             <div class="recent-news-item">
-                {% if item.link == "" %}
-                <img src="{{ item.image }}">
-                {% elsif item.link != "" %}
-                <a href="{{ item.link }}">
+                <a href="news.html#{{ forloop.index }}">
                     <img src="{{ item.image }}">
                 </a>
-                {% endif %}
-                <p class="news-title">{{ item.title }}</p>
+                <a class="news-title" href="news.html#{{ forloop.index }}">{{ item.title }}</a>
+                <br>
+                <i>Posted: {{ item.date }}</i>
             </div>
         {% endif %}
     {% endfor %}
@@ -47,7 +48,7 @@ title: Home
 <hr>
 <br>
 
-<div class="members">
+<div class="members home-members">
     {% for item in site.data.people %}
         {% if item.status == "current" %}
             <div class="member">
@@ -75,27 +76,28 @@ title: Home
             <a class="thumb" href="{{ item.link }}"><img src="{{ item.image }}"></img></a>
             <div class="info">
                 <p>
-                <a class="title" href="{{ item.link }}">{{ item.title}}</a><br>
+                <b><a class="title" href="{{ item.link }}">{{ item.title}}</a></b><br>
                     {% for author in item.authors %}
-                    {% if author.link %}
-                    <a href="{{ author.link }}">{{ author.name }}</a>
-                    {% else %}
-                    {{ author.name }}
-                    {% endif %}
-                    {% if forloop.last == false %}, {% endif %}
-                    {% endfor %}.
-                    {{ item.venue }}.
+                        {% if author.link %}
+                            <a href="{{ author.link }}">{{ author.name }}</a>{% if forloop.last == false %}, {% endif %}
+                        {% else %}
+                            {{ author.name }}{% if forloop.last == false %}, {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                </p>
+                <p>
+                    {{ item.venue }}
                 </p>
                 {% if item.links.size > 0 %}
                 <p>
                     {% for link in item.links %}
-                    [<a href="{{ link.link }}">{{ link.name }}</a>]
+                    <a href="{{ link.link }}">{{ link.name }}</a>{% if forloop.last == false %}, {% endif %}
                     {% endfor %}
                 </p>
                 {% endif %}
             </div>
         </div>
-        <hr width="95%" style="border-style: dashed">
+        <br>
         {% endif %}
     {% endfor %}
 </div>

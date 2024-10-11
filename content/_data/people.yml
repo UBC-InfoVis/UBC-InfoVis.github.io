@@ -5,36 +5,42 @@
   link: https://cs.ubc.ca/~tmm/
   status: current
   position: fac
+  title: Professor
 
 - name: Steve Kasica
   image: assets/images/steve.png
   link: https://www.cs.ubc.ca/~kasica/
   status: current
   position: phd
+  title: PhD Candidate
 
 - name: Francis Nguyen
   image: assets/images/francis.jpg
   link: https://fmnguyen.com/
   status: current
   position: phd
+  title: PhD Candidate
 
 - name: Mara Solen
-  image: assets/images/MaraSolen.png
+  image: assets/images/MaraSolen.jpg
   link: https://marasolen.github.io/
   status: current
   position: phd
+  title: PhD Candidate
 
 - name: Matias Oddo
   image: assets/images/matiasoddo.png
   link: https://dirediredock.github.io/
   status: current
   position: phd
+  title: PhD Student
 
 - name: Ryan Smith
   image: assets/images/ryansmith.png
   link: http://ryansmithresearch.com/
   status: current
   position: phd
+  title: PhD Student
 
 # Alumni
 # Post-doc

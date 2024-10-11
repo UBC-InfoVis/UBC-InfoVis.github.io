@@ -6,19 +6,23 @@ body {
     border: 0;
     outline: 0;
     
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: large;
+    font-family: 'Poppins', sans-serif;
 
     height: 100%;
 }
 
 a {
     text-decoration: none;
+    color: #600;
+}
+
+a:visited {
+    color: #600;
 }
 
 #header {
-    width: 30%;
-    margin-left: 35%;
+    width: 40%;
+    margin-left: 30%;
 
     margin-top: 20px;
     height: 30px;
@@ -53,6 +57,10 @@ a {
     margin: 0;
 }
 
+#title h1 a {
+    color: black;
+}
+
 #navigation {
     width: 100%;
     height: 100%;
@@ -72,6 +80,10 @@ a {
     transition: color 0.15s ease-in-out, border 0.15s ease-in-out;
 }
 
+.navigation-item:visited {
+    color: #111111;
+}
+
 .navigation-item.underlined {
     color:#600;
     border-bottom: 1px solid #600;
@@ -84,8 +96,8 @@ a {
 }
 
 #content-wrapper {
-    width: 30%;
-    margin-left: 35%;
+    width: 40%;
+    margin-left: 30%;
 }
 
 #home-header {
@@ -115,10 +127,9 @@ h3 {
 }
 
 .members { 
-    display: grid;
+    display: inline-grid;
     grid-template-columns: repeat(6, 1fr);
-    gap: 5%;
-    margin-bottom: 30px;
+    height: fit-content;
 }
 
 .member {
@@ -126,11 +137,21 @@ h3 {
 }
 
 .member a img {
-    width: 100%;
+    width: 80%;
+    margin-left: 15%;
 }
 
 .member img {
     width: 100%;
+    border-radius: 50%;
+}
+
+.member p {
+    text-align: center;
+}
+
+.member i {
+    text-align: center;
 }
 
 #recent-news {
@@ -158,8 +179,8 @@ h3 {
 }
 
 #real-footer {
-    width: 30%;
-    margin-left: 35%;
+    width: 40%;
+    margin-left: 30%;
     display: flex;
     justify-content: center;
 }
@@ -173,7 +194,8 @@ h3 {
 
 .publication {
     display: flex;
-    gap: 10px;
+    align-items: center;
+    gap: 3%;
 }
 
 .publication .thumb {
@@ -182,6 +204,8 @@ h3 {
 
 .publication .thumb img {
     width: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 .publication .info {
@@ -192,19 +216,11 @@ h3 {
     gap: 10px;
     align-items: center;
     margin-bottom: 16px;
-    display: flex;
-}
-
-.news .thumb {
-    flex: 1;
 }
 
 .news .thumb img {
-    width: 100%;
-}
-
-.news .info {
-    flex: 3;
+    width: 50%;
+    margin-left: 25%;
 }
 
 .news .info br {

@@ -14,14 +14,16 @@ title: Home
 <br>
 
 <div class="news">
-    <div class="thumb">
-        <a href="{{ site.data.news[0].link }}"><img src="{{ site.data.news[0].image }}"></a>
-    </div>
     <p class="info">
         <a href="news.html#1"><b>{{ site.data.news[0].title }}</b></a>
         <br>
         <i>Posted: {{ site.data.news[0].date }}</i>
         <br> 
+    </p>
+    <div class="thumb">
+        <a href="{{ site.data.news[0].link }}"><img src="{{ site.data.news[0].image }}"></a>
+    </div>
+    <p class="info">
         {{ site.data.news[0].content }}
     </p>
 </div>

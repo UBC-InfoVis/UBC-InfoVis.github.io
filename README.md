@@ -4,7 +4,7 @@ This is the repo that contains the UBC InfoVis Group website which uses Jekyll.
 
 # Writing Content
 
-To add content, simply edit one of the files in the content folder. For example, to edit the home page you would edit content/index.html. Once you push your changes to the repo, GitHub will automatically build and deploy the site using GitHub Actions based on the workflow defined in .github/workflows/build-deploy-jekyll.yml. Once this is done (it should take around three minutes) you can view the website at [ubc-infovis.github.io](ubc-infovis.github.io). If this looks correct, you can let the current web czar know that the real website at [cs.ubc.ca/group/infovis/](https://www.cs.ubc.ca/group/infovis/) is ready to be updated. The web czar can then upload the modified files from the Jekyll-generated `_site` folder into infovis folder on the CS department web server, located at `/ubc/cs/research/imager/project/infovis/website`.
+To add content, simply edit one of the files in the content folder. For example, to edit the home page you would edit content/index.html. Once you are done making changes, test them locally and push your changes to the repo. If it looks correct, you can let the current web czar know that the real website at [cs.ubc.ca/group/infovis/](https://www.cs.ubc.ca/group/infovis/) is ready to be updated. The web czar can then upload the modified files from the Jekyll-generated `_site` folder into infovis folder on the CS department web server, located at `/ubc/cs/research/imager/project/infovis/website`.
 
 # Local Testing
 

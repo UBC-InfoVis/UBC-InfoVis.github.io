@@ -123,7 +123,7 @@
       name: "Jürgen Bernard"
     - link: http://www.cs.ubc.ca/~tmm
       name: Tamara Munzner
-  image: /assets/images/pub-thumbs/2021-corgie.png
+  image: assets/images/pub-thumbs/2021-corgie.png
   link: pubs/2021/corgie/
   links:
     - link: http://www.cs.ubc.ca/group/infovis/pubs/2021/corgie/corgie-under-review.pdf
@@ -265,7 +265,7 @@
       name: Michael Oppermann
     - link: http://www.cs.ubc.ca/~tmm
       name: Tamara Munzner
-  image: /assets/images/pub-thumbs/2020-data-first-ds.png
+  image: assets/images/pub-thumbs/2020-data-first-ds.png
   link: pubs/2020/data-first
   links:
     - link: http://www.cs.ubc.ca/group/infovis/pubs/2020/data-first/Data_First_Visualization_Design_Studies_2020.pdf
@@ -370,7 +370,7 @@
       name: Robert Kincaid
     - link: http://www.cs.ubc.ca/~tmm
       name: Tamara Munzner
-  image: /assets/images/pub-thumbs/2020-vizcommender.jpg
+  image: assets/images/pub-thumbs/2020-vizcommender.jpg
   link: pubs/2020/vizcommender
   links:
     - link: http://www.cs.ubc.ca/group/infovis/pubs/2020/vizcommender/VizCommender_2020.pdf
@@ -402,7 +402,7 @@
       name: Michael Oppermann
     - link: http://www.cs.ubc.ca/~tmm
       name: Tamara Munzner
-  image: /assets/images/pub-thumbs/2020-ocupado.png
+  image: assets/images/pub-thumbs/2020-ocupado.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2020/ocupado/
   links:
     - link: http://www.cs.ubc.ca/labs/imager/tr/2020/ocupado/Ocupado2020.pdf
@@ -435,7 +435,7 @@
       name: Zhicheng Liu
     - link: http://www.cs.ubc.ca/~tmm
       name: Tamara Munzner
-  image: /assets/images/pub-thumbs/2020-logseg.png
+  image: assets/images/pub-thumbs/2020-logseg.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2020/logseg/
   links:
     - link: http://www.cs.ubc.ca/labs/imager/tr/2020/logseg/logseg-chi20-preprint.pdf
@@ -457,7 +457,7 @@
     - link: http://itolab.is.ocha.ac.jp/~itot/
       name: Takayuki Itoh
     - name: Jessica Q
-  image: /assets/images/pub-thumbs/2020-sprawlter.png
+  image: assets/images/pub-thumbs/2020-sprawlter.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2020/sprawlter/
   links:
     - link: http://www.cs.ubc.ca/labs/imager/tr/2020/sprawlter/sprawlter-preprint.pdf
@@ -493,7 +493,7 @@
     - link: https://amcrisan.github.io
       name: Anamaria Crisan
     - name: Jennifer L
-  image: /assets/images/gevit_Figure1.png
+  image: assets/images/gevit_Figure1.png
   link: https://amcrisan.github.io/gevit
   links:
     - link: https://doi.org/10.1093/bioinformatics/bty832
@@ -526,7 +526,7 @@
     - link: http://www.cs.ubc.ca/~tmm
       name: Tamara Munzner
     - name: Jennifer L
-  image: /assets/images/adjutant_mainFigure.png
+  image: assets/images/adjutant_mainFigure.png
   link: https://amcrisan.github.io/adjutant
   links:
     - link: https://doi.org/10.1093/bioinformatics/bty722
@@ -580,7 +580,7 @@
       name: Tamara Munzner
   link: http://www.cs.ubc.ca/labs/imager/tr/2019/datareac_and_taskwrangling/
   links:
-    - link: https://amcrisan.github.io/assets/files/papers/Data_Recon_and_Task_Wrangling.pdf
+    - link: https://amcrisan.github.ioassets/files/papers/Data_Recon_and_Task_Wrangling.pdf
       name: PDF
   title:
     Uncovering Data Landscapes through Data Reconnaissance and Task Wrangling
@@ -732,9 +732,9 @@
       name: Ana Crisan
     - link: https://viscoglab.psych.ubc.ca/person/madison-elliott/
       name: Madison Elliott
-  link: https://amcrisan.github.io/assets/files/papers/beliv-2018.pdf
+  link: https://amcrisan.github.ioassets/files/papers/beliv-2018.pdf
   links:
-    - link: https://amcrisan.github.io/assets/files/papers/beliv-2018.pdf
+    - link: https://amcrisan.github.ioassets/files/papers/beliv-2018.pdf
       name: PDF
   title:
     How to Evaluate an Evaluation Study? Comparing and Contrasting Practices in
@@ -794,7 +794,7 @@
       name: Melanie Tory
     - link: http://www.cs.ubc.ca/~tmm
       name: Tamara Munzner
-  image: /assets/images/pub-thumbs/2017-goals-to-tasks.png
+  image: assets/images/pub-thumbs/2017-goals-to-tasks.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2017/GoalsToTasks/
   links:
     - link: http://www.cs.ubc.ca/labs/imager/tr/2017/GoalsToTasks/GoalsToTasks.pdf
@@ -885,7 +885,7 @@
       name: Jennifer Gardy
     - link: http://www.cs.ubc.ca/~tmm
       name: Tamara Munzner
-  image: /assets/images/pub-thumbs/2016-beliv.png
+  image: assets/images/pub-thumbs/2016-beliv.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2016/regulatory/
   links:
     - link: http://www.cs.ubc.ca/labs/imager/tr/2016/regulatory/preprint.pdf
@@ -898,7 +898,7 @@
   venue:
     "In Proceedings of the ACM Workshop on Beyond time and errors: novel
     evaluation methods for Information Visualization (BELIV), 2016, p. 1-9."
-- image: /assets/images/paperquest-icon.png
+- image: assets/images/paperquest-icon.png
   link: http://www.antoineponsard.com/res/PaperQuest.pdf
   title: PaperQuest
   year: 2016
@@ -998,7 +998,7 @@
       name: "Guy Melan\xE7on"
     - link: http://www.cs.ubc.ca/~tmm/
       name: Tamara Munzner
-  image: /assets/images/pub-thumbs/2015-detangler-thumb.png
+  image: assets/images/pub-thumbs/2015-detangler-thumb.png
   link: http://www.renoust.com/pub/detangler.pdf
   links:
     - link: http://www.renoust.com/pub/detangler.pdf
@@ -1039,7 +1039,7 @@
     for predictions of response time and error using search-set factors.
   authors:
     - name: Jessica Q
-  image: /assets/images/pub-thumbs/2014-searchset-thumb.png
+  image: assets/images/pub-thumbs/2014-searchset-thumb.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2014/SearchSet
   links:
     - link: http://www.cs.ubc.ca/labs/imager/tr/2014/SearchSet/searchset_ivj_preprint.pdf
@@ -1095,7 +1095,7 @@
       name: Stephen Ingram
     - link: http://www.cs.ubc.ca/~tmm/
       name: Tamara Munzner
-  image: /assets/images/pub-thumbs/2014-drvistasks-thumb.png
+  image: assets/images/pub-thumbs/2014-drvistasks-thumb.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2014/DRVisTasks/
   links:
     - link: http://www.cs.ubc.ca/labs/imager/tr/2014/DRVisTasks/drvistasks.pdf
@@ -1122,7 +1122,7 @@
     - link: http://jonathanstray.com/
       name: Jonathan Stray
     - name: Tamara Munzner
-  image: /assets/images/pub-thumbs/2014-overview-thumb.png
+  image: assets/images/pub-thumbs/2014-overview-thumb.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2014/Overview/
   links:
     - link: http://www.cs.ubc.ca/labs/imager/tr/2014/Overview/overview.pdf
@@ -1144,7 +1144,7 @@
       name: Stephen Ingram
     - link: http://www.cs.ubc.ca/~tmm
       name: Tamara Munzner
-  image: /assets/images/pub-thumbs/2014-qsne-thumb.png
+  image: assets/images/pub-thumbs/2014-qsne-thumb.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2014/QSNE/
   links:
     - link: http://www.cs.ubc.ca/labs/imager/tr/2014/QSNE/qsne.pdf
@@ -1168,7 +1168,7 @@
     - link: http://homepage.univie.ac.at/michael.sedlmair/
       name: Michael Sedlmair
     - name: P
-  image: /assets/images/pub-thumbs/2014-nested-blocks-thumb.png
+  image: assets/images/pub-thumbs/2014-nested-blocks-thumb.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2013/NBGM/
   links:
     - link: http://www.cs.ubc.ca/labs/imager/tr/2013/NBGM/nbgm.pdf
@@ -1194,7 +1194,7 @@
       name: Tamara Munzner
     - link: http://webhome.cs.uvic.ca/~mtory/
       name: Melanie Tory
-  image: /assets/images/pub-thumbs/2013-scatterplotEval-thumb.jpg
+  image: assets/images/pub-thumbs/2013-scatterplotEval-thumb.jpg
   link: http://www.cs.ubc.ca/labs/imager/tr/2013/ScatterplotEval/
   links:
     - link: http://www.cs.ubc.ca/labs/imager/tr/2013/ScatterplotEval/ScatterplotEval.pdf
@@ -1217,7 +1217,7 @@
       name: Matthew Brehmer
     - link: http://www.cs.ubc.ca/~tmm
       name: Tamara Munzner
-  image: /assets/images/pub-thumbs/2013-task-typology-thumb.png
+  image: assets/images/pub-thumbs/2013-task-typology-thumb.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2013/MultiLevelTaskTypology/
   links:
     - link: http://www.cs.ubc.ca/labs/imager/tr/2013/MultiLevelTaskTypology/brehmer_infovis13.pdf
@@ -1237,7 +1237,7 @@
     - name: Joel A Ferstay
     - name: Cydney B Nielsen
     - name: Tamara Munzner
-  image: /assets/images/pub-thumbs/2013-variant-view-thumb.png
+  image: assets/images/pub-thumbs/2013-variant-view-thumb.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2013/VariantView/
   links:
     - link: http://www.cs.ubc.ca/labs/imager/tr/2013/VariantView/ferstay_infovis13.pdf
@@ -1261,7 +1261,7 @@
       name: Michael Sedlmair
     - link: http://www.cs.ubc.ca/~tmm
       name: Tamara Munzner
-  image: /assets/images/pub-thumbs/2013-nested-thumb.png
+  image: assets/images/pub-thumbs/2013-nested-thumb.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2012/NestedModelExt/
   links:
     - link: /labs/imager/tr/2012/NestedModelExt/beliv12.pdf
@@ -1283,7 +1283,7 @@
       name: Stephen Ingram
     - link: http://www.cs.ubc.ca/~tmm
       name: Tamara Munzner
-  image: /assets/images/pub-thumbs/2013-glint-thumb.png
+  image: assets/images/pub-thumbs/2013-glint-thumb.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2012/Glint/
   links:
     - link: /labs/imager/tr/2012/Glint/glint.pdf
@@ -1303,7 +1303,7 @@
     - link: http://www.cs.utah.edu/~miriah/
       name: Miriah Meyer
     - name: Tamara Munzner
-  image: /assets/images/pub-thumbs/axes-thumb.jpg
+  image: assets/images/pub-thumbs/axes-thumb.jpg
   link: http://www.cs.ubc.ca/labs/imager/tr/2012/dsm/
   links:
     - link: /labs/imager/tr/2012/dsm/dsm.pdf
@@ -1330,7 +1330,7 @@
       name: Tamara Munzner
     - link: http://www.medien.ifi.lmu.de/team/andreas.butz/
       name: Andreas Butz
-  image: /assets/images/pub-thumbs/relex-thumb.png
+  image: assets/images/pub-thumbs/relex-thumb.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2012/RelEx/
   links:
     - link: http://www.cs.ubc.ca/labs/imager/tr/2012/RelEx/relex.pdf
@@ -1354,7 +1354,7 @@
       name: Tamara Munzner
     - link: http://webhome.cs.uvic.ca/~mtory/
       name: Melanie Tory
-  image: /assets/images/pub-thumbs/taxonomy-thumb.png
+  image: assets/images/pub-thumbs/taxonomy-thumb.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2012/VisClusterSep/
   links:
     - link: http://www.cs.ubc.ca/labs/imager/tr/2012/VisClusterSep/VisClusterSep.pdf
@@ -1376,7 +1376,7 @@
       name: Randall Peterman
     - link: http://www.cs.ubc.ca/~tmm/
       name: Tamara Munzner
-  image: /assets/images/pub-thumbs/vismon-thumb.png
+  image: assets/images/pub-thumbs/vismon-thumb.png
   link: http://www.vismon.org/
   links:
     - link: http://www.vismon.org/Vismonpaper-EuroVis12.pdf
@@ -1449,7 +1449,7 @@
   authors:
     - link: http://www.cs.ubc.ca/~tmm
       name: Tamara Munzner
-  image: /assets/images/pub-thumbs/anscombe-thumb.png
+  image: assets/images/pub-thumbs/anscombe-thumb.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2011/MunznerBionet/
   links:
     - link: /labs/imager/tr/2011/MunznerBionet/#pdf
@@ -1475,7 +1475,7 @@
     - link: http://www.cs.ubc.ca/~barsky
       name: Aaron Barsky
     - name: Matt Williams
-  image: /assets/images/pub-thumbs/detailsquest-thumb.png
+  image: assets/images/pub-thumbs/detailsquest-thumb.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2011/QuestVis/
   links:
     - link: /labs/imager/tr/2011/QuestVis/#pdf
@@ -1496,7 +1496,7 @@
       name: Tamara Munzner
     - link: http://www.labri.fr/~auber
       name: David Auber
-  image: /assets/images/swpix/tugjournal.png
+  image: assets/images/swpix/tugjournal.png
   link: http://www.cliquecluster.org/system/files/pacificVisTVCG.pdf
   links:
     - link: http://www.cs.ubc.ca/labs/imager/tr/2009/Archambault_TugGraph_PacificVis/TugJournal.pdf
@@ -1523,7 +1523,7 @@
       name: Heidi Lam
     - link: http://www.cs.ubc.ca/~tmm
       name: Tamara Munzner
-  image: /assets/images/swpix/mrmc-dtree.png
+  image: assets/images/swpix/mrmc-dtree.png
   link: http://www.morganclaypool.com/doi/abs/10.2200/S00308ED1V01Y201011VIS001
   title:
     A Guide to Visual Multi-Level Interface Design From Synthesis of Empirical
@@ -1549,7 +1549,7 @@
       name: Angela DePace
     - link: http://gvi.seas.harvard.edu/pfister
       name: Hanspeter Pfister
-  image: /assets/images/swpix/multeesum-overview.small.png
+  image: assets/images/swpix/multeesum-overview.small.png
   link: http://www.multeesum.org
   links:
     - link: http://www.cs.utah.edu/~miriah/publications/multeesum.pdf
@@ -1579,7 +1579,7 @@
       name: Steven Bergner
     - link: http://www.cs.sfu.ca/~torsten/
       name: "Torsten M\xF6ller"
-  image: /assets/images/swpix/dimstiller_screenshot.small.png
+  image: assets/images/swpix/dimstiller_screenshot.small.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2010/DimStiller/
   links:
     - link: http://www.cs.ubc.ca/labs/imager/tr/2010/DimStiller/dimstiller.pdf
@@ -1830,7 +1830,7 @@
       name: Heidi Lam
     - link: http://www.cs.ubc.ca/~tmm
       name: Tamara Munzner
-  image: /assets/images/pub-thumbs/empirical.png
+  image: assets/images/pub-thumbs/empirical.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2008/Lam_Eval_BELIV/
   links:
     - link: http://www.cs.ubc.ca/labs/imager/tr/2008/Lam_Eval_BELIV/LamMunzner_IncUtilStuMeta_2008.pdf
@@ -2741,7 +2741,7 @@
     - name: Andrew J. Hanson
     - name: Tamara Munzner
     - name: George Francis
-  image: /assets/images/swpix/fermat4.gif
+  image: assets/images/swpix/fermat4.gif
   link: http://graphics.stanford.edu/papers/visgeom/
   title: Interactive Methods for Visualizable Geometry
   venue: IEEE Computer, Vol. 27, No. 4, pp 73-83, July 1994.

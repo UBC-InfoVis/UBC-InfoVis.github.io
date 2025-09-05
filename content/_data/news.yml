@@ -1,3 +1,10 @@
+- date: 11/2025
+  type: conf
+  title: "UBC InfoVis @ IEEE VIS 2025"
+  content: "PhD candidate <a href='https://marasolen.github.io/'>Mara Solen</a> is presenting her VIS25 paper <a href='pubs/2025/multiscaledesignspace'>A Design Space for Multiscale Visualization</a> and her VisComm paper <a href='pubs/2025/visskillset'>Visualization Literacy or Skillset? Beyond the Analogy to Textual Literacy</a>. PhD candidate Matt Oddo will be presenting his TVCG paper <a href='pubs/2025/censusstub'>The Census-Stub Graph Invariant Descriptor</a>. PhD candidate Ryan Smith will be presenting his Input Visualization Workshop paper <a href='pubs/2025/inputbias/'>Position Paper: Potential Areas of Bias in Visualization-as-Input Systems</a>.<br><a href='https://cs.ubc.ca/~tmm'>Tamara Munzner</a> will present a tutorial on <a href='https://www.cs.ubc.ca/~tmm/vadbook/'>Visualization Analysis and Design</a>. She is co-editor of the AK Peters Visualization book series with CRC/Routledge, which will have both a physical table at the conference and a <a href='https://bit.ly/IEEEVIS23'>virtual bookstore</a>.<br>"
+  link: http://ieeevis.org/year/2025/welcome
+  image: assets/images/news-thumbs/vis2025_logo.png
+
 - date: 10/2024
   type: conf
   title: "UBC InfoVis @ IEEE VIS 2024"

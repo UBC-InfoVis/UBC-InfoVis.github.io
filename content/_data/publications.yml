@@ -1,6 +1,104 @@
 ###############################################################################
 
 - abstract:
+    "Visualization literacy, previously called graphicacy, relies on an analogy to textual literacy to communicate its intended meaning as the ability to use visualizations. However, there are two issues with this analogy: a mismatch where analysis contexts do not have an analogous place in textual literacy and an inherited dichotomy of literate vs. illiterate which does not accurately represent the spectrum of visualization skill. In this paper, we discuss existing literature and how it typically describes visualization literacy and the connection to textual literacy. We then propose new terminology, the visualization skillset, to provide more flexibility when discussing this ability and its spectrum of proficiency, and to provoke discussion on how to improve on the issues we identified. Finally, we discuss how to move forward as a field and propose directions for future work."
+  authors:
+    - link: http://www.cs.ubc.ca/~solen
+      name: Mara Solen
+    - link: https://iamsaugatpandey.github.io/
+      name: Saugat Pandey
+    - link: https://firas.moosvi.com/
+      name: Firas Moosvi
+    - link: https://alvitta.com/
+      name: Alvitta Ottley
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  link: pubs/2025/visskillset
+  links:
+    - link: https://osf.io/preprints/osf/9rc45_v1
+      name: Pre-print PDF
+  title:
+    "Visualization Literacy or Skillset? Beyond the Analogy to Textual Literacy"
+  venue: VisComm Workshop at IEEE VIS 2025
+  year: 2025
+
+###############################################################################
+
+- abstract:
+    "At the beginning of the COVID-19 pandemic, HealthLink BC (HLBC) rapidly integrated physicians into the triage process of their virtual healthcare service to improve patient outcomes and satisfaction with this service and preserve health care system capacity. We present the design and implementation of a visual analytics tool, VIVA (Virtual healthcare Interactions using Visual Analytics), to support HLBC in analysing various forms of usage data from the service. We abstract HLBC's data and data analysis tasks, which we use to inform our design of VIVA. We also present the interactive workflow abstraction of Scan, Act, Adapt. We validate VIVA's design through three case studies with stakeholder domain experts. We also propose the Controllability Through Configuration model to conduct and analyze design studies, and discuss architectural evolution of VIVA through that lens. It articulates configuration, both that specified by a developer or technical power user and that constructed automatically through log data from previous interactive sessions, as a bridge between the rigidity of hardwired programming and the time-consuming implementation of full end-user interactivity. Availability: Supplemental materials at https://osf.io/wv38n"
+  authors:
+    - link: https://juergen-bernard.de
+      name: "Jürgen Bernard*"
+    - link: http://www.cs.ubc.ca/~solen
+      name: Mara Solen*
+    - link: 
+      name: Helen Novak Lauscher
+    - link: 
+      name: Kurtis Stewart
+    - link: https://digem.med.ubc.ca/the-team/kendall-ho/
+      name: Kendall Ho
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+  image: pubs/2025/viva/teaser.png
+  link: pubs/2025/viva
+  links:
+    - link: https://arxiv.org/abs/2508.09386
+      name: Pre-print PDF
+    - link: https://ieeexplore.ieee.org/document/11126443
+      name: IEEE Xplore
+  title:
+    "VIVA: Virtual Healthcare Interactions Using Visual Analytics, With Controllability Through Configuration"
+  venue: IEEE Transactions on Visualization and Computer Graphics (TVCG)
+  year: 2025
+
+###############################################################################
+
+- abstract:
+    "Designing multiscale visualizations, particularly when the ratio between the largest scale and the smallest item is large, can be challenging, and designers have developed many approaches to overcome this challenge. We present a design space for visualization with multiple scales. The design space includes three dimensions, with eight total subdimensions. We demonstrate its descriptive power by using it to code approaches from a corpus we compiled of 52 examples, created by a mix of academics and practitioners. We demonstrate descriptive power by analyzing and partitioning these examples into four high-level strategies for designing multiscale visualizations, which are shared approaches with respect to design space dimension choices. We demonstrate generative power by analyzing missed opportunities within the corpus of examples, identified through analysis of the design space, where we note how certain examples could have benefited from different choices. We discuss patterns in the use of different dimension and strategy choices in the different visualization contexts of analysis and presentation. Supplemental materials: https://osf.io/wbrdm/. Design space website: https://marasolen.github.io/multiscale-vis-ds/"
+  authors:
+    - link: http://www.cs.ubc.ca/~solen
+      name: Mara Solen
+    - link: https://dirediredock.github.io/
+      name: Matt Oddo
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+  image: pubs/2025/multiscaledesignspace/teaser.png
+  link: pubs/2025/multiscaledesignspace
+  links:
+    - link: https://arxiv.org/abs/2404.01485
+      name: Pre-print PDF
+  title:
+    "A Design Space for Multiscale Visualization"
+  venue: IEEE Transactions on Visualization and Computer Graphics (TVCG), Proc. IEEE VIS 2025
+  year: 2025
+
+###############################################################################
+
+- abstract:
+    "An 'invariant descriptor' captures meaningful structural features of networks, useful where traditional visualizations, like node-link views, face challenges like the 'hairball phenomenon' (inscrutable overlap of points and lines). Designing invariant descriptors involves balancing abstraction and information retention, as richer data summaries demand more storage and computational resources. Building on prior work, chiefly the BMatrix-a matrix descriptor visualized as the invariant 'network portrait' heatmap-we introduce BFS-Census, a new algorithm computing our Census data structures: Census-Node, Census-Edge, and Census-Stub. Our experiments show Census-Stub, which focuses on 'stubs' (half-edges), has orders of magnitude greater discerning power (ability to tell non-isomorphic graphs apart) than any other descriptor in this study, without a difficult trade-off: the substantial increase in resolution doesn't come at a commensurate cost in storage space or computation power. We also present new visualizations-our Hop-Census polylines and Census-Census trajectories-and evaluate them using real-world graphs, including a sensitivity analysis that shows graph topology change maps to visual Census change."
+  authors:
+    - link: https://dirediredock.github.io/
+      name: Matt Oddo
+    - link: https://www2.cs.arizona.edu/~kobourov/
+      name: Stephen Kobourov
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+  image: pubs/2025/censusstub/teaser.jpg
+  link: pubs/2025/censusstub
+  links:
+    - link: https://arxiv.org/abs/2412.04582
+      name: Pre-print PDF
+    - link: https://ieeexplore.ieee.org/document/10786915
+      name: IEEE Xplore
+  title:
+    "The Census-Stub Graph Invariant Descriptor"
+  venue: IEEE Transactions on Visualization and Computer Graphics (TVCG)
+  year: 2025
+
+###############################################################################
+
+- abstract:
     "While previous work has found success in deploying visualizations as museum exhibits, it has not investigated whether museum context impacts visitor behaviour with these exhibits. We present an interactive Deep-time Literacy Visualization Exhibit (DeLVE) to help museum visitors understand deep time (lengths of extremely long geological processes) by improving proportional reasoning skills through comparison of different time periods. DeLVE uses a new visualization idiom, Connected Multi-Tier Ranges, to visualize curated datasets of past events across multiple scales of time, relating extreme scales with concrete scales that have more familiar magnitudes and units. Museum staff at three separate museums approved the deployment of DeLVE as a digital kiosk, and devoted time to curating a unique dataset in each of them. We collect data from two sources, an observational study and system trace logs. We discuss the importance of context: similar museum exhibits in different contexts were received very differently by visitors. We additionally discuss differences in our process from Sedlmair et al.'s design study methodology which is focused on design studies triggered by connection with collaborators rather than the discovery of a concept to communicate. Supplemental materials are available at: https://osf.io/z53dq/"
   authors:
     - link: http://www.cs.ubc.ca/~solen
@@ -59,6 +157,35 @@
     Data Science"
   venue: Proc. CHI Conf. Human Factors in Computing Systems (CHI), 2023
   year: 2023
+
+###############################################################################
+
+- abstract:
+    "Access to information is increasing rapidly, and data visualizations
+    are becoming increasingly common as a way to communicate sum-
+    maries of large datasets, especially in media designed for the general
+    public. Accompanying this rise in visualization is a need for vi-
+    sualization literacy. In this work we survey the current body of
+    research on visualization literacy to find current research themes
+    and guide future work. We found three themes of visualization liter-
+    acy: interpretation, construction, and believability. Construction and
+    believability are not traditionally discussed in visualization literacy
+    research. We analyzed participant pools for visualization literacy
+    user studies and found them to be lacking in diversity in gender and
+    sex, age, education level, and recruitment country."
+  authors:
+    - link: https://marasolen.github.io/
+      name: Mara Solen
+  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  link: pubs/2022/visliteracy/
+  links:
+    - link: https://osf.io/preprints/osf/eypgm_v1
+      name: Pre-print PDF
+  title:
+    "Scoping the Future of Visualization Literacy: A Review"
+  venue:
+    VisComm Workshop at IEEE VIS 2022
+  year: 2022
 
 ###############################################################################
 
@@ -413,11 +540,24 @@
 
 ###############################################################################
 
-- abstract:
-    "[Preprint] Aggregate-Driven Trace Visualizations for Performance Debugging.
-    Vaastav Anand, Matheus Stolet, Thomas Davidson, Ivan Beschastnikh, Tamara
-    Munzner, Jonathan Mace. arXiv:2010.13681 preprint."
+- title:
+    "[Preprint] Aggregate-Driven Trace Visualizations for Performance Debugging"
+  authors:
+    - link: http://vaastavanand.com/
+      name: Vaastav Anand
+    - link: https://stolet.github.io/
+      name: Matheus Stolet
+    - link: https://people.mpi-sws.org/~tdavidso/
+      name: Thomas Davidson
+    - link: https://www.cs.ubc.ca/~bestchai
+      name: Ivan Beschastnikh
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+    - link: https://people.mpi-sws.org/~jcmace/
+      name: Jonathan Mace
   image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  link: https://arxiv.org/abs/2010.13681
+  venue: arXiv:2010.13681 preprint.
   year: 2020
 
 ###############################################################################
@@ -807,12 +947,19 @@
 
 ###############################################################################
 
-- abstract:
-    "[Poster] Showcasing the design study methodology through simpler design
-    challenges: An application to a microbial genomics clinical report design.
-    Anamaria Crisan, Geoffrey McKee, Tamara Munzner, Jennifer L. Gardy. IEEE
-    InfoVis 2017 Poster, October 2017."
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+- authors:
+    - link: http://www.cs.ubc.ca/~acrisan
+      name: Anamaria Crisan
+    - name: Geoff McKee
+    - link: http://spph.ubc.ca/person/jennifer-gardy/
+      name: Jennifer L. Gardy
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+  image: http://www.cs.ubc.ca/labs/imager/tr/2017/MicroReportDesign/figures/Figure1.png
+  link: http://www.cs.ubc.ca/labs/imager/tr/2017/MicroReportDesign/#poster
+  title: "[Poster] Showcasing the design study methodology through simpler design
+    challenges: An application to a microbial genomics clinical report design"
+  venue: IEEE InfoVis 2017 Poster, October 2017.
   year: 2017
 
 ###############################################################################
@@ -898,9 +1045,26 @@
   venue:
     "In Proceedings of the ACM Workshop on Beyond time and errors: novel
     evaluation methods for Information Visualization (BELIV), 2016, p. 1-9."
-- image: assets/images/paperquest-icon.png
+  year: 2016
+
+###############################################################################
+
+- authors:
+    - link: http://www.antoineponsard.com/
+      name: Antoine Ponsard
+    - link: https://twitter.com/paxmangara
+      name: Francisco "Pax" Esalona
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+  image: assets/images/paperquest-icon.png
   link: http://www.antoineponsard.com/res/PaperQuest.pdf
-  title: PaperQuest
+  links:
+    - link: http://www.antoineponsard.com/res/PaperQuest.pdf
+      name: PaperQuest CHI Extended Abstract
+    - link: http://paperquest.github.io/
+      name: PaperQuest Prototype
+  title: "[Poster] PaperQuest: A Visualization Tool to Support Literature Review"
+  venue: ACM CHI 2016 Poster, May 2016.
   year: 2016
 
 ###############################################################################
@@ -954,19 +1118,16 @@
 
 ###############################################################################
 
-- abstract:
-    "[Poster] PaperQuest: A Visualization Tool to Support Literature Review.
-    Antoine Ponsard, Francisco 'Pax' Escalona, and Tamara Munzner ACM CHI 2016
-    Poster, May 2016. PaperQuest prototype."
+- title:
+    "[Poster] SEQIT: Visualizing Sequences of Interest in Eye Tracking Data."
+  authors:
+    - link: https://www.cs.ubc.ca/~mikewu
+      name: Mike Wu
+    - link: http://www.cs.ubc.ca/~tmm/
+      name: Tamara Munzner
   image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
-  year: 2016
-
-###############################################################################
-
-- abstract:
-    "[Poster] SEQIT: Visualizing Sequences of Interest in Eye Tracking Data.
-    Mike Wu and Tamara Munzner. IEEE InfoVis 2015 Poster, October 2015."
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  link: http://www.cs.ubc.ca/labs/imager/tr/2015/SEQIT/
+  venue: IEEE InfoVis 2015 Poster, October 2015.
   year: 2015
 
 ###############################################################################
@@ -1902,6 +2063,12 @@
     Naseer, M., Que, J., Yau, M., Acab, M., Tulpan, D., Whiteside, M., Munzner,
     T., Hancock, R., and Brinkman, F. Experimental Biology, April 5-9, 2008, San
     Diego, CA, USA."
+  authors:
+    - link:
+      name:
+  title: TODO
+  venue:
+  link:
   image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
   year: 2008
 
@@ -1911,6 +2078,12 @@
     "[Technical Report] GLUG: GPU Layout of Undirected Graphs. Stephen Ingram,
     Tamara Munzner, and Marc Olano. UBC Computer Science Technical Report
     TR-2007-23, October 2007."
+  authors:
+    - link:
+      name:
+  title: TODO
+  venue:
+  link:
   image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
   year: 2007
 
@@ -1921,6 +2094,12 @@
     Resolution Interface Designs. Heidi Lam and Tamara Munzner. UBC Computer
     Science Technical Report TR-2007-21, September 2007. Final version: Morgan
     Claypool Synthesis Lecture monograph."
+  authors:
+    - link:
+      name:
+  title: TODO
+  venue:
+  link:
   image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
   year: 2007
 
@@ -1930,6 +2109,12 @@
     "[Technical Report] Glimmer: Multilevel MDS on the GPU. Stephen Ingram,
     Tamara Munzner and Marc Olano. UBC Computer Science Technical Report
     TR-2007-15, June 2007. Final version: IEEE TVCG paper."
+  authors:
+    - link:
+      name:
+  title: TODO
+  venue:
+  link:
   image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
   year: 2007
 
@@ -1944,6 +2129,12 @@
     Robert E.W. Hancock, Fiona S.L. Brinkman. 2nd American Society for
     Microbiology Pathogenomics Conference. June 24-27, 2007. Halifax, Nova
     Scotia, Canada."
+  authors:
+    - link:
+      name:
+  title: TODO
+  venue:
+  link:
   image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
   year: 2007
 
@@ -2279,6 +2470,12 @@
     Transformation. Heidi Lam, Tamara Munzner, and Ronald A. Rensink. Journal of
     Vision, 6(6):983, 983a. Vision Sciences Society, Sarasota, FL, USA. May
     2006. Final version: APGV 2006 conference paper."
+  authors:
+    - link:
+      name:
+  title: TODO
+  venue:
+  link:
   image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
   year: 2006
 
@@ -2291,6 +2488,12 @@
     Wei R, Whiteside M, Babiuk L, Hancock REW, Hokamp K, Brinkman FSL. 2006
     International Workshop on Systems Biology, July 17-19, National University
     of Ireland, Maynooth, Kildare, Ireland."
+  authors:
+    - link:
+      name:
+  title: TODO
+  venue:
+  link:
   image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
   year: 2006
 
@@ -2300,6 +2503,12 @@
     "[Technical Report] TopoLayout: Graph Layout by Topological Features. Daniel
     Archambault, Tamara Munzner and David Auber. UBC Computer Science Technical
     Report TR-2005-30, Dec 2005. Final version: TopoLayout TVCG journal paper."
+  authors:
+    - link:
+      name:
+  title: TODO
+  venue:
+  link:
   image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
   year: 2005
 
@@ -2310,6 +2519,12 @@
     Munzner, Qiang Kong, Raymond T. Ng, Jordan Lee, Janek Klawe, Dragana
     Radulovic and Carson K. Leung. UBC Computer Science Technical Report
     TR-2005-25, Dec 2005. Videos: PSV Video (20MB Quicktime, no audio)."
+  authors:
+    - link:
+      name:
+  title: TODO
+  venue:
+  link:
   image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
   year: 2005
 
@@ -2319,6 +2534,12 @@
     "[Poster] TopoLayout: Graph Layout by Topological Features. Daniel
     Archambault, Tamara Munzner and David Auber. InfoVis 2005 Poster Compendium,
     p. 3-4. Final version: TopoLayout TVCG journal paper."
+  authors:
+    - link:
+      name:
+  title: TODO
+  venue:
+  link:
   image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
   year: 2005
 
@@ -2327,6 +2548,12 @@
 - abstract:
     "[Poster] MusicLand: Exploratory Browsing in Music Space. Heidi Lam and
     Tamara Munzner. InfoVis 2005 Posters Compendium, p. 29-30."
+  authors:
+    - link:
+      name:
+  title: TODO
+  venue:
+  link:
   image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
   year: 2005
 
@@ -2441,6 +2668,12 @@
     Tamara Munzner, David Auber, and Jean-Philippe Domenger. InfoVis 2004
     Contest Entry, one of eight second place winners. Preview PPT, HTML, PDF
     Poster PPT PDF."
+  authors:
+    - link:
+      name:
+  title: TODO
+  venue:
+  link:
   image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
   year: 2004
 
@@ -2450,6 +2683,12 @@
     "[Poster] BinX: Dynamic Exploration of Time Series Datasets Across
     Aggregation Levels. Lior Berry and Tamara Munzner. InfoVis 04 Posters
     Compendium, pp 5-6."
+  authors:
+    - link:
+      name:
+  title: TODO
+  venue:
+  link:
   image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
   year: 2004
 
@@ -2459,6 +2698,12 @@
     "[Poster] Accordion Comparison of Evolutionary Trees and Genomic Sequences.
     James Slack, Kristian Hildebrand, and Tamara Munzner. Evolution 2004, Fort
     Collins CO, 6/04."
+  authors:
+    - link:
+      name:
+  title: TODO
+  venue:
+  link:
   image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
   year: 2004
 
@@ -2468,6 +2713,12 @@
     "[Contest] TreeJuxtaposer: InfoVis03 Contest Entry. James Slack, Tamara
     Munzner, and François Guimbretière. InfoVis 2003 Contest Overall winner in
     the inaugural InfoVis Contest."
+  authors:
+    - link:
+      name:
+  title: TODO
+  venue:
+  link:
   image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
   year: 2003
 
@@ -2755,6 +3006,12 @@
     (Computers and Mathematics Column), Vol. 40, No.8, pp 985-988, October 1993.
     A short note announcing the release of Geomview, a public domain 3D
     visualization system, aimed at the math community."
+  authors:
+    - link:
+      name:
+  title: TODO
+  venue:
+  link:
   image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
   year: 1993
 

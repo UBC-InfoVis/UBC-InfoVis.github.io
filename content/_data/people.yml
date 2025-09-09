@@ -14,13 +14,6 @@
   position: phd
   title: PhD Candidate
 
-- name: Francis Nguyen
-  image: assets/images/francis.jpg
-  link: https://fmnguyen.com/
-  status: current
-  position: phd
-  title: PhD Candidate
-
 - name: Mara Solen
   image: assets/images/MaraSolen.jpg
   link: https://marasolen.github.io/
@@ -88,6 +81,12 @@
   position: postdoc
 
 # PhD
+
+- name: Francis Nguyen
+  image: assets/images/francis.jpg
+  link: https://fmnguyen.com/
+  status: past
+  position: phd
 
 - name: Zipeng Liu
   image: assets/images/zipeng.png

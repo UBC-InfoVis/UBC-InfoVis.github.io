@@ -5,8 +5,15 @@ title: News
 <br><br><br>
 {% for item in site.data.news %}
     <div class="news">
-        <a class="item-link" name="{{ forloop.index }}"> </a>
-        <h2><b>{{ item.title }}</b></h2>
+        <a class="item-link" name="{{ forloop.index }}"></a>
+        <h2><b>
+            {% if item.type == "conf" %}
+            Upcoming Conference: 
+            {% elsif item.type == "paper" %}
+            New Paper: 
+            {% endif %}
+            {{ item.title }}
+        </b></h2>
         <p class="info">
             {% if item.link and item.link.size > 0 %}
             <a href="{{ item.link }}">

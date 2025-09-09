@@ -162,6 +162,7 @@ h3 {
 
 .recent-news-item {
     width: 100%;
+    height: max-content;
 }
 
 .recent-news-item img {

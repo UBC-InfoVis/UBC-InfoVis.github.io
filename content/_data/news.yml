@@ -1,9 +1,37 @@
 - date: 11/2025
   type: conf
   title: "UBC InfoVis @ IEEE VIS 2025"
-  content: "PhD candidate <a href='https://marasolen.github.io/'>Mara Solen</a> is presenting her VIS25 paper <a href='pubs/2025/multiscaledesignspace'>A Design Space for Multiscale Visualization</a> and her VisComm paper <a href='pubs/2025/visskillset'>Visualization Literacy or Skillset? Beyond the Analogy to Textual Literacy</a>. PhD candidate Matt Oddo will be presenting his TVCG paper <a href='pubs/2025/censusstub'>The Census-Stub Graph Invariant Descriptor</a>. PhD candidate Ryan Smith will be presenting his Input Visualization Workshop paper <a href='pubs/2025/inputbias/'>Position Paper: Potential Areas of Bias in Visualization-as-Input Systems</a>.<br><a href='https://cs.ubc.ca/~tmm'>Tamara Munzner</a> will present a tutorial on <a href='https://www.cs.ubc.ca/~tmm/vadbook/'>Visualization Analysis and Design</a>. She is co-editor of the AK Peters Visualization book series with CRC/Routledge, which will have both a physical table at the conference and a <a href='https://bit.ly/IEEEVIS23'>virtual bookstore</a>.<br>"
+  content: "PhD candidate <a href='https://marasolen.github.io/'>Mara Solen</a> is presenting her VIS25 paper <a href='pubs/2025/multiscaledesignspace'>A Design Space for Multiscale Visualization</a> and her VisComm Workshop paper <a href='pubs/2025/visskillset'>Visualization Literacy or Skillset? Beyond the Analogy to Textual Literacy</a>. PhD candidate Matt Oddo will be presenting his TVCG paper <a href='pubs/2025/censusstub'>The Census-Stub Graph Invariant Descriptor</a>. PhD candidate Ryan Smith will be presenting his Input Visualization Workshop paper <a href='pubs/2025/inputbias/'>Position Paper: Potential Areas of Bias in Visualization-as-Input Systems</a>.<br><a href='https://cs.ubc.ca/~tmm'>Tamara Munzner</a> will present a tutorial on <a href='https://www.cs.ubc.ca/~tmm/vadbook/'>Visualization Analysis and Design</a>. She is co-editor of the AK Peters Visualization book series with CRC/Routledge, which will have both a physical table at the conference and a <a href='https://bit.ly/IEEEVIS23'>virtual bookstore</a>. She will also be on a panel titled IEEE VIS Reviewing - On a Path to Self-Destruction?"
   link: http://ieeevis.org/year/2025/welcome
   image: assets/images/news-thumbs/vis2025_logo.png
+
+- date: 8/2025
+  type: paper
+  title: "Visualization Literacy or Skillset? Beyond the Analogy to Textual Literacy"
+  content: by <a href='/~solen' target='_blank'>Mara Solen</a>, <a href='https://iamsaugatpandey.github.io/' target='_blank'>Saugat Pandey</a>, <a href='https://firas.moosvi.com/' target='_blank'>Firas Moosvi</a>, <a href='https://alvitta.com/' target='_blank'>Alvitta Ottley</a>, and <a href='/~tmm' target='_blank'>Tamara Munzner</a> has been accepted to the VisComm Workshop and will be presented during IEEE VIS 2025. <br>
+  link: pubs/2025/visskillset/
+  image: pubs/2025/visskillset/teaser.png
+
+- date: 8/2025
+  type: paper
+  title: "VIVA: Virtual Healthcare Interactions Using Visual Analytics, With Controllability Through Configuration"
+  content: by <a href='http://juergen-bernard.de/'>Jürgen Bernard</a>, <a href='/~solen' target='_blank'>Mara Solen</a>, Helen Novak Lauscher, Kurtis Stewart, <a href='https://digem.med.ubc.ca/the-team/kendall-ho/'>Kendall Ho</a>, and <a href='/~tmm' target='_blank'>Tamara Munzner</a> has been accepted to TVCG and will be presented at IEEE VIS 2026. <br>
+  link: pubs/2025/viva/
+  image: pubs/2025/viva/teaser.png
+
+- date: 7/2025
+  type: paper
+  title: "A Design Space for Multiscale Visualization"
+  content: by <a href='/~solen' target='_blank'>Mara Solen</a>, <a href='/~moddo' target='_blank'>Matt Oddo</a>, and <a href='/~tmm' target='_blank'>Tamara Munzner</a> has been accepted to IEEE VIS 2025 and will be published in a special edition of TVCG. <br>
+  link: pubs/2025/multiscaledesignspace/
+  image: pubs/2025/multiscaledesignspace/teaser.png
+
+- date: 3/2025
+  type: paper
+  title: "The Census-Stub Graph Invariant Descriptor"
+  content: by <a href='/~moddo' target='_blank'>Matt Oddo</a>, <a href='https://www2.cs.arizona.edu/~kobourov/' target='_blank'>Stephen Kobourov</a>, and <a href='/~tmm' target='_blank'>Tamara Munzner</a> has been accepted to TVCG and will be presented at IEEE VIS 2025. <br>
+  link: pubs/2025/censusstub/
+  image: pubs/2025/censusstub/teaser.jpg
 
 - date: 10/2024
   type: conf
@@ -17,7 +45,14 @@
   title: Cynthia Huang visiting from Monash University
   content: "PhD student Cynthia Huang from Monash University is visiting us from July until December and will primarily be working with Francis Nguyen."
   link: https://www.cynthiahqy.com/
-  image: assets/images/news-thumbs/cynthia.jpg 
+  image: assets/images/news-thumbs/cynthia.jpg
+
+- date: 7/2024
+  type: paper
+  title: "DeLVE into Earth's Past: A Visualization-Based Exhibit Deployed Across Multiple Museum Contexts"
+  content: by <a href='/~solen' target='_blank'>Mara Solen</a>, Nigar Sultana, <a href='https://www.eoas.ubc.ca/people/lauralukes' target='_blank'>Laura Lukes</a>, and <a href='/~tmm' target='_blank'>Tamara Munzner</a> has been accepted to IEEE VIS 2024 and will be published in a special edition of TVCG. <br>
+  link: pubs/2024/delve/
+  image: pubs/2024/delve/teaser.png
 
 - date: 10/2023
   type: conf
@@ -40,6 +75,13 @@
   link: ""
   image: assets/images/samfraser.jpg
 
+- date: 1/2023
+  type: paper
+  title: "Dirty Data in the Newsroom: Comparing Data Preparation in Journalism and Data Science"
+  content: by <a href='/~kasica' target='_blank'>Stephen Kasica</a>, <a href='https://charlesberret.net/' target='_blank'>Charles Berret</a>, and <a href='/~tmm' target='_blank'>Tamara Munzner</a> has been accepted to CHI 2023 and will be presented virtually. <br>
+  link: pubs/2023/dirty-data-in-the-newsroom/
+  image: pubs/2023/dirty-data-in-the-newsroom/teaser.png
+
 - date: 10/2022
   type: conf
   title: "UBC InfoVis @ IEEE VIS 2022"
@@ -60,6 +102,13 @@
   content: Congratulations to <a href="https://charlesberret.net/">Charles Berret</a> for completing his post-doc! He now joins Miriah Meyer in Linköping, Sweden as a post-doc.
   link: ""
   image: assets/images/berret.jpg
+
+- date: 8/2022
+  type: paper
+  title: "Scoping the Future of Visualization Literacy: A Review"
+  content: by <a href='/~solen' target='_blank'>Mara Solen</a> has been accepted to the VisComm Workshop and will be also presented at IEEE VIS 2022. <br>
+  link: pubs/2022/visliteracy/
+  image: pubs/2022/visliteracy/teaser.png
 
 - date: 2/2022
   type: paper

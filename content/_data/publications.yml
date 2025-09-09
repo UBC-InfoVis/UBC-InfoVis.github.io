@@ -13,7 +13,7 @@
       name: Alvitta Ottley
     - link: http://www.cs.ubc.ca/~tmm
       name: Tamara Munzner
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  image: assets/images/pub-thumbs/2025-vis-skillset-thumb.png
   link: pubs/2025/visskillset
   links:
     - link: https://osf.io/preprints/osf/9rc45_v1
@@ -176,7 +176,7 @@
   authors:
     - link: https://marasolen.github.io/
       name: Mara Solen
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  image: assets/images/pub-thumbs/2022-vis-literacy-thumb.png
   link: pubs/2022/visliteracy/
   links:
     - link: https://osf.io/preprints/osf/eypgm_v1
@@ -185,6 +185,42 @@
     "Scoping the Future of Visualization Literacy: A Review"
   venue:
     VisComm Workshop at IEEE VIS 2022
+  year: 2022
+
+###############################################################################
+
+- abstract:
+    Graph neural networks (GNNs) are a class of powerful machine learning tools
+    that model node relations for making predictions of nodes or links. GNN
+    developers rely on quantitative metrics of the predictions to evaluate a
+    GNN, but similar to many other neural networks, it is difficult for them to
+    understand if the GNN truly learns characteristics of a graph as expected.
+    We propose an approach to corresponding an input graph to its node embedding
+    (aka latent space), a common component of GNNs that is later used for
+    prediction. We abstract the data and tasks, and develop an interactive
+    multi-view interface called CorGIE to instantiate the abstraction. As the
+    key function in CorGIE, we propose the K-hop graph layout to show
+    topological neighbors in hops and their clustering structure. To evaluate
+    the functionality and usability of CorGIE, we present how to use CorGIE in
+    two usage scenarios, and conduct a case study with two GNN experts.
+  authors:
+    - link: http://www.cs.ubc.ca/~zipeng
+      name: Zipeng Liu
+    - link: https://www.linkedin.com/in/gnavvy
+      name: Yang Wang
+    - link: https://juergen-bernard.de
+      name: "Jürgen Bernard"
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+  image: assets/images/pub-thumbs/2021-corgie.png
+  link: pubs/2021/corgie/
+  links:
+    - link: http://www.cs.ubc.ca/group/infovis/pubs/2021/corgie/corgie-under-review.pdf
+      name: Pre-print PDF
+  title:
+    "Visualizing Graph Neural Networks with CorGIE: Corresponding a Graph to Its
+    Embedding"
+  venue: IEEE Transactions on Visualization and Computer Graphics (TVCG), 2022
   year: 2022
 
 ###############################################################################
@@ -223,42 +259,6 @@
   venue:
     IEEE Transactions on Visualization and Computer Graphics (TVCG), Proc. IEEE
     VIS 2021, 2022.
-  year: 2022
-
-###############################################################################
-
-- abstract:
-    Graph neural networks (GNNs) are a class of powerful machine learning tools
-    that model node relations for making predictions of nodes or links. GNN
-    developers rely on quantitative metrics of the predictions to evaluate a
-    GNN, but similar to many other neural networks, it is difficult for them to
-    understand if the GNN truly learns characteristics of a graph as expected.
-    We propose an approach to corresponding an input graph to its node embedding
-    (aka latent space), a common component of GNNs that is later used for
-    prediction. We abstract the data and tasks, and develop an interactive
-    multi-view interface called CorGIE to instantiate the abstraction. As the
-    key function in CorGIE, we propose the K-hop graph layout to show
-    topological neighbors in hops and their clustering structure. To evaluate
-    the functionality and usability of CorGIE, we present how to use CorGIE in
-    two usage scenarios, and conduct a case study with two GNN experts.
-  authors:
-    - link: http://www.cs.ubc.ca/~zipeng
-      name: Zipeng Liu
-    - link: https://www.linkedin.com/in/gnavvy
-      name: Yang Wang
-    - link: https://juergen-bernard.de
-      name: "Jürgen Bernard"
-    - link: http://www.cs.ubc.ca/~tmm
-      name: Tamara Munzner
-  image: assets/images/pub-thumbs/2021-corgie.png
-  link: pubs/2021/corgie/
-  links:
-    - link: http://www.cs.ubc.ca/group/infovis/pubs/2021/corgie/corgie-under-review.pdf
-      name: Pre-print PDF
-  title:
-    "Visualizing Graph Neural Networks with CorGIE: Corresponding a Graph to Its
-    Embedding"
-  venue: IEEE Transactions on Visualization and Computer Graphics (TVCG), 2022
   year: 2022
 
 ###############################################################################
@@ -349,7 +349,8 @@
     "ProSeCo: Visual analysis of class separation measures and dataset
     characteristics."
   venue: "Computers & Graphics 96:48-60 2021."
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  image: https://www.cs.ubc.ca/~tmm/swpix/proseco-thumb.jpg
+  link: https://doi.org/10.1016/j.cag.2021.03.004
   year: 2021
 
 ###############################################################################
@@ -373,7 +374,8 @@
   venue:
     "IEEE Trans. Visualization and Computer Graphics (Proc. InfoVis 2020)
     27(2):957-966 2021."
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  image: http://www.cs.ubc.ca/group/infovis/pubs/2020/table-scraps/figures/fig4-la-times-wrangling.png
+  link: http://www.cs.ubc.ca/group/infovis/pubs/2020/table-scraps
   year: 2021
 
 ###############################################################################
@@ -423,7 +425,8 @@
     - name: Tamara Munzner
   title: "LSQT: Low-Stretch Quasi-Trees for Bundling and Layout"
   venue: "arXiv:2007.06237 preprint."
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  image: https://www.cs.ubc.ca/~tmm/swpix/lsqt-small.png
+  link: https://arxiv.org/abs/2007.06237
   year: 2020
 
 ###############################################################################
@@ -443,7 +446,8 @@
     - name: Tamara Munzner
   title: "SepEx: Visual Analysis of Class Separation Measures."
   venue: "EuroVis Workshop on Visual Analytics (EuroVA), 2020"
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  image: https://www.cs.ubc.ca/~tmm/swpix/sepex.small.png
+  link: http://juergen-bernard.de/paperPages/euroVA2020Bernard/paper.pdf
   year: 2020
 
 ###############################################################################
@@ -463,7 +467,8 @@
     "Towards Rigorously Designed Preference Visualizations for Group Decision
     Making"
   venue: "Proc. IEEE PacificVis Symp. 2020."
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  image: https://www.cs.ubc.ca/~tmm/swpix/hindalong-towards-small.png
+  link: http://www.cs.ubc.ca/group/infovis/pubs/2020/rigorous-preference/Hindalong-Towards-PacVis2020.pdf
   year: 2020
 
 ###############################################################################
@@ -555,7 +560,7 @@
       name: Tamara Munzner
     - link: https://people.mpi-sws.org/~jcmace/
       name: Jonathan Mace
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  image: assets/images/pub-thumbs/aggregate-driven-trace-visualizations-for-performance-debugging.png
   link: https://arxiv.org/abs/2010.13681
   venue: arXiv:2010.13681 preprint.
   year: 2020
@@ -725,7 +730,7 @@
   title:
     Uncovering Data Landscapes through Data Reconnaissance and Task Wrangling
   venue: IEEE VIS
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  image: https://www.cs.ubc.ca/~tmm/swpix/data_recon_simple.small.png
   year: 2019
 
 ###############################################################################
@@ -830,7 +835,8 @@
     "GaRSIVis: Improving the Predicting of Self-Interruption during Reading
     using Gaze Data."
   venue: "Proc. ETVIS 2018."
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  image: http://www.cs.ubc.ca/labs/imager/tr/2018/garsivis/figures/teaser.thumb.png
+  link: http://www.cs.ubc.ca/labs/imager/tr/2018/garsivis/
   year: 2018
 
 ###############################################################################
@@ -851,7 +857,8 @@
     "A Novel Methodology for Characterizing Cell Subpopulations in Automated
     Time-lapse Microscopy."
   venue: "Frontiers in in Bioengineering and Biotechnology 28;6:17, 2018."
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  image: https://www.cs.ubc.ca/~tmm/swpix/cycasp.small.png
+  link: https://www.frontiersin.org/articles/10.3389/fbioe.2018.00017/full
   year: 2018
 
 ###############################################################################
@@ -872,15 +879,15 @@
       name: Ana Crisan
     - link: https://viscoglab.psych.ubc.ca/person/madison-elliott/
       name: Madison Elliott
-  link: https://amcrisan.github.ioassets/files/papers/beliv-2018.pdf
+  link: assets/files/papers/beliv-2018.pdf
   links:
-    - link: https://amcrisan.github.ioassets/files/papers/beliv-2018.pdf
+    - link: assets/files/papers/beliv-2018.pdf
       name: PDF
   title:
     How to Evaluate an Evaluation Study? Comparing and Contrasting Practices in
     Vis with Those of Other Disciplines
   venue: BELIV'18 - an IEEE VIS affilitated workshop
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  image: assets/images/pub-thumbs/how-to-evaluate-an-evaluation-study.png
   year: 2018
 
 ###############################################################################
@@ -1113,7 +1120,7 @@
   venue:
     IEEE Transactions on Visualization and Computer Graphics (TVCG, Proceedings
     of VAST 2015), 22(1), p. 300-309, 2016.
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  image: http://www.cs.ubc.ca/group/infovis/software/TimeLineCurator/figures/tlc-thumb.png
   year: 2016
 
 ###############################################################################
@@ -1125,7 +1132,7 @@
       name: Mike Wu
     - link: http://www.cs.ubc.ca/~tmm/
       name: Tamara Munzner
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  image: https://www.cs.ubc.ca/labs/imager/tr/2015/SEQIT/figures/fig-full.png
   link: http://www.cs.ubc.ca/labs/imager/tr/2015/SEQIT/
   venue: IEEE InfoVis 2015 Poster, October 2015.
   year: 2015
@@ -1227,7 +1234,6 @@
     human-computer interaction, or graphic design and can be used in an
     introductory visualization course at the graduate or undergraduate level."
   authors:
-    - name: "[Hardcover Book]"
     - link: http://www.cs.ubc.ca/~tmm
       name: Tamara Munzner
   image: http://www.cs.ubc.ca/~tmm/vadbook/vadcover.med.png
@@ -1237,7 +1243,7 @@
       name: "CRC Press"
     - link: http://www.amazon.com/Visualization-Analysis-Design-Peters-Series/dp/1466508914
       name: "Amazon"
-  title: "Visualization Analysis and Design"
+  title: "[Hardcover Book] Visualization Analysis and Design"
   venue: AK Peters Visualization Series (CRC Press)
   year: 2014
 
@@ -1578,30 +1584,54 @@
 
 ###############################################################################
 
-- abstract:
-    "[Technical Report] Dimensionality Reduction in the Wild: Gaps and Guidance.
-    Michael Sedlmair, Matt Brehmer, Stephen Ingram, and Tamara Munzner. UBC
-    Computer Science Technical Report TR-2012-03, June 2012."
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+- title: "[Technical Report] Dimensionality Reduction in the Wild: Gaps and Guidance"
+  authors:
+    - link: https://www.cs.ubc.ca/~msedl
+      name: Michael Sedlmair
+    - link: https://www.cs.ubc.ca/~brehmer
+      name: Matt Brehmer
+    - link: https://www.cs.ubc.ca/~sfingram
+      name: Stephen Ingram
+    - link: https://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+  venue: UBC Computer Science Technical Report TR-2012-03
+  image: assets/images/pub-thumbs/dimensionality-reduction-in-the-wild.png
+  link: http://www.cs.ubc.ca/cgi-bin/tr/2012/TR-2012-03
   year: 2012
 
 ###############################################################################
 
-- abstract:
-    "[Technical Report] Hierarchical Clustering and Tagging of Mostly
-    Disconnected Data Stephen Ingram, Tamara Munzner, and Jonathan Stray. UBC
-    Department of Computer Science Technical Report TR-2012-01, May 2012."
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+- title: "[Technical Report] Hierarchical Clustering and Tagging of Mostly Disconnected Data"
+  authors:
+    - link: https://www.cs.ubc.ca/~sfingram
+      name: Stephen Ingram
+    - link: https://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+    - link: http://jonathanstray.com/
+      name: Jonathan Stray
+  venue: UBC Department of Computer Science Technical Report TR-2012-01
+  image: https://www.cs.ubc.ca/labs/imager/tr/2012/modiscotag/caracas_small.png
+  link: https://www.cs.ubc.ca/labs/imager/tr/2012/modiscotag/
   year: 2012
 
 ###############################################################################
 
-- abstract:
-    "[Technical Report] Ephemeral Paths: Gradual Fade-In as a Visual Cue for
-    Subgraph Highlighting. Jessica Dawson, Joanna McGrenere, Tamara Munzner,
-    Karyn Moffatt, and Leah Findlater. UBC Computer Science Technical Report
-    TR-2011-10, August 2011."
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+- title: "[Technical Report] Ephemeral Paths: Gradual Fade-In as a Visual Cue for Subgraph Highlighting" 
+  authors:
+    - link: https://www.cs.ubc.ca/~jqdawson
+      name: Jessica Dawson
+    - link: https://www.cs.ubc.ca/~joanna
+      name: Joanna McGrenere
+    - link: https://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+    - link: http://individual.utoronto.ca/kmoffatt/
+      name: Karyn Moffatt
+    - link: http://faculty.washington.edu/leahkf/
+      name: Leah Findlater
+
+  venue: UBC Computer Science Technical Report TR-2011-10
+  image: assets/images/pub-thumbs/ephemereal-paths.png
+  link: http://www.cs.ubc.ca/cgi-bin/tr/2011/TR-2011-10
   year: 2011
 
 ###############################################################################
@@ -1780,23 +1810,33 @@
 
 ###############################################################################
 
-- abstract:
-    "[Technical Report] A Guide to Visual Multi-Level Interface Design From
-    Synthesis of Empirical Study Evidence. Heidi Lam and Tamara Munzner. UBC
-    Computer Science Technical Report TR-2010-11, October 2010. Interfaces for
-    the 22 empirical studies covered in the summary synthesis. Final version:
-    Morgan Claypool Synthesis Lecture monograph."
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+- title: "[Technical Report] A Guide to Visual Multi-Level Interface Design From Synthesis of Empirical Study Evidence?"
+  authors:
+    - link: http://www.heidilam.com/
+      name: Heidi Lam
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner"
+  links:
+    - link: http://www.heidilam.com/res_ss_interfaces.htm
+      name: Interfaces for the 22 empirical studies covered in the summary synthesis.
+  venue: Computer Science Technical Report TR-2010-11
+  image: assets/images/pub-thumbs/a-guide-to-visual-multi-level-interface-design.png
+  link: http://www.cs.ubc.ca/cgi-bin/tr/2010/TR-2010-11
   year: 2010
 
 ###############################################################################
 
-- abstract:
-    "[Technical Report] Reflections on QuestVis: A Visualization System for an
-    Environmental Sustainability Model. Tamara Munzner, Aaron Barsky, and Matt
-    Williams. UBC Computer Science Technical Report TR-2009-24, November 2009.
-    Final version: Dagstuhl Follow-Ups volume 2."
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+- title: "[Technical Report] Reflections on QuestVis: A Visualization System for an Environmental Sustainability Model"
+  authors:
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner"
+    - link: http://www.heidilam.com/
+      name: Aaron Barsky
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Matt Williams
+  venue: UBC Computer Science Technical Report TR-2009-24
+  image: assets/images/pub-thumbs/reflections-on-questvis.png
+  link: http://www.cs.ubc.ca/cgi-bin/tr/2009/TR-2009-24
   year: 2009
 
 ###############################################################################
@@ -2056,51 +2096,41 @@
 
 ###############################################################################
 
-- abstract:
-    "[Poster] InnateDB and Cerebral: Computational Tools for the Systems-Level
-    Analysis of Innate Immunity. Gardy, J., Lynn, D., Winsor, G., Barsky, A.,
-    Roche, F., Chan, T., Laird, M., Chan, C., Shah, N., Richard, N., Lo, R.,
-    Naseer, M., Que, J., Yau, M., Acab, M., Tulpan, D., Whiteside, M., Munzner,
-    T., Hancock, R., and Brinkman, F. Experimental Biology, April 5-9, 2008, San
-    Diego, CA, USA."
-  authors:
-    - link:
-      name:
-  title: TODO
-  venue:
-  link:
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+- authors:
+    - name: "Gardy, J., Lynn, D., Winsor, G., Barsky, A.,
+            Roche, F., Chan, T., Laird, M., Chan, C., Shah, N., Richard, N., Lo, R.,
+            Naseer, M., Que, J., Yau, M., Acab, M., Tulpan, D., Whiteside, M., Munzner,
+            T., Hancock, R., and Brinkman, F."
+  title: "[Poster] InnateDB and Cerebral: Computational Tools for the Systems-Level Analysis of Innate Immunity"
+  venue: Experimental Biology
   year: 2008
 
 ###############################################################################
 
-- abstract:
-    "[Technical Report] GLUG: GPU Layout of Undirected Graphs. Stephen Ingram,
-    Tamara Munzner, and Marc Olano. UBC Computer Science Technical Report
-    TR-2007-23, October 2007."
-  authors:
-    - link:
-      name:
-  title: TODO
-  venue:
-  link:
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+- authors:
+    - link: https://www.cs.ubc.ca/~sfingram
+      name: Stephen Ingram
+    - link: https://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+    - link: https://www.csee.umbc.edu/~olano/
+      name: Marc Olano
+  title: "[Technical Report] GLUG: GPU Layout of Undirected Graphs"
+  venue: UBC Computer Science Technical Report TR-2007-23
+  link: http://www.cs.ubc.ca/cgi-bin/tr/2007/TR-2007-23
+  image: assets/images/pub-thumbs/glug.png
   year: 2007
 
 ###############################################################################
 
-- abstract:
-    "[Technical Report] A Study-Based Guide to Multiple Visual Information
-    Resolution Interface Designs. Heidi Lam and Tamara Munzner. UBC Computer
-    Science Technical Report TR-2007-21, September 2007. Final version: Morgan
-    Claypool Synthesis Lecture monograph."
-  authors:
-    - link:
-      name:
-  title: TODO
-  venue:
-  link:
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+- authors:
+    - link: http://www.cs.ubc.ca/~hllam
+      name: Heidi Lam
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+  title: "[Technical Report] A Study-Based Guide to Multiple Visual Information Resolution Interface Designs"
+  venue: UBC Computer Science Technical Report TR-2007-21
+  link: http://www.cs.ubc.ca/cgi-bin/tr/2007/TR-2007-21
+  image: assets/images/pub-thumbs/study-based-guide.png
   year: 2007
 
 ###############################################################################
@@ -2110,12 +2140,16 @@
     Tamara Munzner and Marc Olano. UBC Computer Science Technical Report
     TR-2007-15, June 2007. Final version: IEEE TVCG paper."
   authors:
-    - link:
-      name:
-  title: TODO
-  venue:
-  link:
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+    - link: https://www.cs.ubc.ca/~sfingram
+      name: Stephen Ingram
+    - link: https://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+    - link: https://www.csee.umbc.edu/~olano/
+      name: Marc Olano
+  title: "[Technical Report] Glimmer: Multilevel MDS on the GPU"
+  venue: UBC Computer Science Technical Report TR-2007-15
+  link: http://www.cs.ubc.ca/cgi-bin/tr/2007/TR-2007-15
+  image: assets/images/pub-thumbs/glimmer-tr.png
   year: 2007
 
 ###############################################################################
@@ -2130,12 +2164,14 @@
     Microbiology Pathogenomics Conference. June 24-27, 2007. Halifax, Nova
     Scotia, Canada."
   authors:
-    - link:
-      name:
-  title: TODO
-  venue:
-  link:
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+    - name: "David J. Lynn, Fiona M. Roche, Timothy
+            H.W. Chan, Jennifer L. Gardy, Geoff Winsor, Matthew R. Laird, Michael Acab,
+            Calvin Chan, Naisha Shah, John Ling, Raymond Lo, Aaron Barsky, Tamara M.
+            Munzner, Dan Tulpan, Matthew Whiteside, Lorne A. Babiuk, Karsten Hokamp,
+            Robert E.W. Hancock, Fiona S.L. Brinkman."
+  title: "[Poster] InnateDB: A knowledge base for systems biology approaches to
+    studying mammalian innate immunity"
+  venue: 2nd American Society for Microbiology Pathogenomics Conference
   year: 2007
 
 ###############################################################################
@@ -2465,96 +2501,74 @@
 
 ###############################################################################
 
-- abstract:
-    "[Abstract] The Invariance of Visual Long-term Long-term Memory to Geometric
-    Transformation. Heidi Lam, Tamara Munzner, and Ronald A. Rensink. Journal of
-    Vision, 6(6):983, 983a. Vision Sciences Society, Sarasota, FL, USA. May
-    2006. Final version: APGV 2006 conference paper."
-  authors:
-    - link:
-      name:
-  title: TODO
-  venue:
-  link:
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+- authors:
+    - link: https://www.cs.ubc.ca/~hllam
+      name: Heidi Lam
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+    - link: https://www.cs.ubc.ca/~rensink
+      name: Ronald A. Rensink
+  title: "[Abstract] The Invariance of Visual Long-term Long-term Memory to Geometric Transformation"
+  venue: Vision Sciences Society
   year: 2006
 
 ###############################################################################
 
-- abstract:
-    "[Poster] A bioinformatics platform facilitating robust cross-species
-    comparisons of innate immunity microarray data. Roche FM, Acab M, Barsky A,
-    Chan T, Fulton DL, Gardy JL, Laird MR, Li YL, Lo R, Munzner T, Winsor GL,
-    Wei R, Whiteside M, Babiuk L, Hancock REW, Hokamp K, Brinkman FSL. 2006
-    International Workshop on Systems Biology, July 17-19, National University
-    of Ireland, Maynooth, Kildare, Ireland."
-  authors:
-    - link:
-      name:
-  title: TODO
-  venue:
-  link:
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+- authors:
+    - name: Roche FM, Acab M, Barsky A,
+            Chan T, Fulton DL, Gardy JL, Laird MR, Li YL, Lo R, Munzner T, Winsor GL,
+            Wei R, Whiteside M, Babiuk L, Hancock REW, Hokamp K, Brinkman FSL
+  title: "[Poster] A bioinformatics platform facilitating robust cross-species comparisons of innate immunity microarray data"
+  venue: International Workshop on Systems Biology
   year: 2006
 
 ###############################################################################
 
-- abstract:
-    "[Technical Report] TopoLayout: Graph Layout by Topological Features. Daniel
-    Archambault, Tamara Munzner and David Auber. UBC Computer Science Technical
-    Report TR-2005-30, Dec 2005. Final version: TopoLayout TVCG journal paper."
-  authors:
-    - link:
-      name:
-  title: TODO
-  venue:
-  link:
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+- authors:
+    - link: https://www.cs.ubc.ca/~archam
+      name: Daniel Archambault
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+    - link: http://www.labri.fr/~auber/
+      name: David Auber
+  title: "[Technical Report] TopoLayout: Graph Layout by Topological Features"
+  venue: UBC Computer Science Technical Report TR-2005-30
+  link: http://www.cs.ubc.ca/cgi-bin/tr/2005/TR-2005-30
+  image: assets/images/pub-thumbs/topolayout.png
   year: 2005
 
 ###############################################################################
 
-- abstract:
-    "[Technical Report. Visual Mining of Power Sets with Large Alphabets. Tamara
-    Munzner, Qiang Kong, Raymond T. Ng, Jordan Lee, Janek Klawe, Dragana
-    Radulovic and Carson K. Leung. UBC Computer Science Technical Report
-    TR-2005-25, Dec 2005. Videos: PSV Video (20MB Quicktime, no audio)."
-  authors:
-    - link:
-      name:
-  title: TODO
-  venue:
-  link:
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+- authors:
+    - name: Tamara Munzner, Qiang Kong, Raymond T. Ng, Jordan Lee, Janek Klawe, Dragana
+  title: "[Technical Report. Visual Mining of Power Sets with Large Alphabets"
+  venue: BC Computer Science Technical Report TR-2005-25
+  link: http://www.cs.ubc.ca/cgi-bin/tr/2005/TR-2005-25
+  image: assets/images/pub-thumbs/visual-mining.png
   year: 2005
 
 ###############################################################################
 
-- abstract:
-    "[Poster] TopoLayout: Graph Layout by Topological Features. Daniel
-    Archambault, Tamara Munzner and David Auber. InfoVis 2005 Poster Compendium,
-    p. 3-4. Final version: TopoLayout TVCG journal paper."
-  authors:
-    - link:
-      name:
-  title: TODO
-  venue:
-  link:
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+- authors:
+    - link: https://www.cs.ubc.ca/~archam
+      name: Daniel Archambault
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+    - link: http://www.labri.fr/~auber/
+      name: David Auber
+  title: "[Poster] TopoLayout: Graph Layout by Topological Features"
+  venue: InfoVis 2005 Poster Compendium
   year: 2005
 
 ###############################################################################
 
-- abstract:
-    "[Poster] MusicLand: Exploratory Browsing in Music Space. Heidi Lam and
-    Tamara Munzner. InfoVis 2005 Posters Compendium, p. 29-30."
-  authors:
-    - link:
-      name:
-  title: TODO
-  venue:
-  link:
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+- authors:
+    - link: https://www.cs.ubc.ca/~hllam
+      name: Heidi Lam
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+  title: "[Poster] MusicLand: Exploratory Browsing in Music Space"
+  venue: InfoVis 2005 Posters Compendium
   year: 2005
 
 ###############################################################################
@@ -2588,7 +2602,7 @@
     - link: http://www.cs.virginia.edu/~drb3t/
       name: Dale Beermann
     - name: Tamara Munzner
-    - name: Greg HumphreysProc
+    - name: Greg Humphreys
   image: http://www.cs.ubc.ca/~tmm/pix/tjc.png
   link: http://www.cs.virginia.edu/~gfx/pmwiki/index.php?n=Pubs.Beermann2005SRV
   links:
@@ -2663,18 +2677,19 @@
 
 ###############################################################################
 
-- abstract:
-    "[Contest] Exploring InfoVis Publication History with Tulip. Maylis Delest,
-    Tamara Munzner, David Auber, and Jean-Philippe Domenger. InfoVis 2004
-    Contest Entry, one of eight second place winners. Preview PPT, HTML, PDF
-    Poster PPT PDF."
-  authors:
-    - link:
-      name:
-  title: TODO
-  venue:
-  link:
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+- authors:
+    - link: http://www.labri.fr/Scripts/info.php?nom=36
+      name: Maylis Delest
+    - link: http://www.cs.ubc.ca/~tmm/
+      name: Tamara Munzner
+    - link: http://www.labri.fr/~auber/
+      name: David Auber
+    - link: http://www.labri.fr/Scripts/info.php?nom=41
+      name: Jean-Philippe Domenger
+  title: "[Contest] Exploring InfoVis Publication History with Tulip"
+  venue: InfoVis 2004 Contest Entry, one of eight second place winners
+  link: https://www.cs.ubc.ca/~tmm/papers/contest04
+  image: assets/images/pub-thumbs/tulip.png
   year: 2004
 
 ###############################################################################
@@ -2684,12 +2699,15 @@
     Aggregation Levels. Lior Berry and Tamara Munzner. InfoVis 04 Posters
     Compendium, pp 5-6."
   authors:
-    - link:
-      name:
-  title: TODO
-  venue:
-  link:
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+    - link: https://www.cs.ubc.ca/~berry
+      name: Lior Berry
+    - link: http://www.cs.ubc.ca/~tmm/
+      name: Tamara Munzner
+  title: "[Poster] BinX: Dynamic Exploration of Time Series Datasets Across
+    Aggregation Levels"
+  venue: InfoVis 04 Posters Compendium
+  link: https://www.cs.ubc.ca/~tmm/papers/binx
+  image: https://www.cs.ubc.ca/~tmm/papers/binx/figs/binx.fig1.small.png
   year: 2004
 
 ###############################################################################
@@ -2699,27 +2717,32 @@
     James Slack, Kristian Hildebrand, and Tamara Munzner. Evolution 2004, Fort
     Collins CO, 6/04."
   authors:
-    - link:
-      name:
-  title: TODO
-  venue:
-  link:
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+    - link: https://www.cs.ubc.ca/~jslack
+      name: James Slack
+    - link: http://www.uni-weimar.de/~hildebr2/
+      name: Kristian Hildebrand
+    - link: http://www.cs.ubc.ca/~tmm/
+      name: Tamara Munzner
+  title: "[Poster] Accordion Comparison of Evolutionary Trees and Genomic Sequences"
+  venue: Evolution 2004
+  link: https://www.cs.ubc.ca/~tmm/papers/ev04/evolution2004.pdf
+  image: assets/images/pub-thumbs/accordion-comparison.png
   year: 2004
 
 ###############################################################################
 
-- abstract:
-    "[Contest] TreeJuxtaposer: InfoVis03 Contest Entry. James Slack, Tamara
-    Munzner, and François Guimbretière. InfoVis 2003 Contest Overall winner in
-    the inaugural InfoVis Contest."
-  authors:
-    - link:
-      name:
-  title: TODO
-  venue:
-  link:
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+- authors:
+    - link: https://www.cs.ubc.ca/~jslack
+      name: James Slack
+    - link: http://www.cs.ubc.ca/~tmm/
+      name: Tamara Munzner
+    - link: http://www.cs.umd.edu/~francois/
+      name: "Fran\xE7ois Guimbreti\xE8re"
+  title: "[Contest] TreeJuxtaposer: InfoVis03 Contest Entry"
+  venue: InfoVis 2003 Contest, Overall winner in
+    the inaugural InfoVis Contest
+  link: http://www.cs.ubc.ca/~tmm/papers/contest03
+  image: assets/images/pub-thumbs/treejuxtaposer.png
   year: 2003
 
 ###############################################################################
@@ -2966,21 +2989,21 @@
 
 ###############################################################################
 
-- abstract:
-    "A short note announcing the release of Geomview, a public domain 3D
-    visualization system, aimed at the computational geometry community."
-  authors:
+- authors:
     - name: Nina Amenta
+      link: http://www.cs.utexas.edu/users/amenta
     - name: Stuart Levy
+      link: http://www.ncsa.uiuc.edu/~slevy/
     - name: Tamara Munzner
+      link: http://graphics.stanford.edu/~munzner
     - name: Mark Phillips
-  title: "Geomview: A system for geometric visualization"
+      link: http://www.geom.uiuc.edu/~mbp
+  title: "[Note] Geomview: A system for geometric visualization"
   venue:
     "Communication to the Proceedings of the 11th Annual ACM Symposium on
     Computational Geometry (1995), pp C12-13. A short note announcing the
     release of Geomview, a public domain 3D visualization system, aimed at the
     computational geometry community."
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
   year: 1995
 
 ###############################################################################
@@ -2990,8 +3013,11 @@
     pictures.
   authors:
     - name: Andrew J. Hanson
+      link: http://www.cs.indiana.edu/hyplan/hanson.html
     - name: Tamara Munzner
+      link: http://graphics.stanford.edu/~munzner
     - name: George Francis
+      link: http://www.math.uiuc.edu/~gfrancis
   image: assets/images/swpix/fermat4.gif
   link: http://graphics.stanford.edu/papers/visgeom/
   title: Interactive Methods for Visualizable Geometry
@@ -3000,19 +3026,15 @@
 
 ###############################################################################
 
-- abstract:
-    "[Note] Geomview: An Interactive Geometry Viewer. Mark Phillips and Silvio
-    Levy and Tamara Munzner. Notices of the American Mathematical Society
-    (Computers and Mathematics Column), Vol. 40, No.8, pp 985-988, October 1993.
-    A short note announcing the release of Geomview, a public domain 3D
-    visualization system, aimed at the math community."
-  authors:
-    - link:
-      name:
-  title: TODO
-  venue:
-  link:
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+- authors:
+    - link: http://www.geom.uiuc.edu/~mbp
+      name: Mark Phillips
+    - link: http://www.geom.uiuc.edu/~levy
+      name: Silvio Levy
+    - link: http://graphics.stanford.edu/~munzner
+      name: Tamara Munzner
+  title: "[Note] Geomview: An Interactive Geometry Viewer"
+  venue: Notices of the American Mathematical Society (Computers and Mathematics Column)
   year: 1993
 
 ###############################################################################
@@ -3021,10 +3043,12 @@
     "A position paper on the MinneView/OOGL project, the prececessor of
     Geomview."
   authors:
-    - name: Tamara Munzner
-    - name: Mark B. Phillips
-  title: "Visualization in Geometry Research and Education"
+    - link: http://graphics.stanford.edu/~munzner
+      name: Tamara Munzner
+    - link: http://www.geom.uiuc.edu/~mbp
+      name: Mark Phillips
+  title: "[Position Paper] Visualization in Geometry Research and Education"
   venue:
     "Scientific Visualization Environments Workshop IEEE Visualization 1991."
-  image: http://www.cs.ubc.ca/labs/imager/tr/2008/glimmer/figs/docs_glimmer.small.png
+  image: assets/images/pub-thumbs/vis-geometry-research-education.png
   year: 1991

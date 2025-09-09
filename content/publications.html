@@ -6,9 +6,19 @@ title: Publications
 <div id="publications">
     {% for item in site.data.publications %}
     <div class="publication">
+        {% if item.link and item.image %}
         <a class="thumb" href="{{ item.link }}"><img src="{{ item.image }}"></img></a>
+        {% elsif item.image %}
+        <div class="thumb"><img src="{{ item.image }}"></img></div>
+        {% else %}
+        <div class="thumb"></div>
+        {% endif %}
         <div class="info">
+            {% if item.link %}
             <b><a class="title" href="{{ item.link }}">{{ item.title}}</a></b><br>
+            {% else %}
+            <b>{{ item.title}}</b><br>
+            {% endif %}
             <p class="authors">
                 {% for author in item.authors %}
                     {% if author.link %}

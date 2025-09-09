@@ -35,7 +35,7 @@ title: Home
     </p>
 </div>
 
-<br><br>
+<br>
 
 <div id="recent-news">
     {% for item in site.data.news %}
@@ -44,14 +44,21 @@ title: Home
                 <a href="news.html#{{ forloop.index }}">
                     <img src="{{ item.image }}">
                 </a>
-                <a class="news-title" href="news.html#{{ forloop.index }}">{{ item.title }}</a>
+                <a class="news-title" href="news.html#{{ forloop.index }}">
+                    {% if item.type == "conf" %}
+                    Upcoming Conference: 
+                    {% elsif item.type == "paper" %}
+                    New Paper: 
+                    {% endif %}
+                    {{ item.title }}
+                </a>
                 <br>
-                <i>Posted: {{ item.date }}</i>
+                <i style="clear: both;">Posted: {{ item.date }}</i>
             </div>
         {% endif %}
     {% endfor %}
 </div>
-<br><br>
+<br>
 
 <h2>Current Members (<a href="people.html">see all members, including alumni</a>)</h2>
 <hr>

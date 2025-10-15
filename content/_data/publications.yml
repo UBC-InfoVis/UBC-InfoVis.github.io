@@ -1,22 +1,22 @@
 ###############################################################################
 
 - abstract:
-    "Visualizations are typically seen as tools for interpreting and ana-
-      lyzing data, yet in visualization-as-input systems, where users en-
+    "Visualizations are typically seen as tools for interpreting and ana
+      lyzing data, yet in visualization-as-input systems, where users en
       ter information directly into a visual interface, the structure of the
       visualization may actively shape the data input by the user. This
       paper argues that visual aspects such as Scaffolding Elements (e.g.,
       axes, ranges, and labels) and Anchor Points (e.g., visualized data)
-      influence what users perceive as appropriate, complete, and accu-
+      influence what users perceive as appropriate, complete, and accu
       rate input. I outline a high level research agenda for the community
       to empirically study how these structural aspects guide user input.
       By reframing visualization-as-input as a dynamic way to elicit data,
-      I highlight the need for design strategies that mitigate bias and pro-
+      I highlight the need for design strategies that mitigate bias and pro
       mote more authentic and representative user data."
   authors:
     - link: https://www.ryansmithphd.com/
       name: Ryan Smith
-  image: assets/images/pub-thumbs/2025-vis-skillset-thumb.png
+  image: pubs/2025/inputvisbias/teaser.png
   link: pubs/2025/inputvisbias
   links:
     - link: https://osf.io/xvbu4/files/v3bu4

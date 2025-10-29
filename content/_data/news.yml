@@ -1,7 +1,7 @@
 - date: 11/2025
   type: conf
   title: "UBC InfoVis @ IEEE VIS 2025"
-  content: "PhD candidate <a href='https://marasolen.github.io/'>Mara Solen</a> is presenting her VIS25 paper <a href='pubs/2025/multiscaledesignspace'>A Design Space for Multiscale Visualization</a> and her VisComm Workshop paper <a href='pubs/2025/visskillset'>Visualization Literacy or Skillset? Beyond the Analogy to Textual Literacy</a>. PhD candidate Matt Oddo will be presenting his TVCG paper <a href='pubs/2025/censusstub'>The Census-Stub Graph Invariant Descriptor</a>. PhD candidate Ryan Smith will be presenting his Input Visualization Workshop paper <a href='pubs/2025/inputvisbias/'>Position Paper: Potential Areas of Bias in Visualization-as-Input Systems</a>.<br><a href='https://cs.ubc.ca/~tmm'>Tamara Munzner</a> will present a tutorial on <a href='https://www.cs.ubc.ca/~tmm/vadbook/'>Visualization Analysis and Design</a>. She is co-editor of the AK Peters Visualization book series with CRC/Routledge, which will have both a physical table at the conference and a <a href='https://bit.ly/IEEEVIS23'>virtual bookstore</a>. She will also be on a panel titled IEEE VIS Reviewing - On a Path to Self-Destruction?"
+  content: "PhD candidate <a href='https://marasolen.github.io/'>Mara Solen</a> is presenting her VIS25 paper <a href='pubs/2025/multiscaledesignspace'>A Design Space for Multiscale Visualization</a> and her VisComm Workshop paper <a href='pubs/2025/visskillset'>Visualization Literacy or Skillset? Beyond the Analogy to Textual Literacy</a>. PhD candidate <a href='https://dirediredock.github.io/'>Matt Oddo</a> will be presenting his TVCG paper <a href='pubs/2025/censusstub'>The Census-Stub Graph Invariant Descriptor</a>. PhD candidate <a href='https://www.ryansmithphd.com/'>Ryan Smith</a> will be presenting his Input Visualization Workshop paper <a href='pubs/2025/inputvisbias/'>Position Paper: Potential Areas of Bias in Visualization-as-Input Systems</a>.<br><a href='https://cs.ubc.ca/~tmm'>Tamara Munzner</a> will present the TVCG paper <a href='https://arxiv.org/abs/2204.04758'>Iceberg Sensemaking: A Process Model for Critical Data Analysis</a>, a tutorial on <a href='https://www.cs.ubc.ca/~tmm/vadbook/'>Visualization Analysis and Design</a>, and participate in the panel on VIS Reviewing. She is co-editor of the AK Peters Visualization book series with CRC/Routledge, which will have both a physical table at the conference and a virtual bookstore."
   link: http://ieeevis.org/year/2025/welcome
   image: assets/images/news-thumbs/vis2025_logo.png
 
@@ -92,7 +92,7 @@
 - date: 9/2022
   type: welcome
   title: Welcome Matt, Ryan, and Sam!
-  content: <a href="https://dirediredock.github.io/">Matt Oddo</a> and <a href="http://ryansmithresearch.com/">Ryan Smith</a> join the group in the PhD program. <a href="https://www.linkedin.com/in/s-fraser/">Sam Fraser</a> joins as an undergraduate research assistant.
+  content: <a href="https://dirediredock.github.io/">Matt Oddo</a> and <a href="http://ryansmithphd.com/">Ryan Smith</a> join the group in the PhD program. <a href="https://www.linkedin.com/in/s-fraser/">Sam Fraser</a> joins as an undergraduate research assistant.
   link: ""
   image: assets\images\news-thumbs/matt-ryan-sam-join.jpg
 

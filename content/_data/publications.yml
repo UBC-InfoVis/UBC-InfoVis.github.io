@@ -57,7 +57,7 @@
     "At the beginning of the COVID-19 pandemic, HealthLink BC (HLBC) rapidly integrated physicians into the triage process of their virtual healthcare service to improve patient outcomes and satisfaction with this service and preserve health care system capacity. We present the design and implementation of a visual analytics tool, VIVA (Virtual healthcare Interactions using Visual Analytics), to support HLBC in analysing various forms of usage data from the service. We abstract HLBC's data and data analysis tasks, which we use to inform our design of VIVA. We also present the interactive workflow abstraction of Scan, Act, Adapt. We validate VIVA's design through three case studies with stakeholder domain experts. We also propose the Controllability Through Configuration model to conduct and analyze design studies, and discuss architectural evolution of VIVA through that lens. It articulates configuration, both that specified by a developer or technical power user and that constructed automatically through log data from previous interactive sessions, as a bridge between the rigidity of hardwired programming and the time-consuming implementation of full end-user interactivity. Availability: Supplemental materials at https://osf.io/wv38n"
   authors:
     - link: https://juergen-bernard.de
-      name: "Jürgen Bernard*"
+      name: "J&#252;rgen Bernard*"
     - link: http://www.cs.ubc.ca/~solen
       name: Mara Solen*
     - link: 
@@ -68,7 +68,7 @@
       name: Kendall Ho
     - link: http://www.cs.ubc.ca/~tmm
       name: Tamara Munzner
-  image: pubs/2025/viva/teaser.png
+  image: pubs/2025/viva/teaser.gif
   link: pubs/2025/viva
   links:
     - link: https://arxiv.org/abs/2508.09386
@@ -258,7 +258,7 @@
     - link: https://www.linkedin.com/in/gnavvy
       name: Yang Wang
     - link: https://juergen-bernard.de
-      name: "Jürgen Bernard"
+      name: "J&#252;rgen Bernard"
     - link: http://www.cs.ubc.ca/~tmm
       name: Tamara Munzner
   image: assets/images/pub-thumbs/2021-corgie.png

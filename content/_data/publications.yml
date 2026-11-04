@@ -1,6 +1,54 @@
 ###############################################################################
 
 - abstract:
+    "Patients often struggle to communicate coherent accounts of their health histories during time-constrained clinical encounters. These accounts, which we refer to as health stories, include both clinical events and lived experiences. Existing systems prioritize structured, clinician-centered data and provide limited support for eliciting and communicating patient-generated narratives. We present HealthTale, a patient-centric visualization system designed to elicit health stories from patients and structure them to facilitate communication during initial clinical conversations. Its design arises from a multi-stage qualitative investigation across domain expert discussions, online narratives (n=20), patient (n=11) and clinician (n=6) interviews, and elicited health stories (n=22), identifying recurring patterns in how individuals construct and communicate their health stories. HealthTale transforms freeform narratives into structured timeline representations, grounded in a data abstraction that models health stories as events that are grouped by health concern and time, capturing both clinical and contextual information, with the flexibility to handle temporally imprecise data and non-linear distributions of events across time. Through evaluation with patients (n=34) and clinicians (n=3), we find that HealthTale supports recall, organization, and self-advocacy, while enabling clinicians to rapidly interpret patient-generated narratives and establish a shared understanding. "
+  authors:
+    - link: https://www.ryansmithphd.com/
+      name: Ryan Smith
+    - link: https://scholar.google.com/citations?user=hlfib70AAAAJ&hl=en&oi=ao
+      name: Kyle D. Chin
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+  image: pubs/2026/healthtale/teaser.png
+  link: pubs/2026/healthtale
+  links:
+    - link: https://arxiv.org/abs/2605.20207
+      name: Pre-print PDF
+  title:
+    "HealthTale: A Patient-Centric Health Story Visualization Tool"
+  venue: IEEE Transactions on Visualization and Computer Graphics (TVCG), Proc. IEEE VIS 2026
+  year: 2026
+  
+###############################################################################
+
+- abstract:
+    "We investigate tasks that can be accomplished with unlabeled graphs, which are graphs with nodes that do not have persistent or semantically meaningful labels attached. New visualization techniques to represent unlabeled graphs have been proposed, but more understanding of unlabeled graph tasks is required before these techniques can be adequately evaluated. Some network visualization tasks apply to both labeled and unlabeled graphs, but many do not translate between these contexts. We propose a data abstraction model that distinguishes the Unlabeled context from the increasingly semantically rich Labeled, Attributed, and Augmented contexts. We filter tasks collected and gleaned from the literature according to our data abstraction and analyze the surfaced tasks, leading to a taxonomy of abstract tasks for unlabeled graphs. Our task taxonomy is organized according to the Target data under consideration, the Action intended by the user, and the Scope of the data at play. We show the descriptive power of this task abstraction by connecting to concrete examples from previous frameworks, and connecting these abstractions to real-world problems. To showcase the evaluative power of the taxonomy, we perform a preliminary assessment across 6 different network visualization idioms for each task. For each combination of task and visual encoding, we consider the effort required from viewers, the likelihood of task success, and how both factors vary between small-scale and large-scale graphs."
+  authors:
+    - link: https://dirediredock.github.io/
+      name: Matt I. B. Oddo
+    - link: https://www.ryansmithphd.com/
+      name: Ryan Smith
+    - link: https://www.professoren.tum.de/en/kobourov-stephen
+      name: Stephen Kobourov
+    - link: http://www.cs.ubc.ca/~tmm
+      name: Tamara Munzner
+  image: pubs/2026/unlabelledgraphstasks/teaser.jpg
+  link: pubs/2026/unlabelledgraphstasks
+  links:
+    - link: https://ieeexplore.ieee.org/abstract/document/11449464
+      name: IEEE Xplore
+    - link: https://arxiv.org/abs/2504.14115
+      name: Pre-print PDF
+    - link: https://osf.io/e23mr/
+      name: Supplemental materials
+  title:
+    "Visualization Tasks for Unlabeled Graphs"
+  venue: IEEE Transactions on Visualization and Computer Graphics (TVCG)
+  year: 2026
+  
+###############################################################################
+
+- abstract:
     "Visualizations are typically seen as tools for interpreting and ana
       lyzing data, yet in visualization-as-input systems, where users en
       ter information directly into a visual interface, the structure of the

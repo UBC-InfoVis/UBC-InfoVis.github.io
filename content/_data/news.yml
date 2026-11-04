@@ -1,3 +1,48 @@
+- date: 11/2026
+  type: conf
+  title: "UBC InfoVis @ IEEE VIS 2026"
+  content: Tamara's <a href="http://www.cs.ubc.ca/group/infovis/">InfoVis Group at UBC Vancouver</a> will have three PhD candidates at VIS this year. Matt Oddo will present his TVCG paper <a href="https://www.cs.ubc.ca/group/infovis/pubs/2026/unlabelledgraphstasks/">Visualization Tasks for Unlabeled Graphs</a>. Ryan Smith will present his VIS paper <a href="https://www.cs.ubc.ca/group/infovis/pubs/2026/healthtale/">HealthTale&colon; A Patient-Centric Health Story Visualization Tool</a> and participate in the Doctoral Colloquium. New PhD student Joe Hilleary will also attend. Tamara will present the TVCG paper <a href="https://www.cs.ubc.ca/group/infovis/pubs/2025/viva/">VIVA&colon; Virtual Healthcare Interactions Using Visual Analytics, With Controllability Through Configuration</a> (with co-first-authors Jürgen Bernard and PhD candidate Mara Solen) and a tutorial on <a href="https://www.cs.ubc.ca/~tmm/vadbook/">Visualization Analysis and Design</a>. She is co-editor of the <a href="https://www.routledge.com/AK-Peters-Visualization-Series/book-series/CRCVIS">AK Peters Visualization book series</a> with CRC/Routledge, which will have a physical table at VIS. UBC welcomes Andrew McNutt, who will join us as an assistant professor in January 2027.
+  link: http://ieeevis.org/year/2026/welcome
+  image: assets/images/news-thumbs/vis2026_logo.svg
+
+- date: 9/2026
+  type: welcome
+  title: New members - Joe Hilleary, Carson Weeks, and Aryan Shah
+  content: Joe Hilleary joins as a new PhD student working with Tamara Munzner. Undergrad Carson Weeks also joins the group to work with Mara Solen and Aryan Shah joins the group to work with Ryan Smith.
+  image: assets/images/news-thumbs/joecarsonaryan.png
+
+- date: 8/2026
+  type: conf
+  title: Tamara Keynote @ Graph Drawing 
+  content: Tamara Munzner will be giving the keynote presentation at the International Symposium on Graph Drawing and Network Visualization in St. Catharines, Canada.
+  image: assets/images/news-thumbs/gd26.png
+
+- date: 7/2026
+  type: paper
+  title: "HealthTale: A Patient-Centric Health Story Visualization Tool"
+  content: by <a href="https://rsmith0914.github.io/ryansmithphd-site-/" target="_blank">Ryan Smith</a> and <a href="/~tmm" target="_blank">Tamara Munzner</a> has been accepted to IEEE VIS 2026 and will be published in a special edition of TVCG. <br>
+  link: pubs/2026/healthtale/
+  image: pubs/2026/healthtale/teaser.png
+
+- date: 6/2026
+  type: conf
+  title: UBC InfoVis in Europe
+  content: Mara Solen and Ryan Smith are attending EuroVis in Nottingham. This conference concludes Mara's 9-week Europe trip, where she attended the CHI conference in Barcelona, then did research visits at Inria in Bordeaux, Universitet i Linköping in Norrköping, and Inria and Telecom in Paris.
+  image: assets/images/news-thumbs/eurovis26.jpg
+
+- date: 5/2026
+  type: welcome
+  title: Undergrad Updates - Indira Sowy and Anna Luo
+  content: Undergrad Indira Sowy joined the group for the Spring 2026 term, supporting Matt Oddo on the Syndesmoscope project. Anna Luo, recently graduated from her undergraduate, begins supporting Mara Solen in a new research project in May.
+  image: assets/images/news-thumbs/indiraanna.png
+
+- date: 3/2026
+  type: paper
+  title: "Visualization Tasks for Unlabeled Graphs"
+  content: by <a href="https://dirediredock.github.io/" target="_blank">Matt I. B. Oddo</a> and <a href="https://rsmith0914.github.io/ryansmithphd-site-/" target="_blank">Ryan Smith</a> and <a href="https://www.professoren.tum.de/en/kobourov-stephen" target="_blank">Stephen Kobourov</a> and <a href="/~tmm" target="_blank">Tamara Munzner</a> has been accepted to TVCG and will be presented at IEEE VIS 2026. <br>
+  link: pubs/2026/unlabelledgraphstasks/
+  image: pubs/2026/unlabelledgraphstasks/teaser.jpg
+
 - date: 11/2025
   type: conf
   title: "UBC InfoVis @ IEEE VIS 2025"

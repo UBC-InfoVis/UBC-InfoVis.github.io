@@ -1,0 +1,81 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+	<title>Visualization Tasks for Unlabeled Graphs</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen">
+	<style type="text/css">
+		div.fig {
+			width: 100%
+		}
+
+		div.fig p {
+			width: inherit;
+		}
+
+		div.fig a {
+			width: inherit;
+		}
+
+		div.fig img {
+			width: inherit;
+			margin-bottom: 5px;
+			margin-top: 20px;
+		}
+	</style>
+	<script>
+		window["_GOOG_TRANS_EXT_VER"] = "1";
+	</script>
+</head>
+
+<body>
+	<div class="container-lg">
+		<nav class="navbar navbar-expand-md navbar-light bg-light">
+			<a class="navbar-brand" href="https://www.cs.ubc.ca/group/infovis/index.html">UBC InfoVis Group</a>
+		</nav>
+
+		<div class="row justify-content-center">
+			<div class="col-sm-11 col-md-11 col-lg-8">
+				<div class="title">Visualization Tasks for Unlabeled Graphs</div>
+				<div class="authors">
+					<a href="https://dirediredock.github.io/" target="_blank">Matt I. B. Oddo</a>
+					and
+					<a href="https://rsmith0914.github.io/ryansmithphd-site-/" target="_blank">Ryan Smith</a>
+					and
+					<a href="https://www.professoren.tum.de/en/kobourov-stephen" target="_blank">Stephen Kobourov</a>
+					and
+					<a href="/~tmm" target="_blank">Tamara Munzner</a>
+				</div>
+
+				<div class="figure">
+					<a href="teaser.jpg" target="_blank">
+						<img src="teaser.jpg" alt="teaser">
+					</a>
+					<div class="img-caption">
+						Fig. 1. Shown here on the left is our Data Abstraction model, which organizes networked data into four nested layers of decreasing semantic richness: Augmented and Attributed graphs carry rich metadata on nodes and edges, then Labeled graphs keep only persistent labels, and finally Unlabeled graphs retain nothing but graph topology (the network structure of nodes and edges). On the right, our Task Abstraction model shows how any task on graph topology can be built from a Target (what aspect of the graph is of interest), an Action (what the user wants to do with the Target), and a Scope (granularity of scale, ranging from multiple graphs to singular constituents). Together, the two models let us identify which network visualization tasks can be accomplished using graph topology alone, and organize those tasks into a systematic taxonomy.
+					</div>
+				</div>
+
+				<div class="sect-title">Abstract</div>
+				<div class="abstract">
+					We investigate tasks that can be accomplished with unlabeled graphs, which are graphs with nodes that do not have persistent or semantically meaningful labels attached. New visualization techniques to represent unlabeled graphs have been proposed, but more understanding of unlabeled graph tasks is required before these techniques can be adequately evaluated. Some network visualization tasks apply to both labeled and unlabeled graphs, but many do not translate between these contexts. We propose a data abstraction model that distinguishes the Unlabeled context from the increasingly semantically rich Labeled, Attributed, and Augmented contexts. We filter tasks collected and gleaned from the literature according to our data abstraction and analyze the surfaced tasks, leading to a taxonomy of abstract tasks for unlabeled graphs. Our task taxonomy is organized according to the Target data under consideration, the Action intended by the user, and the Scope of the data at play. We show the descriptive power of this task abstraction by connecting to concrete examples from previous frameworks, and connecting these abstractions to real-world problems. To showcase the evaluative power of the taxonomy, we perform a preliminary assessment across 6 different network visualization idioms for each task. For each combination of task and visual encoding, we consider the effort required from viewers, the likelihood of task success, and how both factors vary between small-scale and large-scale graphs.
+				</div>
+
+				<div class="sect-title">Materials</div>
+				<ul class="links">
+					<li>Paper:
+						<ul>
+							<li><a href="https://ieeexplore.ieee.org/abstract/document/11449464">IEEE Xplore</a></li>
+							<li><a href="https://arxiv.org/abs/2504.14115">Pre-print PDF</a></li>
+							<li><a href="https://osf.io/e23mr/">Supplemental materials</a></li>
+						</ul>
+					</li>
+				</ul>
+
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

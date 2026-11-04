@@ -7,13 +7,6 @@
   position: fac
   title: Professor
 
-- name: Steve Kasica
-  image: assets/images/steve.png
-  link: https://www.cs.ubc.ca/~kasica/
-  status: current
-  position: phd
-  title: PhD Candidate
-
 - name: Mara Solen
   image: assets/images/MaraSolen.jpg
   link: https://marasolen.github.io/
@@ -30,10 +23,45 @@
 
 - name: Ryan Smith
   image: assets/images/ryansmith.png
-  link: https://rsmith0914.github.io/ryansmithphd-site-/?v=60162ca#service
+  link: https://ryansmithphd.github.io/
   status: current
   position: phd
   title: PhD Candidate
+
+- name: Joe Hilleary
+  image: assets/images/joehilleary.jpg
+  link: https://jhilleary.com/
+  status: current
+  position: phd
+  title: PhD Student
+
+- name: Ricky Curry
+  image: assets/images/rickycurry.png
+  link: https://www.linkedin.com/in/rickycurry/
+  status: current
+  position: phd
+  title: MSc Student
+
+- name: Anna Luo
+  image: assets/images/anna.png
+  link: https://www.linkedin.com/in/aannaluo/
+  status: current
+  position: ug
+  title: UG Student
+
+- name: Carson Weeks
+  image: assets/images/carsonweeks.png
+  link: https://www.linkedin.com/in/weeks-carson/
+  status: current
+  position: ug
+  title: UG Student
+
+- name: Aryan Shah
+  image: assets/images/aryanshah.jpg
+  link: https://www.linkedin.com/in/aryan-shah-4a1369318/
+  status: current
+  position: ug
+  title: UG Student
 
 # Alumni
 # Post-doc
@@ -81,6 +109,12 @@
   position: postdoc
 
 # PhD
+
+- name: Steve Kasica
+  image: assets/images/steve.png
+  link: https://www.cs.ubc.ca/~kasica/
+  status: past
+  position: phd
 
 - name: Francis Nguyen
   image: assets/images/francis.jpg
@@ -230,6 +264,12 @@
   position: msc
 
 # Undergrad
+
+- name: Indira Sowy
+  image: assets/images/indira.png
+  link: https://www.linkedin.com/in/indirasowy/
+  status: past
+  position: ug
 
 - name: Sam Fraser
   image: assets/images/samfraser.jpg
